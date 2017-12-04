@@ -1,7 +1,7 @@
 header {
 
 	.top-header-container {
-		background-color: #333333;
+		background-color: $primary-color;
 		height: 50px;
 		width: 100%;
 	}
@@ -14,8 +14,8 @@ header {
 	}
 
 	.inner-header-container {
-		background-color: #333333;
-		border: 1px solid #333333;
+		background-color: $primary-color;
+		border: 1px solid $primary-color;
 		border-radius: 50px;
 		display: flex;
 		justify-content: space-between;
@@ -28,6 +28,14 @@ header {
 			margin-left: 10px;
 			width: 100%;
 			max-width: 500px;
+		}
+		.navigation-menu {
+			display: flex;
+
+			ul {
+				
+				list-style: none;
+			}
 		}
 		
 	}
