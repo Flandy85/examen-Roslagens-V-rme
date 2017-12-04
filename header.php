@@ -10,5 +10,15 @@
 	<title>Roslagens Värme & Fastighetsteknik</title>
 	<?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?> >
+	<header>
+		<div class="header-container">
+			<a href="<?php echo home_url(); ?>">
+				<img src="<?php echo get_template_directory_uri(); ?>/src/img/" class="logo" alt="Bild av företagets logo">
+			</a>
+			<nav class="navigation-menu">
+				<div><?php wp_nav_menu(array('theme_location' => 'mainmenu')); ?></div>
+			</nav><!-- navigation-menu -->
+		</div><!-- header-container -->
+	</header>
 
