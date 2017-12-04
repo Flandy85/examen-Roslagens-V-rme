@@ -12,13 +12,18 @@
 </head>
 <body <?php body_class(); ?> >
 	<header>
+		<div class="top-header-container">
+			
+		</div>
 		<div class="header-container">
-			<a href="<?php echo home_url(); ?>">
-				<img src="<?php echo get_template_directory_uri(); ?>/src/images/rvftloga.png" class="logotype" alt="Bild av företagets logo med texten Roslagens Värme & Fastighetsteknik">
-			</a>
-			<nav class="navigation-menu">
-				<div><?php wp_nav_menu(array('theme_location' => 'mainmenu')); ?></div>
-			</nav><!-- navigation-menu -->
+			<div class="inner-header-container">
+				<a href="<?php echo home_url(); ?>">
+					<img src="<?php echo get_template_directory_uri(); ?>/src/images/rvftloga.png" class="logotype" alt="Bild av företagets logo med texten Roslagens Värme & Fastighetsteknik">
+				</a>
+				<nav class="navigation-menu">
+					<div><?php wp_nav_menu(array('theme_location' => 'mainmenu')); ?></div>
+				</nav><!-- navigation-menu -->
+			</div>
 		</div><!-- header-container -->
 	</header>
 
