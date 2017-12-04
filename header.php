@@ -14,7 +14,7 @@
 	<header>
 		<div class="header-container">
 			<a href="<?php echo home_url(); ?>">
-				<img src="<?php echo get_template_directory_uri(); ?>/src/img/" class="logo" alt="Bild av företagets logo">
+				<img src="<?php echo get_template_directory_uri(); ?>/src/images/rvftloga.png" class="logotype" alt="Bild av företagets logo med texten Roslagens Värme & Fastighetsteknik">
 			</a>
 			<nav class="navigation-menu">
 				<div><?php wp_nav_menu(array('theme_location' => 'mainmenu')); ?></div>
