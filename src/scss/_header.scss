@@ -32,9 +32,17 @@ header {
 		.navigation-menu {
 			display: flex;
 
+			.menu {
+				width: 400px;
+			}
 			ul {
 				
+				display: flex;
 				list-style: none;
+
+			}
+			li > a {
+				color: $complementary-color-two;
 			}
 		}
 		

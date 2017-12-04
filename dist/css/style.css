@@ -422,5 +422,10 @@ header .inner-header-container {
     max-width: 500px; }
   header .inner-header-container .navigation-menu {
     display: flex; }
+    header .inner-header-container .navigation-menu .menu {
+      width: 400px; }
     header .inner-header-container .navigation-menu ul {
+      display: flex;
       list-style: none; }
+    header .inner-header-container .navigation-menu li > a {
+      color: #fff; }
