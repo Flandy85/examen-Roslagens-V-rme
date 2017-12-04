@@ -26,12 +26,5 @@ function rvft_blog_setup() {
 		'flex-width'	=> true,
 		'flex-height'	=> true
 		) );
-	// Register sidebar
-	register_sidebar(array(
-		'name'			=> __("Footer", "rvft"),
-		'id'			=> 'footer',
-		'description'	=> __("Column 1 in footern.", "rvft"),
-		'before_widget'	=> '<div class ="footer footer-col-1">',
-		'after_widget'	=> '</div>'
-		));
+	
 }
