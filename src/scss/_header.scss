@@ -19,7 +19,7 @@ header {
 		border-radius: 50px;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: center;
 		margin-top: 20px;
 		height: 120px;
@@ -34,17 +34,9 @@ header {
 			display: flex;
 
 			.menu {
-				width: 400px;
+				width: 600px;
 			}
-			ul {
-				
-				display: flex;
-				list-style: none;
-
-			}
-			li > a {
-				color: $complementary-color-two;
-			}
+			
 		}
 		
 	}
