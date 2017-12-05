@@ -395,6 +395,13 @@ template {
 /***************************
 		FONTS
 ***************************/
+/*******************************
+	Main.scss is for mobile 
+	first
+********************************/
+/*******************************
+		HOME PAGE
+*******************************/
 main .rvft-img-outer-container {
   background-image: url("varmepump.jpeg");
   background-size: cover;
