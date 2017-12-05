@@ -11,8 +11,13 @@
 				
 				the_post();
 				?>
-				<div class="rvft-img-container">
-					<img src="<?php the_field('rvftlogga'); ?>" class="rvft-img-logo" alt="Logotype of the company Roslagens Värme & Fastighetsteknik AB" />
+				<div class="rvft-img-outer-container">
+					<div class="rvft-img-inner-container">
+						<img src="<?php the_field('rvftlogga'); ?>" class="rvft-img-logo" alt="Logotype of the company Roslagens Värme & Fastighetsteknik AB" />
+						<h2><?php  echo get_field('logo-text'); ?></h2>
+					<div>
+				</div>
+				<div>
 					
 				</div>
 				<?php

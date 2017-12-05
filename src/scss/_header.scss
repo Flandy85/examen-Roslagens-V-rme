@@ -2,14 +2,14 @@ header {
 
 	.top-header-container {
 		background-color: $primary-color;
-		height: 50px;
+		height: 40px;
 		width: 100%;
 	}
 
 	.header-container {
 		display: flex;
 		justify-content: center;
-		height: 200px;
+		height: 150px;
 		width: 100%;
 	}
 
@@ -22,7 +22,7 @@ header {
 		justify-content: space-around;
 		align-items: center;
 		margin-top: 20px;
-		height: 120px;
+		height: 100px;
 		width: 98%;
 
 		.logotype {

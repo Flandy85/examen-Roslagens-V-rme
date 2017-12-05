@@ -1,11 +1,24 @@
 main {
 	
-	.rvft-img-container {
+	.rvft-img-outer-container {
+		background-image: url('varmepump.jpeg');
+		background-size: cover;
+  		background-repeat: no-repeat;
+		display: flex;
+		height: 400px;
 		width: 100%;
 
-		.rvft-img-logo {
-			width: 100%;
-			max-width: 500px;
+		.rvft-img-inner-container {
+			display: flex;
+    		flex-direction: column;
+    		justify-content: center;
+    		align-items: center;
+			
+			.rvft-img-logo {
+				
+				width: 100%;
+				max-width: 500px;
+			}
 		}
 	}
 }
