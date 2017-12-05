@@ -24,10 +24,8 @@ function rvft_blog_setup() {
 	wp_enqueue_script('main', get_template_directory_uri() . '/dist/js/bundle.js', array('jquery'), '1.0', true);
 	wp_enqueue_script( 'bootstrap_js',get_template_directory_uri() . '/src/bootstrap-3.3.7-dist/js/bootstrap.min.js' );
 
-	// Enables use of dropdown function in meny with bootstrap.
-	register_nav_menus( array(
-    'primary' => __( 'Primary Menu', 'THEMENAME' ),
-	) );
+	// Enables use of navigation menu.
+	register_nav_menu( 'mainmenu', 'Website main navigation' );
 	
 
 	// Custom Logo

@@ -18,6 +18,7 @@ header {
 		border: 1px solid $primary-color;
 		border-radius: 50px;
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: center;
 		margin-top: 20px;
@@ -27,7 +28,7 @@ header {
 		.logotype {
 			margin-left: 10px;
 			width: 100%;
-			max-width: 400px;
+			max-width: 350px;
 		}
 		.navigation-menu {
 			display: flex;

@@ -395,6 +395,12 @@ template {
 /***************************
 		FONTS
 ***************************/
+main .rvft-img-container {
+  width: 100%; }
+  main .rvft-img-container .rvft-img-logo {
+    width: 100%;
+    max-width: 500px; }
+
 header .top-header-container {
   background-color: #333333;
   height: 50px;
@@ -411,6 +417,7 @@ header .inner-header-container {
   border: 1px solid #333333;
   border-radius: 50px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
@@ -419,7 +426,7 @@ header .inner-header-container {
   header .inner-header-container .logotype {
     margin-left: 10px;
     width: 100%;
-    max-width: 400px; }
+    max-width: 350px; }
   header .inner-header-container .navigation-menu {
     display: flex; }
     header .inner-header-container .navigation-menu .menu {
