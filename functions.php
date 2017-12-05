@@ -7,7 +7,8 @@ require "theme_setting.php";
 				Hooks Setup
 **************************************************************/
 add_action( 'after_setup_theme', 'rvft_blog_setup' );
-
+// Register Custom Navigation Walker
+require_once get_template_directory() . '/wp-bootstrap-navwalker.php';
 /**************************************************************
 				Roslagensvarme Setup
 **************************************************************/
@@ -24,8 +25,10 @@ function rvft_blog_setup() {
 	wp_enqueue_script( 'bootstrap_js',get_template_directory_uri() . '/src/bootstrap-3.3.7-dist/js/bootstrap.min.js' );
 
 	// Enables use of main menu and footer menu
-	register_nav_menu( 'mainmenu', 'Website main navigation' );
-	register_nav_menu( 'footer', 'Website footer navigation' );
+	register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'THEMENAME' ),
+	) );
+	
 
 	// Custom Logo
 	add_theme_support('custom-logo', array(

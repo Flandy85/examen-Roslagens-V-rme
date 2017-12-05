@@ -20,9 +20,20 @@
 				<a href="<?php echo home_url(); ?>">
 					<img src="<?php echo get_template_directory_uri(); ?>/src/images/rvftloga.png" class="logotype" alt="Bild av företagets logo med texten Roslagens Värme & Fastighetsteknik">
 				</a>
-				<nav class="navigation-menu">
-					<div><?php wp_nav_menu(array('theme_location' => 'mainmenu')); ?></div>
-				</nav><!-- navigation-menu -->
+				
+					<?php
+						wp_nav_menu( array(
+						    'theme_location'    => 'primary',
+						    'depth'             => 2,
+						    'container'         => 'div',
+						    'container_class'   => 'collapse navbar-collapse',
+						    'container_id'      => 'bs-example-navbar-collapse-1',
+						    'menu_class'        => 'nav navbar-nav',
+						    'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+						    'walker'            => new WP_Bootstrap_Navwalker(),
+						) );
+					?>
+				
 			</div>
 		</div><!-- header-container -->
 	</header>
