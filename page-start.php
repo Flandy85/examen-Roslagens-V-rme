@@ -12,7 +12,7 @@
 				the_post();
 				?>
 				<div class="rvft-img-container">
-					<img src="<?php the_field('rvftlogga'); ?>" class="" alt="Bild på företaget Roslagens Värme & Fastighetsteknik logga">
+					<img src="<?php the_field('rvftlogga'); ?>" class="" alt="Bild på företaget Roslagens Värme & Fastighetsteknik logga" />
 					
 				</div>
 				<?php
