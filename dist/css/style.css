@@ -528,10 +528,22 @@ main .lg-container {
         color: #fa233b; }
 
 /************************************
-		PANASONIC AIR PUMPS PAGE
+	PANASONIC AIR PUMPS PAGE
 ************************************/
 .main-panasonic-air .panasonic-support-container {
-  background-color: grey;
+  background-color: #bababa;
   display: flex;
-  height: 400px;
+  height: 270px;
   width: 100%; }
+  .main-panasonic-air .panasonic-support-container .panasonic-support-text-container {
+    line-height: 25px;
+    padding: 15px; }
+    .main-panasonic-air .panasonic-support-container .panasonic-support-text-container .Panasonic {
+      color: #000000;
+      font-weight: bolder; }
+    .main-panasonic-air .panasonic-support-container .panasonic-support-text-container .pan-customer {
+      color: #fa233b;
+      font-weight: bolder; }
+    .main-panasonic-air .panasonic-support-container .panasonic-support-text-container .pan-customer-service {
+      color: #17a9de;
+      font-weight: bolder; }
