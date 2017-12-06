@@ -454,8 +454,12 @@ main .panasonic-container {
         background-color: #fff;
         height: 3px;
         width: 380px; }
-    main .panasonic-container .panasonic-menu-container h3 {
-      color: #fff; }
+    main .panasonic-container .panasonic-menu-container #menu-panasonic-meny {
+      list-style: none; }
+      main .panasonic-container .panasonic-menu-container #menu-panasonic-meny li > a {
+        color: #fff; }
+      main .panasonic-container .panasonic-menu-container #menu-panasonic-meny li > a:hover {
+        color: #17a9de; }
 
 main .lg-container {
   height: 400px;
@@ -485,6 +489,12 @@ main .lg-container {
         width: 380px; }
     main .lg-container .lg-menu-container h3 {
       color: #6d6d6d; }
+    main .lg-container .lg-menu-container #menu-lg-menu {
+      list-style: none; }
+      main .lg-container .lg-menu-container #menu-lg-menu li > a {
+        color: #6d6d6d; }
+      main .lg-container .lg-menu-container #menu-lg-menu li > a:hover {
+        color: #fa233b; }
 
 header .top-header-container {
   background-color: #333333;

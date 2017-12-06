@@ -58,6 +58,7 @@ main {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
+
 			.pana-products-container {
 				display: flex;
 				flex-direction: column;
@@ -72,9 +73,17 @@ main {
 					width: 380px;
 				}
 			}
-			h3 {
-				color: $complementary-color-two;
+			#menu-panasonic-meny {
+				list-style: none;
+
+				li > a {
+					color: $complementary-color-two;
+				}
+				li > a:hover {
+					color: $secondary-color;
+				}
 			}
+			
 		}
 	}
 	.lg-container {
@@ -113,8 +122,18 @@ main {
 				}
 			}
 			h3 {
+				color: #6d6d6d;
+			}
+			#menu-lg-menu {
+				list-style: none;
+
+				li > a {
 					color: #6d6d6d;
 				}
+				li > a:hover {
+					color: $complmentary-color;
+				}
+			}
 		}
 	}
 }
