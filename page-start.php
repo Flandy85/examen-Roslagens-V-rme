@@ -42,16 +42,17 @@
 				<div class="lg-container">
 					<div class="lg-image-container">
 						<img src="<?php the_field('lg-image'); ?>" class="lg-image" alt="Logotype of the company LG" />
-						<h4><?php echo get_field('split-pumps'); ?></h4>
-						<h4><?php echo get_field('muti-pumps'); ?></h4>
+						<h3><?php echo get_field('first-title'); ?></h3>
+						<h3><?php echo get_field('second-title'); ?></h3>
 					</div>
 					<div class="lg-menu-container">
 						<div class="lg-products-container">
 							<h2><?php echo get_field('lg-products-title'); ?></h2>
 							<div class="products-line"></div>
-						</div>	
-					</div>
-					
+						</div>
+						<h3><?php echo get_field('split-pumps'); ?></h3>
+						<h3><?php echo get_field('multi-pumps'); ?></h3>	
+					</div>				
 				</div>
 				<?php
 			}

@@ -460,6 +460,29 @@ main .panasonic-container {
 main .lg-container {
   height: 400px;
   width: 100%; }
+  main .lg-container .lg-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main .lg-container .lg-image-container h3 {
+      color: #6d6d6d; }
+  main .lg-container .lg-menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main .lg-container .lg-menu-container .lg-products-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .lg-container .lg-menu-container .lg-products-container h2 {
+        color: #6d6d6d; }
+      main .lg-container .lg-menu-container .lg-products-container .products-line {
+        background-color: #6d6d6d;
+        height: 3px;
+        width: 380px; }
 
 header .top-header-container {
   background-color: #333333;

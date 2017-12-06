@@ -80,5 +80,38 @@ main {
 	.lg-container {
 		height: 400px;
 		width: 100%;
+
+		.lg-image-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			h3 {
+				color: #6d6d6d;
+			}
+		}
+		.lg-menu-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			.lg-products-container {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				h2 {
+					color: #6d6d6d;
+				}
+				.products-line {
+					background-color: #6d6d6d;
+					height: 3px;
+					width: 380px;
+				}
+			}
+		}
 	}
 }
