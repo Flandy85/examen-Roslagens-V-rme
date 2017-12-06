@@ -54,9 +54,15 @@ main {
 			}
 		}
 		.panasonic-menu-container {
-
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 			.pana-products-container {
-
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
 				h2 {
 					color: $complementary-color-two;
 				}
@@ -66,6 +72,13 @@ main {
 					width: 380px;
 				}
 			}
+			h3 {
+				color: $complementary-color-two;
+			}
 		}
+	}
+	.lg-container {
+		height: 400px;
+		width: 100%;
 	}
 }

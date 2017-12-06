@@ -38,6 +38,21 @@
 						<h3><?php echo get_field('air-water-pumps'); ?></h3>
 					</div>
 				</div>
+				<!-- Third section, LG pumps -->
+				<div class="lg-container">
+					<div class="lg-image-container">
+						<img src="<?php the_field('lg-image'); ?>" class="lg-image" alt="Logotype of the company LG" />
+						<h4><?php echo get_field('split-pumps'); ?></h4>
+						<h4><?php echo get_field('muti-pumps'); ?></h4>
+					</div>
+					<div class="lg-menu-container">
+						<div class="lg-products-container">
+							<h2><?php echo get_field('lg-products-title'); ?></h2>
+							<div class="products-line"></div>
+						</div>	
+					</div>
+					
+				</div>
 				<?php
 			}
 		}
