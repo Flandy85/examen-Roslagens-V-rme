@@ -34,8 +34,7 @@
 							<h2><?php echo get_field('products-title'); ?></h2>
 							<div class="products-line"></div>
 						</div>
-						<h3><?php echo get_field('air-pumps'); ?></h3>
-						<h3><?php echo get_field('air-water-pumps'); ?></h3>
+						<h3><?php wp_nav_menu(array('theme_location' => 'Panasonic menu')); ?></h3>
 					</div>
 				</div>
 				<!-- Third section, LG pumps -->
@@ -50,8 +49,8 @@
 							<h2><?php echo get_field('lg-products-title'); ?></h2>
 							<div class="products-line"></div>
 						</div>
-						<h3><?php echo get_field('split-pumps'); ?></h3>
-						<h3><?php echo get_field('text'); ?></h3>	
+						<h3><?php wp_nav_menu(array('theme_location' => 'Lg menu')); ?></h3>
+						<h3>
 					</div>				
 				</div>
 				<?php
