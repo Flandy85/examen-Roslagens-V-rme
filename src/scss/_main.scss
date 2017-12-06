@@ -1,12 +1,16 @@
-/*******************************
+/**************************************
 	Main.scss is for mobile 
-	first
-********************************/
-/*******************************
-		HOME PAGE
-*******************************/
+	first.
+
+	Every section is named after
+	every php file. Use ctrl/cmd + f
+	to find css for each php file.
+***************************************/
+/*****************************************
+	page-start.php: HOME PAGE
+******************************************/
 main {
-	
+	/** First section on page-start.php **/
 	.rvft-img-outer-container {
 		background-image: url('varmepump.jpeg');
 		background-size: cover;
@@ -27,11 +31,13 @@ main {
 			}
 		}
 	}
+	/** Middle section before panasonic section **/
 	.small-title-container {
 		display: flex;
 		justify-content: center;
 		width: 100%;
 	}
+	/** Second section Panasonic, on page-start.php **/
 	.panasonic-container {
 		background-color: $complementary-color-three;
 		height: 400px;
@@ -86,6 +92,7 @@ main {
 			
 		}
 	}
+	/** Third section LG, on page-start.php **/
 	.lg-container {
 		height: 400px;
 		width: 100%;
@@ -113,36 +120,36 @@ main {
 				align-items: center;
 
 				h2 {
-					color: #6d6d6d;
+					color: $lg-primary-color;
 				}
 				.products-line {
-					background-color: #6d6d6d;
+					background-color: $lg-primary-color;
 					height: 3px;
 					width: 380px;
 				}
 			}
 			h3 {
-				color: #6d6d6d;
+				color: $lg-primary-color;
 			}
 			#menu-lg-menu {
 				list-style: none;
 
 				li > a {
-					color: #6d6d6d;
+					color: $lg-primary-color;
 				}
 				li > a:hover {
-					color: $complmentary-color;
+					color: $lg-secondary-color;
 				}
 			}
 		}
 	}
 }
 
-/************************************
-	PANASONIC AIR PUMPS PAGE
-************************************/
+/**********************************************************
+	page-panasonicairpumps.php: PANASONIC AIR PUMPS PAGE
+***********************************************************/
 .main-panasonic-air {
-
+/** Panasonic support section on page-panasonicairpumps.php **/
 	.panasonic-support-container {
 		background-color: #bababa;
 		display: flex;
@@ -152,6 +159,10 @@ main {
 		.panasonic-support-text-container {
 			line-height: 25px;
 			padding: 15px;
+
+			.support-title {
+				font-family: $primary-font;
+			}
 			.Panasonic {
 				color: $complementary-color-three;
 				font-weight: bolder;
@@ -163,6 +174,33 @@ main {
 			.pan-customer-service {
 				color: $secondary-color;
 				font-weight: bolder;
+			}
+		}
+	}
+	.panasonic-products-container {
+		height: auto;
+		width: 100%;
+
+		.panasonic-products-inner-container {
+
+			.pana-products {
+				margin-top: 10px;
+
+				.airpump-image {
+					width: 100%;
+					max-width: 470px;
+				}
+				.pana-products-text {
+					line-height: 23px;
+					padding: 15px;
+
+					h3 {
+						font-size: 20px;
+					}
+					p > a {
+						color: $secondary-color;
+					}
+				}
 			}
 		}
 	}

@@ -392,9 +392,11 @@ template {
 /****************************
 		COLORS
 ****************************/
+/** LG COLORS **/
 /***************************
 		FONTS
 ***************************/
+/** Font-size Panasonic/LG **/
 header .top-header-container {
   background-color: #333333;
   height: 40px;
@@ -426,124 +428,149 @@ header .inner-header-container {
     header .inner-header-container .navigation-menu .menu {
       width: 600px; }
 
-/*******************************
+/**************************************
 	Main.scss is for mobile 
-	first
-********************************/
-/*******************************
-		HOME PAGE
-*******************************/
-main .rvft-img-outer-container {
-  background-image: url("varmepump.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  height: 400px;
-  width: 100%; }
-  main .rvft-img-outer-container .rvft-img-inner-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    main .rvft-img-outer-container .rvft-img-inner-container .rvft-img-logo {
-      width: 100%;
-      max-width: 500px; }
+	first.
 
-main .small-title-container {
-  display: flex;
-  justify-content: center;
-  width: 100%; }
-
-main .panasonic-container {
-  background-color: #000000;
-  height: 400px;
-  width: 100%; }
-  main .panasonic-container .panasonic-img-container {
+	Every section is named after
+	every php file. Use ctrl/cmd + f
+	to find css for each php file.
+***************************************/
+/*****************************************
+	page-start.php: HOME PAGE
+******************************************/
+main {
+  /** First section on page-start.php **/
+  /** Middle section before panasonic section **/
+  /** Second section Panasonic, on page-start.php **/
+  /** Third section LG, on page-start.php **/ }
+  main .rvft-img-outer-container {
+    background-image: url("varmepump.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    main .panasonic-container .panasonic-img-container h3 {
-      color: #fff; }
-      main .panasonic-container .panasonic-img-container h3 .pana-heating {
-        color: #fa233b; }
-      main .panasonic-container .panasonic-img-container h3 .pana-cooling {
-        color: #17a9de; }
-  main .panasonic-container .panasonic-menu-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    main .panasonic-container .panasonic-menu-container .pana-products-container {
+    height: 400px;
+    width: 100%; }
+    main .rvft-img-outer-container .rvft-img-inner-container {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center; }
-      main .panasonic-container .panasonic-menu-container .pana-products-container h2 {
-        color: #fff; }
-      main .panasonic-container .panasonic-menu-container .pana-products-container .products-line {
-        background-color: #fff;
-        height: 3px;
-        width: 380px; }
-    main .panasonic-container .panasonic-menu-container #menu-panasonic-meny {
-      list-style: none; }
-      main .panasonic-container .panasonic-menu-container #menu-panasonic-meny li > a {
-        color: #fff; }
-      main .panasonic-container .panasonic-menu-container #menu-panasonic-meny li > a:hover {
-        color: #17a9de; }
-
-main .lg-container {
-  height: 400px;
-  width: 100%; }
-  main .lg-container .lg-image-container {
+      main .rvft-img-outer-container .rvft-img-inner-container .rvft-img-logo {
+        width: 100%;
+        max-width: 500px; }
+  main .small-title-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center; }
-    main .lg-container .lg-image-container h3 {
-      color: #6d6d6d; }
-  main .lg-container .lg-menu-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    main .lg-container .lg-menu-container .lg-products-container {
+    width: 100%; }
+  main .panasonic-container {
+    background-color: #000000;
+    height: 400px;
+    width: 100%; }
+    main .panasonic-container .panasonic-img-container {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center; }
-      main .lg-container .lg-menu-container .lg-products-container h2 {
+      main .panasonic-container .panasonic-img-container h3 {
+        color: #fff; }
+        main .panasonic-container .panasonic-img-container h3 .pana-heating {
+          color: #fa233b; }
+        main .panasonic-container .panasonic-img-container h3 .pana-cooling {
+          color: #17a9de; }
+    main .panasonic-container .panasonic-menu-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .panasonic-container .panasonic-menu-container .pana-products-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        main .panasonic-container .panasonic-menu-container .pana-products-container h2 {
+          color: #fff; }
+        main .panasonic-container .panasonic-menu-container .pana-products-container .products-line {
+          background-color: #fff;
+          height: 3px;
+          width: 380px; }
+      main .panasonic-container .panasonic-menu-container #menu-panasonic-meny {
+        list-style: none; }
+        main .panasonic-container .panasonic-menu-container #menu-panasonic-meny li > a {
+          color: #fff; }
+        main .panasonic-container .panasonic-menu-container #menu-panasonic-meny li > a:hover {
+          color: #17a9de; }
+  main .lg-container {
+    height: 400px;
+    width: 100%; }
+    main .lg-container .lg-image-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .lg-container .lg-image-container h3 {
         color: #6d6d6d; }
-      main .lg-container .lg-menu-container .lg-products-container .products-line {
-        background-color: #6d6d6d;
-        height: 3px;
-        width: 380px; }
-    main .lg-container .lg-menu-container h3 {
-      color: #6d6d6d; }
-    main .lg-container .lg-menu-container #menu-lg-menu {
-      list-style: none; }
-      main .lg-container .lg-menu-container #menu-lg-menu li > a {
+    main .lg-container .lg-menu-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .lg-container .lg-menu-container .lg-products-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        main .lg-container .lg-menu-container .lg-products-container h2 {
+          color: #6d6d6d; }
+        main .lg-container .lg-menu-container .lg-products-container .products-line {
+          background-color: #6d6d6d;
+          height: 3px;
+          width: 380px; }
+      main .lg-container .lg-menu-container h3 {
         color: #6d6d6d; }
-      main .lg-container .lg-menu-container #menu-lg-menu li > a:hover {
-        color: #fa233b; }
+      main .lg-container .lg-menu-container #menu-lg-menu {
+        list-style: none; }
+        main .lg-container .lg-menu-container #menu-lg-menu li > a {
+          color: #6d6d6d; }
+        main .lg-container .lg-menu-container #menu-lg-menu li > a:hover {
+          color: #ad1639; }
 
-/************************************
-	PANASONIC AIR PUMPS PAGE
-************************************/
-.main-panasonic-air .panasonic-support-container {
-  background-color: #bababa;
-  display: flex;
-  height: 270px;
-  width: 100%; }
-  .main-panasonic-air .panasonic-support-container .panasonic-support-text-container {
-    line-height: 25px;
-    padding: 15px; }
-    .main-panasonic-air .panasonic-support-container .panasonic-support-text-container .Panasonic {
-      color: #000000;
-      font-weight: bolder; }
-    .main-panasonic-air .panasonic-support-container .panasonic-support-text-container .pan-customer {
-      color: #fa233b;
-      font-weight: bolder; }
-    .main-panasonic-air .panasonic-support-container .panasonic-support-text-container .pan-customer-service {
-      color: #17a9de;
-      font-weight: bolder; }
+/**********************************************************
+	page-panasonicairpumps.php: PANASONIC AIR PUMPS PAGE
+***********************************************************/
+.main-panasonic-air {
+  /** Panasonic support section on page-panasonicairpumps.php **/ }
+  .main-panasonic-air .panasonic-support-container {
+    background-color: #bababa;
+    display: flex;
+    height: 270px;
+    width: 100%; }
+    .main-panasonic-air .panasonic-support-container .panasonic-support-text-container {
+      line-height: 25px;
+      padding: 15px; }
+      .main-panasonic-air .panasonic-support-container .panasonic-support-text-container .support-title {
+        font-family: Josefin Sans, sans-serif; }
+      .main-panasonic-air .panasonic-support-container .panasonic-support-text-container .Panasonic {
+        color: #000000;
+        font-weight: bolder; }
+      .main-panasonic-air .panasonic-support-container .panasonic-support-text-container .pan-customer {
+        color: #fa233b;
+        font-weight: bolder; }
+      .main-panasonic-air .panasonic-support-container .panasonic-support-text-container .pan-customer-service {
+        color: #17a9de;
+        font-weight: bolder; }
+  .main-panasonic-air .panasonic-products-container {
+    height: auto;
+    width: 100%; }
+    .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products {
+      margin-top: 10px; }
+      .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .airpump-image {
+        width: 100%;
+        max-width: 470px; }
+      .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text {
+        line-height: 23px;
+        padding: 15px; }
+        .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text h3 {
+          font-size: 20px; }
+        .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text p > a {
+          color: #17a9de; }
