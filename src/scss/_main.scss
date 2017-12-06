@@ -36,5 +36,36 @@ main {
 		background-color: $complementary-color-three;
 		height: 400px;
 		width: 100%;
+
+		.panasonic-img-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			h3 {
+				color: $complementary-color-two;
+				.pana-heating {
+					color: $complmentary-color;
+				}
+				.pana-cooling {
+					color: $secondary-color;
+				}
+			}
+		}
+		.panasonic-menu-container {
+
+			.pana-products-container {
+
+				h2 {
+					color: $complementary-color-two;
+				}
+				.products-line {
+					background-color: $complementary-color-two;
+					height: 3px;
+					width: 380px;
+				}
+			}
+		}
 	}
 }

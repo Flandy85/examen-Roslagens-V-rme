@@ -27,16 +27,15 @@
 				<div class="panasonic-container">
 					<div class="panasonic-img-container">
 						<img src="<?php the_field('panasonic-image'); ?>" class="panasonic-image" alt="Logotype of the company Panasonic" />
-						<h3><?php echo get_field('panasonic-slogan'); ?></h3>
+						<h3><span class="pana-heating">heating</span> & <span class="pana-cooling">cooling</span> solutions</h3>
 					</div>
 					<div class="panasonic-menu-container">
-						<div>
+						<div class="pana-products-container">
 							<h2><?php echo get_field('products-title'); ?></h2>
-							<div></div>
+							<div class="products-line"></div>
 						</div>
 						<h3><?php echo get_field('air-pumps'); ?></h3>
 						<h3><?php echo get_field('air-water-pumps'); ?></h3>
-						
 					</div>
 				</div>
 				<?php
