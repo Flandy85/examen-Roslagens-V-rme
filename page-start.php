@@ -51,7 +51,7 @@
 							<div class="products-line"></div>
 						</div>
 						<h3><?php echo get_field('split-pumps'); ?></h3>
-						<h3><?php echo get_field('multi-pumps'); ?></h3>	
+						<h3><?php echo get_field('text'); ?></h3>	
 					</div>				
 				</div>
 				<?php
