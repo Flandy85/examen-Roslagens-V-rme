@@ -395,6 +395,37 @@ template {
 /***************************
 		FONTS
 ***************************/
+header .top-header-container {
+  background-color: #333333;
+  height: 40px;
+  width: 100%; }
+
+header .header-container {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: 100%; }
+
+header .inner-header-container {
+  background-color: #333333;
+  border: 1px solid #333333;
+  border-radius: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  height: 100px;
+  width: 98%; }
+  header .inner-header-container .logotype {
+    margin-left: 10px;
+    width: 100%;
+    max-width: 350px; }
+  header .inner-header-container .navigation-menu {
+    display: flex; }
+    header .inner-header-container .navigation-menu .menu {
+      width: 600px; }
+
 /*******************************
 	Main.scss is for mobile 
 	first
@@ -496,33 +527,11 @@ main .lg-container {
       main .lg-container .lg-menu-container #menu-lg-menu li > a:hover {
         color: #fa233b; }
 
-header .top-header-container {
-  background-color: #333333;
-  height: 40px;
-  width: 100%; }
-
-header .header-container {
+/************************************
+		PANASONIC AIR PUMPS PAGE
+************************************/
+.main-panasonic-air .panasonic-support-container {
+  background-color: grey;
   display: flex;
-  justify-content: center;
-  height: 150px;
+  height: 400px;
   width: 100%; }
-
-header .inner-header-container {
-  background-color: #333333;
-  border: 1px solid #333333;
-  border-radius: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
-  height: 100px;
-  width: 98%; }
-  header .inner-header-container .logotype {
-    margin-left: 10px;
-    width: 100%;
-    max-width: 350px; }
-  header .inner-header-container .navigation-menu {
-    display: flex; }
-    header .inner-header-container .navigation-menu .menu {
-      width: 600px; }
