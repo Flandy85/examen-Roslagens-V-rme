@@ -27,4 +27,14 @@ main {
 			}
 		}
 	}
+	.small-title-container {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+	.panasonic-container {
+		background-color: $complementary-color-three;
+		height: 400px;
+		width: 100%;
+	}
 }

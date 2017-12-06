@@ -15,14 +15,29 @@
 				<div class="rvft-img-outer-container">
 					<div class="rvft-img-inner-container">
 						<img src="<?php the_field('rvftlogga'); ?>" class="rvft-img-logo" alt="Logotype of the company Roslagens Värme & Fastighetsteknik AB" />
-						<h2><?php  echo get_field('logo-text'); ?></h2>
-					<div>
+						<h2><?php echo get_field('logo-text'); ?></h2>
+					</div>
 					<!-- This empty div is flexbox positioning for rvft logo -->
 					<div></div>
 				</div>
+				<div class="small-title-container">
+					<h4><?php echo get_field('text-title'); ?></h4>
+				</div>
 				<!-- Second section, Panasonic pumps -->
-				<div>
-					
+				<div class="panasonic-container">
+					<div class="panasonic-img-container">
+						<img src="<?php the_field('panasonic-image'); ?>" class="panasonic-image" alt="Logotype of the company Panasonic" />
+						<h3><?php echo get_field('panasonic-slogan'); ?></h3>
+					</div>
+					<div class="panasonic-menu-container">
+						<div>
+							<h2><?php echo get_field('products-title'); ?></h2>
+							<div></div>
+						</div>
+						<h3><?php echo get_field('air-pumps'); ?></h3>
+						<h3><?php echo get_field('air-water-pumps'); ?></h3>
+						
+					</div>
 				</div>
 				<?php
 			}
