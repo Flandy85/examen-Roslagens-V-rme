@@ -539,7 +539,8 @@ main {
 	page-panasonicairpumps.php: PANASONIC AIR PUMPS PAGE
 ***********************************************************/
 .main-panasonic-air {
-  /** Panasonic support section on page-panasonicairpumps.php **/ }
+  /** Panasonic support section on page-panasonicairpumps.php **/
+  /** Panasonic products section **/ }
   .main-panasonic-air .panasonic-support-container {
     background-color: #bababa;
     display: flex;
@@ -561,7 +562,8 @@ main {
         font-weight: bolder; }
   .main-panasonic-air .panasonic-products-container {
     height: auto;
-    width: 100%; }
+    width: 100%;
+    /** Panasonic accessories section **/ }
     .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products {
       margin-top: 10px; }
       .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .airpump-image {
@@ -574,3 +576,11 @@ main {
           font-size: 20px; }
         .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text p > a {
           color: #17a9de; }
+    .main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container .products-line {
+        background-color: #000000;
+        height: 3px;
+        width: 380px; }

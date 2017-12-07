@@ -87,6 +87,10 @@
 					
 				</div>
 				<div class="accessories-container">
+					<div class="pana-products-container">
+						<h2><?php echo get_field('accessories-title'); ?></h2>
+						<div class="products-line"></div>
+					</div>
 					
 				</div>
 				
