@@ -25,6 +25,9 @@
 					</div>
 					<h3><?php wp_nav_menu(array('theme_location' => 'Panasonic menu')); ?></h3>
 				</div>
+				<div class="page-title-container-air">
+					<h2><?php echo get_field('panasonic-airpump-title'); ?></h2>
+				</div>
 			</div>
 			<!-- Second section, Panasonic infotext and supportlink -->
 			<div class="panasonic-support-container">

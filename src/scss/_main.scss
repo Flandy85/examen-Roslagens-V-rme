@@ -146,10 +146,16 @@ main {
 }
 
 /**********************************************************
-	page-panasonicairpumps.php: PANASONIC AIR PUMPS PAGE
+	page-panasonicpumpsair.php: PANASONIC AIR PUMPS PAGE
 ***********************************************************/
 .main-panasonic-air {
 /** Panasonic support section on page-panasonicairpumps.php **/
+
+	.page-title-container-air {
+		color: $complementary-color-two;
+		text-align: center;
+		width: 100%;
+	}
 	.panasonic-support-container {
 		background-color: #bababa;
 		display: flex;
@@ -219,5 +225,42 @@ main {
 			}
 		}
 	}
+}
+/*****************************************************************
+	page-panasonicpumpswater.php: PANASONIC AIR-WATER PUMPS PAGE
+*****************************************************************/
+.main-panasonic-water {
 
+	.page-title-container-water {
+		color: $complementary-color-two;
+		text-align: center;
+		width: 100%;
+	}
+	.panasonic-support-container {
+		background-color: #bababa;
+		display: flex;
+		height: 270px;
+		width: 100%;
+
+		.panasonic-support-text-container {
+			line-height: 25px;
+			padding: 15px;
+
+			.support-title {
+				font-family: $primary-font;
+			}
+			.Panasonic {
+				color: $complementary-color-three;
+				font-weight: bolder;
+			}
+			.pan-customer {
+				color: $complmentary-color;
+				font-weight: bolder;
+			}
+			.pan-customer-service {
+				color: $secondary-color;
+				font-weight: bolder;
+			}
+		}
+	}
 }
