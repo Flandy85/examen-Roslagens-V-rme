@@ -57,6 +57,7 @@
 						<div class="pana-products-text">
 							<h3><?php echo get_field('pana-product-title3'); ?></h3>
 							<p><?php echo get_field('pana-product-text3'); ?></p>
+							<p class="panasonic-link-tag"><a href="https://www.aircon.panasonic.eu/SE_sv/product/panasonic-lz25tke-retro-fit/" rel="noopener" target="blank"><?php echo get_field('pana-product-link3'); ?></a></p>
 						</div>
 					</div>
 					<div class="pana-products">
@@ -64,6 +65,7 @@
 						<div class="pana-products-text">
 							<h3><?php echo get_field('pana-product-title4'); ?></h3>
 							<p><?php echo get_field('pana-product-text4'); ?></p>
+							<p class="panasonic-link-tag"><a href="https://www.aircon.panasonic.eu/SE_sv/product/panasonic-nz9ske-nz25tke-etherea/" rel="noopener" target="blank"><?php echo get_field('pana-product-link4'); ?></a></p>
 						</div>
 					</div>
 					<div class="pana-products">
@@ -71,6 +73,7 @@
 						<div class="pana-products-text">
 							<h3><?php echo get_field('pana-product-title5'); ?></h3>
 							<p><?php echo get_field('pana-product-text5'); ?></p>
+							<p class="panasonic-link-tag"><a href="https://www.aircon.panasonic.eu/SE_sv/product/panasonic-cz9ske-cz25tke/" rel="noopener" target="blank"><?php echo get_field('pana-product-link5'); ?></a></p>
 						</div>
 					</div>
 					<div class="pana-products">
@@ -78,6 +81,7 @@
 						<div class="pana-products-text">
 							<h3><?php echo get_field('pana-product-title6'); ?></h3>
 							<p><?php echo get_field('pana-product-text6'); ?></p>
+							<p class="panasonic-link-tag"><a href="https://www.aircon.panasonic.eu/SE_sv/product/panasonic-e9gfew-golvmodell/" rel="noopener" target="blank"><?php echo get_field('pana-product-link6'); ?></a></p>
 						</div>
 					</div>
 					
