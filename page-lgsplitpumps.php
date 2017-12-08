@@ -28,7 +28,8 @@ if(have_posts()) {
 		<div class="lg-support-container">
 			<div class="lg-support-text-container">
 				<h2 class="lg-support-title"><?php echo get_field('support-title-splitpumps'); ?></h2>
-				<p><?php echo get_field('support-text-lg-pumps'); ?><?php echo get_field('support-text2-splitpumps'); ?><a href="tel: 0770-545454"> <?php echo get_field('support-tel-link-lgpumps'); ?></a></p>
+				<p><?php echo get_field('support-text-lg-pumps'); ?><?php echo get_field('support-text2-splitpumps'); ?></p>
+				<p><a href="tel: 0770-545454"> <?php echo get_field('support-tel-link-lgpumps'); ?></a></p>
 			</div>	
 		</div>
 		<!-- Third section, LG SPLIT airpumps products -->

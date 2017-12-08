@@ -372,15 +372,23 @@ main {
 	.lg-support-container {
 		background-color: #f4f4f4;
 		display: flex;
-		height: 370px;
+		height: 400px;
 		width: 100%;
 
+		
 		.lg-support-text-container {
 			line-height: 25px;
 			padding: 15px;
 
 			.lg-support-title {
 				font-family: $primary-font;
+			}
+			p > a {
+				font-weight: bold;
+				color: $complementary-color-three;
+			}
+			p > a:hover {
+				color: $lg-secondary-color;
 			}
 			
 		}

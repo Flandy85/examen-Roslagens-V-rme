@@ -690,10 +690,15 @@ main {
 .main-lg-split-pumps .lg-support-container {
   background-color: #f4f4f4;
   display: flex;
-  height: 370px;
+  height: 400px;
   width: 100%; }
   .main-lg-split-pumps .lg-support-container .lg-support-text-container {
     line-height: 25px;
     padding: 15px; }
     .main-lg-split-pumps .lg-support-container .lg-support-text-container .lg-support-title {
       font-family: Josefin Sans, sans-serif; }
+    .main-lg-split-pumps .lg-support-container .lg-support-text-container p > a {
+      font-weight: bold;
+      color: #000000; }
+    .main-lg-split-pumps .lg-support-container .lg-support-text-container p > a:hover {
+      color: #ad1639; }
