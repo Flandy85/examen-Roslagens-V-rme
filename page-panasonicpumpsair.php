@@ -86,8 +86,7 @@
 							<p><?php echo get_field('pana-product-text6'); ?></p>
 							<p class="panasonic-link-tag"><?php echo get_field('pana-product-link6'); ?></p>
 						</div>
-					</div>
-					
+					</div>	
 				</div>
 				<div class="accessories-container">
 					<div class="pana-products-container">
@@ -96,7 +95,6 @@
 					</div>
 					
 				</div>
-				
 			</div>
 			<?php
 			

@@ -36,6 +36,41 @@ if(have_posts()) {
 				<p><?php echo get_field('support-text-waterpumps'); ?><a href="https://www.aircon.panasonic.eu/SE_sv/contact/" rel="noopener" target="blank"> <span class="Panasonic">Panasonics</span> <span class="pan-customer">kund</span><span class="pan-customer-service">tjänst</span></a> <?php echo get_field('support-text2-waterpumps'); ?></p>
 			</div>	
 		</div>
+		<!-- Third section, Panasonic waterpumps products -->
+		<div class="panasonic-waterpump-products-container">
+			<div class="panasonic-waterpump-products-inner-container">
+				<div class="pana-products">
+					<img src="<?php the_field('waterpump-image1'); ?>" class="waterpump-image" alt="Image of an Panasonic heating air pump" />
+					<div class="pana-products-text">
+						<h3><?php echo get_field('panawater-product-title1'); ?></h3>
+						<p><?php echo get_field('panawater-product-text1'); ?></p>
+						<p class="panasonic-link-tag"><?php echo get_field('panawater-product-link1'); ?></p>
+					</div>
+				</div>
+				<div class="pana-products">
+					<img src="<?php the_field('waterpump-image2'); ?>" class="waterpump-image" alt="Image of an Panasonic heating air pump" />
+					<div class="pana-products-text">
+						<h3><?php echo get_field('panawater-product-title2'); ?></h3>
+						<p><?php echo get_field('panawater-product-text2'); ?></p>
+						<p class="panasonic-link-tag"><?php echo get_field('panawater-product-link2'); ?></p>
+					</div>
+				</div>
+				<div class="pana-products">
+					<img src="<?php the_field('waterpump-image3'); ?>" class="waterpump-image" alt="Image of an Panasonic heating air pump" />
+					<div class="pana-products-text">
+						<h3><?php echo get_field('panawater-product-title3'); ?></h3>
+						<p><?php echo get_field('panawater-product-text3'); ?></p>
+						<p class="panasonic-link-tag"><?php echo get_field('panawater-product-link3'); ?></p>
+					</div>
+				</div>
+			</div>
+			<div class="accessories-container">
+				<div class="pana-products-container">
+					<h2><?php echo get_field('accessories-title'); ?></h2>
+					<div class="products-line"></div>
+				</div>
+			</div>
+		</div>
 		<?php
 		
 	}
