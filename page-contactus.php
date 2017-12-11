@@ -14,8 +14,10 @@ if(have_posts()) {
 		?>
 		<section>
 			<div class="contactus-container">
-				<h3 class="contactus-title"><?php echo get_field('contactus-title'); ?></h3>
-				<div class="contactus-line"></div>
+				<div class="contactus-header-container">
+					<h3 class="contactus-title"><?php echo get_field('contactus-title'); ?></h3>
+					<div class="contactus-line"></div>
+				</div>
 				<p><?php echo get_field('contactus-text1'); ?><a href="tel: 08-201201"><?php echo get_field('contactus-phonenumber'); ?></a></p>
 				<p><?php echo get_field('contactus-text2'); ?></p>
 				<!-- Contact form short code from plugin -->

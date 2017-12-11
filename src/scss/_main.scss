@@ -435,3 +435,46 @@ main {
 		}
 	}
 }
+/*****************************************************************
+	page-contactus.php: Contact Us PAGE
+*****************************************************************/
+.main-contactus-container {
+
+	background-image: url('contactusbackground.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	.contactus-container {
+		padding: 15px;
+
+		.contactus-header-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		h3, p {
+			color: $complementary-color-three;
+		}
+		h3 {
+			
+		}
+		p, a {
+			font-size: 18px;
+		}
+		a {
+			color: $secondary-color;
+		}
+		a:hover {
+			color: $complmentary-color;
+		}
+		
+		.contactus-line {
+			background-color: $complementary-color-three;
+			height: 3px;
+			width: 380px;
+		}
+
+	}
+}
