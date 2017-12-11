@@ -452,6 +452,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15px;
     height: 400px;
     width: 100%; }
     main .rvft-img-outer-container .rvft-img-inner-container {
@@ -932,28 +933,39 @@ main {
       .main-panasonic-air .panasonic-container .panasonic-menu-container {
         width: 49%; }
       .main-panasonic-air .panasonic-container .page-title-container-air {
-        color: #fff;
-        text-align: center;
-        width: 100%; }
+        /*color: $complementary-color-two;*/
+        /*display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;*/
+        height: 80px;
+        /*width: 100%;*/ }
       .main-panasonic-air .panasonic-container .panasonic-support-container {
         background-color: #bababa;
         display: flex;
+        justify-content: flex-start;
         height: 270px;
         width: 100%; }
         .main-panasonic-air .panasonic-container .panasonic-support-container .panasonic-support-text-container {
+          display: flex;
           line-height: 25px;
-          padding: 15px; }
-          .main-panasonic-air .panasonic-container .panasonic-support-container .panasonic-support-text-container .support-title {
-            font-family: Josefin Sans, sans-serif; }
-          .main-panasonic-air .panasonic-container .panasonic-support-container .panasonic-support-text-container .Panasonic {
-            color: #000000;
-            font-weight: bolder; }
-          .main-panasonic-air .panasonic-container .panasonic-support-container .panasonic-support-text-container .pan-customer {
-            color: #fa233b;
-            font-weight: bolder; }
-          .main-panasonic-air .panasonic-container .panasonic-support-container .panasonic-support-text-container .pan-customer-service {
-            color: #17a9de;
-            font-weight: bolder; }
+          padding: 15px;
+          width: 50%;
+          /*.support-title {
+					font-family: $primary-font;
+				}
+				.Panasonic {
+					color: $complementary-color-three;
+					font-weight: bolder;
+				}
+				.pan-customer {
+					color: $complmentary-color;
+					font-weight: bolder;
+				}
+				.pan-customer-service {
+					color: $secondary-color;
+					font-weight: bolder;
+				}*/ }
     .main-panasonic-air .panasonic-products-container {
       height: auto;
       width: 100%;

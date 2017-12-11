@@ -156,22 +156,29 @@ main {
 			width: 49%;
 		}
 		.page-title-container-air {
-			color: $complementary-color-two;
-			text-align: center;
-			width: 100%;
+			/*color: $complementary-color-two;*/
+			/*display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;*/
+			height: 80px;
+			/*width: 100%;*/
 		}
 
 		.panasonic-support-container {
 			background-color: #bababa;
 			display: flex;
+			justify-content: flex-start;
 			height: 270px;
 			width: 100%;
 
 			.panasonic-support-text-container {
+				display: flex;
 				line-height: 25px;
 				padding: 15px;
+				width: 50%;
 
-				.support-title {
+				/*.support-title {
 					font-family: $primary-font;
 				}
 				.Panasonic {
@@ -185,7 +192,7 @@ main {
 				.pan-customer-service {
 					color: $secondary-color;
 					font-weight: bolder;
-				}
+				}*/
 			}
 		}
 	}
