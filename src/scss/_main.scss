@@ -369,6 +369,7 @@ main {
 			}
 		}
 	}
+	/** LG Support container **/
 	.lg-support-container {
 		background-color: #f4f4f4;
 		display: flex;
@@ -393,5 +394,44 @@ main {
 			
 		}
 	}
+	/** LG Splitpumps section **/
+	.lg-splitpumps-products-container {
 
+		.lg-splitpumps-products-inner-container {
+
+			.lg-products {
+
+				.splitpump-image {
+					width: 100%;
+					max-width: 350px;
+				}
+				.lg-products-text {
+					line-height: 23px;
+					padding: 15px;
+
+					h3 {
+						font-size: 20px;
+					}
+					p > a {
+						font-weight: bold;
+						color: $lg-secondary-color;
+					}
+				}
+			}
+		}
+	}
+	/** LG accessories section **/
+	.accessories-container {
+
+		.lg-products-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			.products-line {
+				background-color: $lg-primary-color;
+				height: 3px;
+				width: 380px;
+			}
+		}
+	}
 }
