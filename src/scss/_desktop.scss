@@ -1,68 +1,45 @@
-/**************************************
-	Main.scss is for mobile 
-	first.
-
-	Every section is named after
-	every php file. Use ctrl/cmd + f
-	to find css for each page.php file.
-***************************************/
 /*****************************************
 	page-start.php: HOME PAGE
 ******************************************/
 main {
 	/** First section on page-start.php **/
 	.rvft-img-outer-container {
-		background-image: url('varmepump.jpeg');
-		background-size: cover;
-  		background-repeat: no-repeat;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 400px;
-		width: 100%;
+		height: 550px;
 
 		.rvft-img-inner-container {
-			display: flex;
-    		flex-direction: column;
-    		justify-content: center;
-    		align-items: center;
-    		padding: 15px;
-			
-			.rvft-img-logo {
-				width: 100%;
-				max-width: 500px;
-			}
+    		width: 49%;		
 		}
 		.placeholder-div {
-			display: none;
+			display: block;
+			width: 48%;
 		}
 	}
 	/** Middle section before panasonic section **/
 	.small-title-container {
-		display: flex;
-		justify-content: center;
-		padding: 10px;
-		width: 100%;
+		
+		h4 {
+			font-size: 20px;
+		}
 	}
 	/** Second section Panasonic, on page-start.php **/
 	.panasonic-container {
-		background-color: $complementary-color-three;
-		height: 430px;
-		width: 100%;
+		display: flex;
+		height: 460px;
 
 		.panasonic-img-container {
-			display: flex;
+			/*display: flex;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			padding: 15px;
+			padding: 15px;*/
+			width: 49%;
 
-			.panasonic-image {
+			/*.panasonic-image {
 				width: 100%;
 				max-width: 500px;
-			}
+			}*/
 
-			h3 {
+			/*h3 {
 				color: $complementary-color-two;
 				.pana-heating {
 					color: $complmentary-color;
@@ -70,15 +47,16 @@ main {
 				.pana-cooling {
 					color: $secondary-color;
 				}
-			}
+			}*/
 		}
 		.panasonic-menu-container {
-			display: flex;
+			/*display: flex;
 			flex-direction: column;
 			justify-content: center;
-			align-items: center;
+			align-items: center;*/
+			width: 48%;
 
-			.pana-products-container {
+			/*.pana-products-container {
 				display: flex;
 				flex-direction: column;
 				justify-content: center;
@@ -91,8 +69,8 @@ main {
 					height: 3px;
 					width: 380px;
 				}
-			}
-			#menu-panasonic-meny {
+			}*/
+			/*#menu-panasonic-meny {
 				list-style: none;
 
 				li > a {
@@ -101,33 +79,36 @@ main {
 				li > a:hover {
 					color: $secondary-color;
 				}
-			}
+			}*/
 			
 		}
 	}
 	/** Third section LG, on page-start.php **/
 	.lg-container {
-		padding: 15px;
+		display: flex;
+		/*padding: 15px;
 		height: 400px;
-		width: 100%;
+		width: 100%;*/
 
 		.lg-image-container {
-			display: flex;
+			/*display: flex;
 			flex-direction: column;
 			justify-content: center;
-			align-items: center;
+			align-items: center;*/
+			width: 49%;
 
-			h3 {
+			/*h3 {
 				color: #6d6d6d;
-			}
+			}*/
 		}
 		.lg-menu-container {
-			display: flex;
+			/*display: flex;
 			flex-direction: column;
 			justify-content: center;
-			align-items: center;
+			align-items: center;*/
+			width: 49%;
 
-			.lg-products-container {
+			/*.lg-products-container {
 				display: flex;
 				flex-direction: column;
 				justify-content: center;
@@ -141,8 +122,8 @@ main {
 					height: 3px;
 					width: 380px;
 				}
-			}
-			h3 {
+			}*/
+			/*h3 {
 				color: $lg-primary-color;
 			}
 			#menu-lg-menu {
@@ -154,7 +135,7 @@ main {
 				li > a:hover {
 					color: $lg-secondary-color;
 				}
-			}
+			}*/
 		}
 	}
 }
@@ -164,36 +145,47 @@ main {
 ***********************************************************/
 .main-panasonic-air {
 /** Panasonic support section on page-panasonicairpumps.php **/
-
-	.page-title-container-air {
-		color: $complementary-color-two;
-		text-align: center;
-		width: 100%;
-	}
-	.panasonic-support-container {
-		background-color: #bababa;
+	.panasonic-container {
 		display: flex;
-		height: 270px;
-		width: 100%;
+		flex-wrap: wrap;
+		margin-top: 15px;
+		.panasonic-img-container {
+			width: 49%;
+		}
+		.panasonic-menu-container {
+			width: 49%;
+		}
+		.page-title-container-air {
+			color: $complementary-color-two;
+			text-align: center;
+			width: 100%;
+		}
 
-		.panasonic-support-text-container {
-			line-height: 25px;
-			padding: 15px;
+		.panasonic-support-container {
+			background-color: #bababa;
+			display: flex;
+			height: 270px;
+			width: 100%;
 
-			.support-title {
-				font-family: $primary-font;
-			}
-			.Panasonic {
-				color: $complementary-color-three;
-				font-weight: bolder;
-			}
-			.pan-customer {
-				color: $complmentary-color;
-				font-weight: bolder;
-			}
-			.pan-customer-service {
-				color: $secondary-color;
-				font-weight: bolder;
+			.panasonic-support-text-container {
+				line-height: 25px;
+				padding: 15px;
+
+				.support-title {
+					font-family: $primary-font;
+				}
+				.Panasonic {
+					color: $complementary-color-three;
+					font-weight: bolder;
+				}
+				.pan-customer {
+					color: $complmentary-color;
+					font-weight: bolder;
+				}
+				.pan-customer-service {
+					color: $secondary-color;
+					font-weight: bolder;
+				}
 			}
 		}
 	}

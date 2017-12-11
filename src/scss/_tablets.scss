@@ -1,0 +1,43 @@
+/*****************************************
+	page-start.php: HOME PAGE
+******************************************/
+main {
+	/** First section on page-start.php **/
+	.rvft-img-outer-container {
+		/*background-image: url('varmepump.jpeg');
+		background-size: cover;
+  		background-repeat: no-repeat;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 400px;
+		width: 100%;*/
+
+		.rvft-img-inner-container {
+			/*display: flex;
+    		flex-direction: column;
+    		justify-content: center;
+    		align-items: center;*/
+    		width: 100%;
+			
+			.rvft-img-logo {
+				width: 100%;
+				max-width: 500px;
+			}
+		}
+		.placeholder-div {
+			display: none;
+			/*width: 48%;*/
+		}
+	}
+	/** Middle section before panasonic section **/
+	.small-title-container {
+		/*display: flex;
+		justify-content: center;
+		width: 100%;*/
+	}
+	
+	
+	/** Third section LG, on page-start.php **/
+	
+}

@@ -18,7 +18,7 @@
 						<h2><?php echo get_field('logo-text'); ?></h2>
 					</div>
 					<!-- This empty div is flexbox positioning for rvft logo -->
-					<div></div>
+					<div class="placeholder-div"></div>
 				</div>
 				<div class="small-title-container">
 					<h4><?php echo get_field('text-title'); ?></h4>
