@@ -397,37 +397,39 @@ template {
 		FONTS
 ***************************/
 /** Font-size Panasonic/LG **/
-header .top-header-container {
-  background-color: #333333;
-  height: 40px;
+header {
+  position: fixed;
+  top: 0px;
   width: 100%; }
-
-header .header-container {
-  background-color: #f4f4f4;
-  display: flex;
-  justify-content: center;
-  height: 150px;
-  width: 100%; }
-
-header .inner-header-container {
-  background-color: #333333;
-  border: 1px solid #333333;
-  border-radius: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
-  height: 100px;
-  width: 98%; }
-  header .inner-header-container .logotype {
-    margin-left: 10px;
-    width: 100%;
-    max-width: 350px; }
-  header .inner-header-container .navigation-menu {
-    display: flex; }
-    header .inner-header-container .navigation-menu .menu {
-      width: 600px; }
+  header .top-header-container {
+    background-color: #333333;
+    height: 40px;
+    width: 100%; }
+  header .header-container {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 100%; }
+  header .inner-header-container {
+    background-color: #333333;
+    border: 1px solid #333333;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    height: 100px;
+    width: 98%; }
+    header .inner-header-container .logotype {
+      margin-left: 10px;
+      width: 100%;
+      max-width: 350px; }
+    header .inner-header-container .navigation-menu {
+      display: flex; }
+      header .inner-header-container .navigation-menu .menu {
+        width: 600px; }
 
 /**************************************
 	Main.scss is for mobile 
@@ -442,6 +444,7 @@ header .inner-header-container {
 ******************************************/
 main {
   /** First section on page-start.php **/
+  margin-top: 210px;
   /** Middle section before panasonic section **/
   /** Second section Panasonic, on page-start.php **/
   /** Third section LG, on page-start.php **/ }
@@ -606,6 +609,7 @@ main {
 	page-panasonicpumpswater.php: PANASONIC AIR-WATER PUMPS PAGE
 *****************************************************************/
 .main-panasonic-water {
+  margin-top: 210px;
   /** Panasonic products section **/ }
   .main-panasonic-water .page-title-container-water {
     color: #fff;
@@ -940,56 +944,62 @@ main {
 			text-align: center;*/
         height: 80px;
         /*width: 100%;*/ }
-      .main-panasonic-air .panasonic-container .panasonic-support-container {
-        background-color: #bababa;
+    .main-panasonic-air .panasonic-support-container {
+      /*background-color: #bababa;*/
+      display: flex;
+      flex-direction: column;
+      /*height: 270px;
+		width: 100%;*/ }
+      .main-panasonic-air .panasonic-support-container .panasonic-support-text-container {
         display: flex;
-        justify-content: flex-start;
-        height: 270px;
-        width: 100%; }
-        .main-panasonic-air .panasonic-container .panasonic-support-container .panasonic-support-text-container {
-          display: flex;
-          line-height: 25px;
-          padding: 15px;
-          width: 50%;
-          /*.support-title {
-					font-family: $primary-font;
-				}
-				.Panasonic {
-					color: $complementary-color-three;
-					font-weight: bolder;
-				}
-				.pan-customer {
-					color: $complmentary-color;
-					font-weight: bolder;
-				}
-				.pan-customer-service {
-					color: $secondary-color;
-					font-weight: bolder;
-				}*/ }
+        flex-wrap: wrap;
+        /*line-height: 25px;
+			padding: 15px;*/
+        width: 50%;
+        /*.support-title {
+				font-family: $primary-font;
+			}
+			.Panasonic {
+				color: $complementary-color-three;
+				font-weight: bolder;
+			}
+			.pan-customer {
+				color: $complmentary-color;
+				font-weight: bolder;
+			}
+			.pan-customer-service {
+				color: $secondary-color;
+				font-weight: bolder;
+			}*/ }
     .main-panasonic-air .panasonic-products-container {
+      display: flex;
       height: auto;
       width: 100%;
       /** Panasonic accessories section **/ }
-      .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products {
-        margin-top: 10px; }
-        .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .airpump-image {
-          width: 100%;
-          max-width: 470px; }
-        .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text {
-          line-height: 23px;
-          padding: 15px; }
-          .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text h3 {
-            font-size: 20px; }
-          .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text p > a {
-            color: #17a9de; }
-      .main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center; }
-        .main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container .products-line {
-          background-color: #000000;
-          height: 3px;
-          width: 380px; }
+      .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container {
+        width: 49%; }
+        .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products {
+          margin-top: 10px; }
+          .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .airpump-image {
+            width: 100%;
+            max-width: 470px; }
+          .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text {
+            line-height: 23px;
+            padding: 15px; }
+            .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text h3 {
+              font-size: 20px; }
+            .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text p > a {
+              color: #17a9de; }
+      .main-panasonic-air .panasonic-products-container .accessories-container {
+        width: 49%; }
+        .main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container .products-line {
+            background-color: #000000;
+            height: 3px;
+            width: 380px; }
   /*****************************************************************
 	page-panasonicpumpswater.php: PANASONIC AIR-WATER PUMPS PAGE
 *****************************************************************/

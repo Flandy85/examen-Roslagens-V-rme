@@ -165,44 +165,47 @@ main {
 			/*width: 100%;*/
 		}
 
-		.panasonic-support-container {
-			background-color: #bababa;
+		
+	}
+	.panasonic-support-container {
+		/*background-color: #bababa;*/
+		display: flex;
+		flex-direction: column;
+		/*height: 270px;
+		width: 100%;*/
+
+		.panasonic-support-text-container {
 			display: flex;
-			justify-content: flex-start;
-			height: 270px;
-			width: 100%;
+			flex-wrap: wrap;
+			/*line-height: 25px;
+			padding: 15px;*/
+			width: 50%;
 
-			.panasonic-support-text-container {
-				display: flex;
-				line-height: 25px;
-				padding: 15px;
-				width: 50%;
-
-				/*.support-title {
-					font-family: $primary-font;
-				}
-				.Panasonic {
-					color: $complementary-color-three;
-					font-weight: bolder;
-				}
-				.pan-customer {
-					color: $complmentary-color;
-					font-weight: bolder;
-				}
-				.pan-customer-service {
-					color: $secondary-color;
-					font-weight: bolder;
-				}*/
+			/*.support-title {
+				font-family: $primary-font;
 			}
+			.Panasonic {
+				color: $complementary-color-three;
+				font-weight: bolder;
+			}
+			.pan-customer {
+				color: $complmentary-color;
+				font-weight: bolder;
+			}
+			.pan-customer-service {
+				color: $secondary-color;
+				font-weight: bolder;
+			}*/
 		}
 	}
 	/** Panasonic products section **/
 	.panasonic-products-container {
+		display: flex;
 		height: auto;
 		width: 100%;
 
 		.panasonic-products-inner-container {
-
+			width: 49%;
 			.pana-products {
 				margin-top: 10px;
 
@@ -225,7 +228,7 @@ main {
 		}
 		/** Panasonic accessories section **/
 		.accessories-container {
-
+			width: 49%;
 			.pana-products-container {
 				display: flex;
 				flex-direction: column;

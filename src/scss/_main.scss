@@ -11,6 +11,7 @@
 ******************************************/
 main {
 	/** First section on page-start.php **/
+	margin-top: 210px;
 	.rvft-img-outer-container {
 		background-image: url('varmepump.jpeg');
 		background-size: cover;
@@ -245,7 +246,7 @@ main {
 	page-panasonicpumpswater.php: PANASONIC AIR-WATER PUMPS PAGE
 *****************************************************************/
 .main-panasonic-water {
-
+	margin-top: 210px;
 	.page-title-container-water {
 		color: $complementary-color-two;
 		text-align: center;

@@ -1,5 +1,8 @@
 header {
-
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	
 	.top-header-container {
 		background-color: $primary-color;
 		height: 40px;
