@@ -32,8 +32,12 @@ if(have_posts()) {
 						<div class="visitor-line"></div>
 					</div>
 					<div class="streetadress-container">
-						<img src="<?php the_field('visitor-image'); ?>" class="visitor-image" alt="Photograph of Roslagens Värme & Fastighetsteknik HQ" />
-						<p><?php echo get_field('visitor-text'); ?><a href="tel: 08-201201"><?php echo get_field('visitor-phonenumber'); ?></a></p>
+						<div class="streetadress-image-container">
+							<img src="<?php the_field('visitor-image'); ?>" class="visitor-image" alt="Photograph of Roslagens Värme & Fastighetsteknik HQ" />
+						</div>
+						<div class="streetadress-adress-container">
+							<p><?php echo get_field('visitor-text'); ?><a href="tel: 08-201201"><?php echo get_field('visitor-phonenumber'); ?></a></p>
+						</div>
 					</div>
 				</div>
 			</div>
