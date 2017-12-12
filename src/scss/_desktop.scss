@@ -311,9 +311,9 @@ main {
 		width: 100%;
 
 		.panasonic-waterpump-products-inner-container {
-			display: flex;
+			/*display: flex;
 			flex-direction: column;
-			justify-content: center;
+			justify-content: center;*/
 			width: 49%;
 			.pana-products {
 				display: flex;
@@ -326,16 +326,16 @@ main {
 					max-width: 170px;
 				}
 				.pana-products-text {
-					line-height: 23px;
-					padding: 15px;
+					/*line-height: 23px;
+					padding: 15px;*/
 					width: 50%;
 
-					h3 {
+					/*h3 {
 						font-size: 20px;
 					}
 					p > a {
 						color: $secondary-color;
-					}
+					}*/
 				}
 			}
 		}
@@ -345,7 +345,7 @@ main {
 			justify-content: center;
 			width: 49%;
 
-			.pana-products-container {
+			/*.pana-products-container {
 				display: flex;
 				flex-direction: column;
 				align-items: center;
@@ -355,7 +355,7 @@ main {
 					height: 3px;
 					width: 380px;
 				}
-			}
+			}*/
 		}
 	}
 }
@@ -368,7 +368,7 @@ main {
 		height: 400px;
 		width: 100%;
 
-		.lg-image-container {
+		/*.lg-image-container {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
@@ -379,8 +379,8 @@ main {
 				padding: 0;
 				color: #6d6d6d;
 			}
-		}
-		.lg-menu-container {
+		}*/
+		/*.lg-menu-container {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
@@ -419,21 +419,22 @@ main {
 				height: 3px;
 				width: 380px;
 			}
-		}
+		}*/
 	}
 	/** LG Support container **/
 	.lg-support-container {
-		background-color: #f4f4f4;
-		display: flex;
-		height: 400px;
-		width: 100%;
+		/*background-color: #f4f4f4;
+		display: flex;*/
+		height: 300px;
+		/*width: 100%;*/
 
 		
 		.lg-support-text-container {
-			line-height: 25px;
-			padding: 15px;
+			/*line-height: 25px;
+			padding: 15px;*/
+			width: 50%;
 
-			.lg-support-title {
+			/*.lg-support-title {
 				font-family: $primary-font;
 			}
 			p > a {
@@ -442,18 +443,24 @@ main {
 			}
 			p > a:hover {
 				color: $lg-secondary-color;
-			}
+			}*/
 			
 		}
 	}
 	/** LG Splitpumps section **/
 	.lg-splitpumps-products-container {
+		display: flex;
+		justify-content: space-around;
 
 		.lg-splitpumps-products-inner-container {
-
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 49%;
 			.lg-products {
 
-				.splitpump-image {
+				/*.splitpump-image {
 					width: 100%;
 					max-width: 350px;
 				}
@@ -468,13 +475,13 @@ main {
 						font-weight: bold;
 						color: $lg-secondary-color;
 					}
-				}
+				}*/
 			}
 		}
 	}
 	/** LG accessories section **/
 	.accessories-container {
-
+		width: 49%;
 		.lg-products-container {
 			display: flex;
 			flex-direction: column;
@@ -496,37 +503,66 @@ main {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	.contactus-flexbox-container {
+		display: flex;
+		.contactus-container {
+			padding: 15px;
+			width: 50%;
 
-	.contactus-container {
-		padding: 15px;
+			.contactus-header-container {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
 
-		.contactus-header-container {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-		}
-
-		h3, p {
-			color: $complementary-color-three;
-		}
-		h3 {
+			h3, p {
+				color: $complementary-color-three;
+			}
+			h3 {
+				
+			}
+			p, a {
+				font-size: 18px;
+			}
+			a {
+				color: $secondary-color;
+			}
+			a:hover {
+				color: $complmentary-color;
+			}
 			
+			.contactus-line {
+				background-color: $complementary-color-three;
+				height: 3px;
+				width: 380px;
+			}
+
 		}
-		p, a {
-			font-size: 18px;
-		}
-		a {
-			color: $secondary-color;
-		}
-		a:hover {
-			color: $complmentary-color;
-		}
-		
-		.contactus-line {
-			background-color: $complementary-color-three;
-			height: 3px;
-			width: 380px;
+		.visitor-container {
+			width: 49%;
+
+			.visitor-header-container {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				.visitor-title {
+					color: $complementary-color-three;
+				}
+				.visitor-line {
+					background-color: $complementary-color-three;
+					height: 3px;
+					width: 380px;
+				}
+			}
 		}
 
+		.streetadress-container {
+
+			.visitor-image {
+				width: 100%;
+				max-widht: 400px;
+			}
+		}
 	}
 }
