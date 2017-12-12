@@ -506,6 +506,7 @@ main {
 	.contactus-flexbox-container {
 		display: flex;
 		.contactus-container {
+			margin-top: 50px;
 			padding: 15px;
 			width: 50%;
 
@@ -539,6 +540,8 @@ main {
 
 		}
 		.visitor-container {
+			margin-top: 50px;
+			padding: 15px;
 			width: 49%;
 
 			.visitor-header-container {
