@@ -1,0 +1,12 @@
+@import "normalize";
+@import "base";
+@import "header";
+@import "main";
+@import "footer";
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	@import "tablets"
+}
+@media screen and (min-width: 1025px) and (max-width: 1480px) {
+	@import "desktop";
+}
