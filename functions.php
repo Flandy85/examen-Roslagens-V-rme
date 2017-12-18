@@ -28,7 +28,7 @@ function rvft_blog_setup() {
 	register_nav_menu( 'mainmenu', 'Website main navigation' );
 	register_nav_menu( 'Lg menu', 'Website LG navigation' );
 	register_nav_menu( 'Panasonic menu', 'Website Panasonic navigation' );
-	
+	register_nav_menu( 'footer', 'Website footer navigation' );
 
 	// Custom Logo
 	add_theme_support('custom-logo', array(
