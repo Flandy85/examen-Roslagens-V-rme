@@ -15,7 +15,7 @@
 <div class="col-md-6">
 	<div class="flex-item">
 		<h1 class="title-partner">Sammarbetspartners</h1>
-		<div class="flex-item-center">
+		<!-- <div class="flex-item-center">
 			<img class="footer-img" src="img/elon-logo.png">
 			<img class="footer-img" src="img/LG_Logo_svg.png">
 			<img class="footer-img" src="img/Panasonic-Logo.png">
@@ -24,7 +24,8 @@
 			<img class="footer-img" src="img/airPatrol-logo.png">
 			<img class="footer-img" src="img/tecknorth-logo.png">
 			<img class="footer-img" src="img/Zave-logo.png">
-		</div>
+		</div> -->
+		<div><?php wp_nav_menu(array('theme_location' => 'footer')); ?></div>
 	</div>
 </div>
 	<!-- BOOTSTRAP COLUMN 3 -->
