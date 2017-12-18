@@ -671,3 +671,44 @@ main {
 	  
   }
   }
+
+  /***********************************************************************************************************
+  Inför.php: OM FÖRETAGET
+*************************************************************************************************************/
+.title-certifierad {
+	text-align: center;
+	border-top: 3px solid #000;
+	border-bottom: 3px solid #000;
+	font-weight: bold;
+	margin-bottom: 120px;
+}
+
+.col-md-4, .col-md-offset-2, .incert-imgbox {
+	position: inherit;
+}
+.line-black {
+	border-bottom: 3px solid #000;
+	width: 420px;
+}
+.line-white {
+	border-bottom: 3px solid #fff;
+	width: 420px;
+}
+.panasonic-img {
+	padding-bottom: 120px;
+}
+.pro-partners {
+	background-color: #000;
+	width: 100%;
+	height: inherit !important;
+	color: #fff;	
+	
+	margin-top: 170px;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+@media only screen and (max-width: 976px) {
+	.title-certifierad {
+		margin-bottom: 0;
+	}
+}
