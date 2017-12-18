@@ -856,6 +856,61 @@ main {
   .info-box {
     margin-bottom: 70px; } }
 
+/***********************************************************************************************************
+  anställda.php: ANSTÄLLDA STYLE
+*************************************************************************************************************/
+/*GRID FOR ANSTÄLLDA*/
+.employees-grid {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap; }
+
+.center {
+  text-align: center; }
+
+.grid-cell {
+  flex: 1;
+  background-color: #f8faf9; }
+
+.profile-pic {
+  width: 280px;
+  height: 200px; }
+
+.info-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #ced9d3;
+  color: #fff;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-right: 60px;
+  margin-left: 60px;
+  height: 150px; }
+
+@media only screen and (max-width: 1050px) {
+  .profile-pic {
+    width: 200px;
+    height: 150px; }
+  .employees-grid {
+    justify-content: space-around;
+    margin-bottom: 50px; } }
+
+@media only screen and (max-width: 806px) {
+  .profile-pic {
+    width: 320px; }
+  .info-box {
+    margin-right: 0;
+    margin-left: 0;
+    height: 250px; } }
+
+@media only screen and (max-width: 560px) {
+  .profile-pic {
+    width: 200px;
+    height: 150px; } }
+
 .row {
   display: flex;
   align-items: center;
