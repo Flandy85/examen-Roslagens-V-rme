@@ -410,6 +410,7 @@ header {
     justify-content: flex-end; }
     header .top-header-container .top-header-logotype {
       margin-right: 15px;
+      padding: 5px;
       width: 100%;
       max-width: 50px; }
   header .header-container {
@@ -432,7 +433,7 @@ header {
     header .inner-header-container .logotype {
       margin-left: 10px;
       width: 100%;
-      max-width: 350px; }
+      max-width: 310px; }
     header .inner-header-container .navigation-menu {
       display: flex; }
       header .inner-header-container .navigation-menu .menu {
