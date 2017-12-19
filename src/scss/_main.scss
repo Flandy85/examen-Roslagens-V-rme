@@ -532,10 +532,11 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	height: 1200px;
+	flex: 1 auto;
 }
 .box {
 	text-align: center;
-	
+	flex: 1 auto;
 	flex-basis: 250px;
 	
 }
@@ -544,6 +545,7 @@ main {
 	margin-left: 35px;
 	background-color: #ced9d3;
 	border-radius: 10px;
+	flex: 1 auto;
 }
 .box1 {
 	width: 65%;
@@ -557,9 +559,11 @@ main {
 	margin-top: 40px;
 }
 .box4 {
+
 	width: 30%;
 }
 .box5 {
+
 	width: 30%;
 }
 /*.box2 {
@@ -569,14 +573,24 @@ main {
 .installation-img {
 	width: 77%;
 }
+.installation-img-two {
+	margin-top: 80px;
+}
+@media only screen and (max-width: 1255px) {
+	.installation-img {
+	width: 100%;
+	}
+}
 
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 1025px) {
 	.main-installation {
 		height: 100%;
-	}
+	} 
 	.box1,.box2,.box3,.box4,.box5 {
 		margin-left: 0; 
 		width: 100%;
+		flex: 1 auto;
+
 	}
 	.box1 {
 		order: 1;
@@ -595,8 +609,11 @@ main {
 	}
 	.installation-img {
     width: 52%;
-    height: 50vh;
+    height: 500px;
     margin-bottom: 33px
+	}
+	.installation-img-two {
+	margin-top: 0;
 }
 	.info-box {
 		margin-bottom: 70px;

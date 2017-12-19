@@ -35,10 +35,10 @@ if(have_posts()) {
     </div>
    
     <div class="box box4">
-        <img class="installation-img" src="<?php the_field('insta-picture1'); ?>">
+        <img class="installation-img installation-img-one" src="<?php the_field('insta-picture1'); ?>">
     </div>
     <div class="box box5">
-    <img class="installation-img" src="<?php the_field('insta-picture2'); ?>">
+    <img class="installation-img installation-img-two" src="<?php the_field('insta-picture2'); ?>">
     </div>
  
 </div>
