@@ -13,6 +13,9 @@
 <body <?php body_class(); ?> >
 	<header>
 		<div class="top-header-container">
+			<img src="<?php echo get_template_directory_uri(); ?>/src/images/incertheader-logo.png" class="top-header-logotype" alt="Bild av företaget Incert loggo">
+			<img src="<?php echo get_template_directory_uri(); ?>/src/images/panasonic-propartners.png" class="top-header-logotype" alt="Bild av företaget Panasonic Pro Partners loggo">
+			<img src="<?php echo get_template_directory_uri(); ?>/src/images/lgbusiness.png" class="top-header-logotype" alt="Bild av företaget LG Business Partner loggo">
 			
 		</div>
 		<div class="header-container">

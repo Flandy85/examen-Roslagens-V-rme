@@ -5,8 +5,16 @@ header {
 	
 	.top-header-container {
 		background-color: $primary-color;
-		height: 40px;
+		height: 50px;
 		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+
+		.top-header-logotype {
+			margin-right: 15px;
+			width: 100%;
+			max-width: 50px;
+		}
 	}
 
 	.header-container {
