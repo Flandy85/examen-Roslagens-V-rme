@@ -37,5 +37,7 @@ function rvft_blog_setup() {
 		'flex-width'	=> true,
 		'flex-height'	=> true
 		) );
+
+	
 	
 }

@@ -613,10 +613,12 @@ main {
 .main-panasonic-water {
   margin-top: 210px;
   /** Panasonic products section **/ }
-  .main-panasonic-water .page-title-container-water {
-    color: #fff;
-    text-align: center;
-    width: 100%; }
+  .main-panasonic-water .panasonic-container {
+    height: 480px; }
+    .main-panasonic-water .panasonic-container .page-title-container-water {
+      color: #fff;
+      text-align: center;
+      width: 100%; }
   .main-panasonic-water .panasonic-support-container {
     background-color: #bababa;
     display: flex;

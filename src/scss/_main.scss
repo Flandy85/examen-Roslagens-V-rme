@@ -248,10 +248,13 @@ main {
 *****************************************************************/
 .main-panasonic-water {
 	margin-top: 210px;
-	.page-title-container-water {
-		color: $complementary-color-two;
-		text-align: center;
-		width: 100%;
+	.panasonic-container {
+		height: 480px;
+		.page-title-container-water {
+			color: $complementary-color-two;
+			text-align: center;
+			width: 100%;
+		}
 	}
 	.panasonic-support-container {
 		background-color: #bababa;
