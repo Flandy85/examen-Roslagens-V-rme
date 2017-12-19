@@ -613,18 +613,17 @@ main {
 	flex-flow: row; 
 	flex-wrap: wrap;
   }
-  .center {
-   text-align: center;
-  }
+ 
   .grid-cell {
-	flex: 1;
+	flex: 1 auto;
 	background-color: #f8faf9;
+	display: flex;
+    justify-content: center;
+  }
+  .grid-cell-info {
+  	flex-direction: column;
   }
   
-  .profile-pic {
-	  width: 280px;
-	  height:200px;
-  }
   
   .info-box {
 	  display: flex;
@@ -643,9 +642,11 @@ main {
   
   @media only screen and (max-width: 1050px) {
 	.profile-pic {
-	  width: 200px;
-	  height: 150px;
-	  
+	width: 400px;
+    height: 240px
+  }
+  .profile-pic-even {
+  	margin-top: 50px;
   }
   .employees-grid {
 	  justify-content: space-around;
@@ -656,21 +657,14 @@ main {
 	  .profile-pic {
 	  width: 320px;	
   }
-	  .info-box {
-	  margin-right: 0;
-	  margin-left: 0;
-	  height: 250px;
+   .center {
+   text-align: center;
   }
+
+
+  }
+ 
   
-  }
-  @media only screen and (max-width: 560px) { 
-	  .profile-pic {
-	  width: 200px;
-	  height: 150px;
-	  
-	  
-  }
-  }
 
   /***********************************************************************************************************
   Inför.php: OM FÖRETAGET
