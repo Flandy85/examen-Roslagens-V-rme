@@ -168,10 +168,14 @@ main {
 .main-panasonic-air {
 /** Panasonic support section on page-panasonicairpumps.php **/
 
-	.page-title-container-air {
-		color: $complementary-color-two;
-		text-align: center;
-		width: 100%;
+	.panasonic-container {
+
+		height: 490px;
+		.page-title-container-air {
+			color: $complementary-color-two;
+			text-align: center;
+			width: 100%;
+		}
 	}
 	.panasonic-support-container {
 		background-color: #bababa;
@@ -249,7 +253,8 @@ main {
 .main-panasonic-water {
 	margin-top: 210px;
 	.panasonic-container {
-		height: 480px;
+		height: 490px;
+
 		.page-title-container-water {
 			color: $complementary-color-two;
 			text-align: center;

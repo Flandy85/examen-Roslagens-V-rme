@@ -559,10 +559,12 @@ main {
 .main-panasonic-air {
   /** Panasonic support section on page-panasonicairpumps.php **/
   /** Panasonic products section **/ }
-  .main-panasonic-air .page-title-container-air {
-    color: #fff;
-    text-align: center;
-    width: 100%; }
+  .main-panasonic-air .panasonic-container {
+    height: 490px; }
+    .main-panasonic-air .panasonic-container .page-title-container-air {
+      color: #fff;
+      text-align: center;
+      width: 100%; }
   .main-panasonic-air .panasonic-support-container {
     background-color: #bababa;
     display: flex;
@@ -614,7 +616,7 @@ main {
   margin-top: 210px;
   /** Panasonic products section **/ }
   .main-panasonic-water .panasonic-container {
-    height: 480px; }
+    height: 490px; }
     .main-panasonic-water .panasonic-container .page-title-container-water {
       color: #fff;
       text-align: center;
