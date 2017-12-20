@@ -409,10 +409,7 @@ header {
     display: flex;
     justify-content: flex-end; }
     header .top-header-container .top-header-logotype {
-      margin-right: 15px;
-      padding: 5px;
-      width: 100%;
-      max-width: 50px; }
+      display: none; }
   header .header-container {
     background-color: #f4f4f4;
     display: flex;
@@ -438,6 +435,26 @@ header {
       display: flex; }
       header .inner-header-container .navigation-menu .menu {
         width: 600px; }
+
+/*************************************************************
+	Media query for company logos in topheader - Tablets
+*************************************************************/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header .top-header-container .top-header-logotype {
+    display: block;
+    margin-right: 15px;
+    padding: 5px;
+    width: 150px; } }
+
+/*************************************************************
+	Media query for company logos in topheader - Desktop
+*************************************************************/
+@media screen and (min-width: 1025px) and (max-width: 1480px) {
+  header .top-header-container .top-header-logotype {
+    display: block;
+    margin-right: 15px;
+    padding: 5px;
+    width: 170px; } }
 
 /**************************************
 	Main.scss is for mobile 
