@@ -437,8 +437,10 @@ header {
       header .inner-header-container .navigation-menu .menu {
         width: 600px; }
 
+/*This class is for making header meny dissapear when scrolling down and return when
+changing scroll direction*/
 .nav-up {
-  top: -40px; }
+  top: -300px; }
 
 /*************************************************************
 	Media query for company logos in topheader - Tablets
@@ -500,7 +502,8 @@ main {
     main .rvft-img-outer-container .placeholder-div {
       display: none; }
   main .small-title-container {
-    border: solid 2px black;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
     display: flex;
     justify-content: center;
     padding: 10px;

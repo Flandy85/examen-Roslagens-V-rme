@@ -42,7 +42,8 @@ main {
 	}
 	/** Middle section before panasonic section **/
 	.small-title-container {
-		border: solid 2px black;
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
 		display: flex;
 		justify-content: center;
 		padding: 10px;

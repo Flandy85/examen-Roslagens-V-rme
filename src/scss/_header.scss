@@ -53,9 +53,11 @@ header {
 	}
 
 }
+/*This class is for making header meny dissapear when scrolling down and return when
+changing scroll direction*/
 .nav-up {
-	    top: -40px;
-	}
+    top: -300px;
+}
 /*************************************************************
 	Media query for company logos in topheader - Tablets
 *************************************************************/

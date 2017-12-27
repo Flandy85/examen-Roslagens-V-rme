@@ -1,11 +1,9 @@
-console.log('Testing headerjs');
-
-
-$(document).ready(function() {
-      console.log("document ready occurred!");
-});
-
-// Hide Header on on scroll down
+/*************************************************************************
+	Javascript for making header dissapear when scrolling down
+	and return when changing scroll direction
+*************************************************************************/
+console.log('Testing header.js');
+// Variables for Hiding Header when scrolling down
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
@@ -22,6 +20,7 @@ setInterval(function() {
     }
 }, 250);
 
+// Function that checks if users are scrolling down
 function hasScrolled() {
     var st = $(this).scrollTop();
     
@@ -29,13 +28,15 @@ function hasScrolled() {
     if(Math.abs(lastScrollTop - st) <= delta)
         return;
     
-    // If they scrolled down and are past the navbar, add class .nav-up.
-    // This is necessary so you never see what is "behind" the navbar.
+    // If users has scrolled down and are past the navigationbar, adding class .nav-up.
+    // This is so users wont see what is behind the navigationbar.
     if (st > lastScrollTop && st > navbarHeight){
-        // Scroll Down
+        // Scrolling Down
+        console.log('When scrolling down');
         $('header').removeClass('nav-down').addClass('nav-up');
     } else {
-        // Scroll Up
+        // Scrolling Up
+        console.log('When scrolling up');
         if(st + $(window).height() < $(document).height()) {
             $('header').removeClass('nav-up').addClass('nav-down');
         }
