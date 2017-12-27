@@ -42,10 +42,12 @@ main {
 	}
 	/** Middle section before panasonic section **/
 	.small-title-container {
+		border: solid 2px black;
 		display: flex;
 		justify-content: center;
 		padding: 10px;
 		width: 100%;
+
 	}
 	/** Second section LG, on page-start.php **/
 	.lg-container {
@@ -58,6 +60,10 @@ main {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
+			.lg-image{
+				width: 100%;
+				max-width: 380px;
+			}
 
 			h3 {
 				color: #6d6d6d;
@@ -114,7 +120,7 @@ main {
 
 			.panasonic-image {
 				width: 100%;
-				max-width: 350px;
+				max-width: 300px;
 			}
 
 			h3 {

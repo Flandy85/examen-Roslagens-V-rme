@@ -45,6 +45,7 @@ if(have_posts()) {
 						<h3><?php echo get_field('panawater-product-title1'); ?></h3>
 						<p><?php echo get_field('panawater-product-text1'); ?></p>
 						<p class="panasonic-link-tag"><?php echo get_field('panawater-product-link1'); ?></p>
+						<p class="panasonic-link-tag"><?php echo get_field('pana-product-sales1'); ?></p>
 					</div>
 				</div>
 				<div class="pana-products">
@@ -53,14 +54,7 @@ if(have_posts()) {
 						<h3><?php echo get_field('panawater-product-title2'); ?></h3>
 						<p><?php echo get_field('panawater-product-text2'); ?></p>
 						<p class="panasonic-link-tag"><?php echo get_field('panawater-product-link2'); ?></p>
-					</div>
-				</div>
-				<div class="pana-products">
-					<img src="<?php the_field('waterpump-image3'); ?>" class="waterpump-image" alt="Image of an Panasonic heating air pump" />
-					<div class="pana-products-text">
-						<h3><?php echo get_field('panawater-product-title3'); ?></h3>
-						<p><?php echo get_field('panawater-product-text3'); ?></p>
-						<p class="panasonic-link-tag"><?php echo get_field('panawater-product-link3'); ?></p>
+						<p class="panasonic-link-tag"><?php echo get_field('pana-product-sales2'); ?></p>
 					</div>
 				</div>
 			</div>

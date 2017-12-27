@@ -401,6 +401,7 @@ template {
 header {
   position: fixed;
   top: 0px;
+  transition: top 0.2s ease-in-out;
   width: 100%; }
   header .top-header-container {
     background-color: #333333;
@@ -496,6 +497,7 @@ main {
     main .rvft-img-outer-container .placeholder-div {
       display: none; }
   main .small-title-container {
+    border: solid 2px black;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -509,6 +511,9 @@ main {
       flex-direction: column;
       justify-content: center;
       align-items: center; }
+      main .lg-container .lg-image-container .lg-image {
+        width: 100%;
+        max-width: 380px; }
       main .lg-container .lg-image-container h3 {
         color: #6d6d6d; }
     main .lg-container .lg-menu-container {
@@ -547,7 +552,7 @@ main {
       padding: 15px; }
       main .panasonic-container .panasonic-img-container .panasonic-image {
         width: 100%;
-        max-width: 350px; }
+        max-width: 300px; }
       main .panasonic-container .panasonic-img-container h3 {
         color: #fff; }
         main .panasonic-container .panasonic-img-container h3 .pana-heating {
@@ -1464,7 +1469,7 @@ main {
           .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .waterpump-image {
             padding: 15px;
             width: 100%;
-            max-width: 170px; }
+            /*max-width: 140px;*/ }
           .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .pana-products-text {
             /*line-height: 23px;
 					padding: 15px;*/

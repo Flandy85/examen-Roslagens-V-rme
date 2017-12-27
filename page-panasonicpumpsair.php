@@ -33,7 +33,10 @@
 			<div class="panasonic-support-container">
 				<div class="panasonic-support-text-container">
 					<h2 class="support-title"><?php echo get_field('support-title'); ?></h2>
-					<p><?php echo get_field('support-text'); ?><a href="https://www.aircon.panasonic.eu/SE_sv/contact/" rel="noopener" target="blank"> <span class="Panasonic">Panasonics</span> <span class="pan-customer">kund</span><span class="pan-customer-service">tjänst</span></a> <?php echo get_field('support-text2'); ?></p>
+					<p><?php echo get_field('support-text'); ?></p>
+
+
+						<!-- <a href="https://www.aircon.panasonic.eu/SE_sv/contact/" rel="noopener" target="blank"> <span class="Panasonic">Panasonics</span> <span class="pan-customer">kund</span><span class="pan-customer-service">tjänst</span></a></p> -->
 				</div>	
 			</div>
 			<!-- Third section, Panasonic products -->
@@ -45,6 +48,7 @@
 							<h3><?php echo get_field('pana-product-title1'); ?></h3>
 							<p><?php echo get_field('pana-product-text1'); ?></p>
 							<p class="panasonic-link-tag"><?php echo get_field('pana-product-link1'); ?></p>
+							<p class="panasonic-link-tag"><?php echo get_field('pana-product-sales1'); ?></p>
 						</div>
 					</div>
 					<div class="pana-products">
@@ -53,6 +57,7 @@
 							<h3><?php echo get_field('pana-product-title2'); ?></h3>
 							<p><?php echo get_field('pana-product-text2'); ?></p>
 							<p class="panasonic-link-tag"><?php echo get_field('pana-product-link2'); ?></p>
+							<p class="panasonic-link-tag"><?php echo get_field('pana-product-sales2'); ?></p>
 						</div>
 					</div>
 					<div class="pana-products">
@@ -60,7 +65,7 @@
 						<div class="pana-products-text">
 							<h3><?php echo get_field('pana-product-title3'); ?></h3>
 							<p><?php echo get_field('pana-product-text3'); ?></p>
-							<p class="panasonic-link-tag"><?php echo get_field('pana-product-link3'); ?></p>
+							<p class="panasonic-link-tag"><?php echo get_field('pana-product-sales3'); ?></p>
 						</div>
 					</div>
 					<div class="pana-products">
@@ -69,6 +74,7 @@
 							<h3><?php echo get_field('pana-product-title4'); ?></h3>
 							<p><?php echo get_field('pana-product-text4'); ?></p>
 							<p class="panasonic-link-tag"><?php echo get_field('pana-product-link4'); ?></p>
+							<p class="panasonic-link-tag"><?php echo get_field('pana-product-sales4'); ?></p>
 						</div>
 					</div>
 					<div class="pana-products">
@@ -77,6 +83,7 @@
 							<h3><?php echo get_field('pana-product-title5'); ?></h3>
 							<p><?php echo get_field('pana-product-text5'); ?></p>
 							<p class="panasonic-link-tag"><?php echo get_field('pana-product-link5'); ?></p>
+							<p class="panasonic-link-tag"><?php echo get_field('pana-product-sales5'); ?></p>
 						</div>
 					</div>
 					<div class="pana-products">
@@ -85,6 +92,7 @@
 							<h3><?php echo get_field('pana-product-title6'); ?></h3>
 							<p><?php echo get_field('pana-product-text6'); ?></p>
 							<p class="panasonic-link-tag"><?php echo get_field('pana-product-link6'); ?></p>
+							<p class="panasonic-link-tag"><?php echo get_field('pana-product-sales6'); ?></p>
 						</div>
 					</div>	
 				</div>
