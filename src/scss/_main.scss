@@ -47,7 +47,59 @@ main {
 		padding: 10px;
 		width: 100%;
 	}
-	/** Second section Panasonic, on page-start.php **/
+	/** Second section LG, on page-start.php **/
+	.lg-container {
+		padding: 15px;
+		height: 485px;
+		width: 100%;
+
+		.lg-image-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			h3 {
+				color: #6d6d6d;
+			}
+		}
+		.lg-menu-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			.lg-products-container {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				h2 {
+					color: $lg-primary-color;
+				}
+				.products-line {
+					background-color: $lg-primary-color;
+					height: 3px;
+					width: 380px;
+				}
+			}
+			h3 {
+				color: $lg-primary-color;
+			}
+			#menu-lg-menu {
+				list-style: none;
+
+				li > a {
+					color: $lg-primary-color;
+				}
+				li > a:hover {
+					color: $lg-secondary-color;
+				}
+			}
+		}
+	}
+	/** Third section Panasonic, on page-start.php **/
 	.panasonic-container {
 		background-color: $complementary-color-three;
 		height: 430px;
@@ -108,58 +160,7 @@ main {
 			
 		}
 	}
-	/** Third section LG, on page-start.php **/
-	.lg-container {
-		padding: 15px;
-		height: 485px;
-		width: 100%;
-
-		.lg-image-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-
-			h3 {
-				color: #6d6d6d;
-			}
-		}
-		.lg-menu-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-
-			.lg-products-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
-
-				h2 {
-					color: $lg-primary-color;
-				}
-				.products-line {
-					background-color: $lg-primary-color;
-					height: 3px;
-					width: 380px;
-				}
-			}
-			h3 {
-				color: $lg-primary-color;
-			}
-			#menu-lg-menu {
-				list-style: none;
-
-				li > a {
-					color: $lg-primary-color;
-				}
-				li > a:hover {
-					color: $lg-secondary-color;
-				}
-			}
-		}
-	}
+	
 }
 
 /**********************************************************

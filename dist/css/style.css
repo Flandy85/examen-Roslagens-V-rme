@@ -471,8 +471,8 @@ main {
   /** First section on page-start.php **/
   margin-top: 210px;
   /** Middle section before panasonic section **/
-  /** Second section Panasonic, on page-start.php **/
-  /** Third section LG, on page-start.php **/ }
+  /** Second section LG, on page-start.php **/
+  /** Third section Panasonic, on page-start.php **/ }
   main .rvft-img-outer-container {
     background-image: url("Panasonic-startsida-mobile.jpg");
     background-size: cover;
@@ -500,6 +500,41 @@ main {
     justify-content: center;
     padding: 10px;
     width: 100%; }
+  main .lg-container {
+    padding: 15px;
+    height: 485px;
+    width: 100%; }
+    main .lg-container .lg-image-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .lg-container .lg-image-container h3 {
+        color: #6d6d6d; }
+    main .lg-container .lg-menu-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .lg-container .lg-menu-container .lg-products-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        main .lg-container .lg-menu-container .lg-products-container h2 {
+          color: #6d6d6d; }
+        main .lg-container .lg-menu-container .lg-products-container .products-line {
+          background-color: #6d6d6d;
+          height: 3px;
+          width: 380px; }
+      main .lg-container .lg-menu-container h3 {
+        color: #6d6d6d; }
+      main .lg-container .lg-menu-container #menu-lg-menu {
+        list-style: none; }
+        main .lg-container .lg-menu-container #menu-lg-menu li > a {
+          color: #6d6d6d; }
+        main .lg-container .lg-menu-container #menu-lg-menu li > a:hover {
+          color: #ad1639; }
   main .panasonic-container {
     background-color: #000000;
     height: 430px;
@@ -541,41 +576,6 @@ main {
           color: #fff; }
         main .panasonic-container .panasonic-menu-container #menu-panasonic-meny li > a:hover {
           color: #17a9de; }
-  main .lg-container {
-    padding: 15px;
-    height: 485px;
-    width: 100%; }
-    main .lg-container .lg-image-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
-      main .lg-container .lg-image-container h3 {
-        color: #6d6d6d; }
-    main .lg-container .lg-menu-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
-      main .lg-container .lg-menu-container .lg-products-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; }
-        main .lg-container .lg-menu-container .lg-products-container h2 {
-          color: #6d6d6d; }
-        main .lg-container .lg-menu-container .lg-products-container .products-line {
-          background-color: #6d6d6d;
-          height: 3px;
-          width: 380px; }
-      main .lg-container .lg-menu-container h3 {
-        color: #6d6d6d; }
-      main .lg-container .lg-menu-container #menu-lg-menu {
-        list-style: none; }
-        main .lg-container .lg-menu-container #menu-lg-menu li > a {
-          color: #6d6d6d; }
-        main .lg-container .lg-menu-container #menu-lg-menu li > a:hover {
-          color: #ad1639; }
 
 /**********************************************************
 	page-panasonicpumpsair.php: PANASONIC AIR PUMPS PAGE
