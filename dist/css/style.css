@@ -1209,7 +1209,9 @@ main {
 	page-contactus.php: Contact Us PAGE
 *****************************************************************/
   .main-contactus-container {
-    background-image: url("contactusbackground-tablet.jpg"); } }
+    background-image: url("contactusbackground-tablet.jpg"); }
+    .main-contactus-container #wpforms-158-field_8 {
+      width: 415px; } }
 
 @media screen and (min-width: 1025px) and (max-width: 1480px) {
   /*****************************************
