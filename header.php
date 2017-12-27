@@ -11,7 +11,7 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
-	<header>
+	<header class="nav-down">
 		<div class="top-header-container">
 			<img src="<?php echo get_template_directory_uri(); ?>/src/images/Incert-loga.png" class="top-header-logotype" alt="Bild av företaget Incert loggo">
 			<img src="<?php echo get_template_directory_uri(); ?>/src/images/Panapropartners-2.png" class="top-header-logotype" alt="Bild av företaget Panasonic Pro Partners loggo">

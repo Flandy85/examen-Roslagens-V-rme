@@ -437,6 +437,9 @@ header {
       header .inner-header-container .navigation-menu .menu {
         width: 600px; }
 
+.nav-up {
+  top: -40px; }
+
 /*************************************************************
 	Media query for company logos in topheader - Tablets
 *************************************************************/

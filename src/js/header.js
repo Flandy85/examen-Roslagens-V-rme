@@ -43,5 +43,3 @@ function hasScrolled() {
     
     lastScrollTop = st;
 }
-console.log("Test test bundling js");
-
