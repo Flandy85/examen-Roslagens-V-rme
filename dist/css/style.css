@@ -1172,6 +1172,20 @@ main {
     border-bottom: 2px solid #fff;
     width: 70%; } }
 
+/**********************************************
+      FOOTER SCSS
+**********************************************/
+footer {
+  /*Support section*/ }
+  footer .col-md-3 .flex-item ul {
+    padding: 5px 0 5px 0;
+    list-style: none; }
+    footer .col-md-3 .flex-item ul li > a {
+      color: #fff; }
+    footer .col-md-3 .flex-item ul li > a:hover {
+      color: #17a9de;
+      text-decoration: none; }
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   /*****************************************
 	page-start.php: HOME PAGE

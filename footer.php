@@ -32,8 +32,9 @@
 <div class="col-md-3">
 	<div class="flex-item">
 		<h1>Support</h1>
-		<p>Kontakta Oss</p>
-		<p>Att Tänka på inför besök</p>
+		<div><?php wp_nav_menu(array('theme_location' => 'footer')); ?></div>
+		<!-- <p>Kontakta Oss</p>
+		<p>Att Tänka på inför besök</p> -->
 	</div>
 </div>
 </div>
