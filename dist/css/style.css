@@ -401,7 +401,7 @@ template {
 header {
   position: fixed;
   top: 0px;
-  transition: top 0.2s ease-in-out;
+  transition: top 0.4s ease-in-out;
   width: 100%; }
   header .top-header-container {
     background-color: #333333;
@@ -440,7 +440,7 @@ header {
 /*This class is for making header meny dissapear when scrolling down and return when
 changing scroll direction*/
 .nav-up {
-  top: -300px; }
+  top: -200px; }
 
 /*************************************************************
 	Media query for company logos in topheader - Tablets
