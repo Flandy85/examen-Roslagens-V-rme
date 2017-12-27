@@ -500,7 +500,7 @@ main {
 *****************************************************************/
 .main-contactus-container {
 
-	background-image: url('contactusbackground.jpeg');
+	background-image: url('contactusbackground-desktop.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -587,5 +587,8 @@ main {
 					}
 			}
 		}
+	}
+	#wpforms-158-field_8 {
+		width: 415px;
 	}
 }
