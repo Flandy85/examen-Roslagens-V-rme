@@ -10,3 +10,6 @@
 @media screen and (min-width: 1025px) and (max-width: 1480px) {
 	@import "desktop";
 }
+@media screen and (min-width: 1481px) and (max-width: 3000px) {
+	@import "bigscreens";
+}

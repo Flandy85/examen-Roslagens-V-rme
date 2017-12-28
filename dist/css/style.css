@@ -1707,3 +1707,124 @@ footer {
           color: #fa233b; }
     .main-contactus-container #wpforms-158-field_8 {
       width: 415px; } }
+
+@media screen and (min-width: 1481px) and (max-width: 3000px) {
+  /*****************************************
+	page-start.php: HOME PAGE
+******************************************/
+  main {
+    /** First section on page-start.php **/
+    /** Middle section before panasonic section **/
+    /** Second section Panasonic, on page-start.php **/
+    /** Third section LG, on page-start.php **/ }
+    main .rvft-img-outer-container {
+      background-image: url("Panasonic-startsida-desktop.jpg");
+      height: 550px; }
+      main .rvft-img-outer-container .rvft-img-inner-container {
+        width: 49%; }
+      main .rvft-img-outer-container .placeholder-div {
+        display: block;
+        width: 48%; }
+    main .small-title-container h4 {
+      font-size: 20px; }
+    main .panasonic-container {
+      display: flex;
+      height: 460px; }
+      main .panasonic-container .panasonic-img-container {
+        /*display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding: 15px;*/
+        width: 49%;
+        /*.panasonic-image {
+				width: 100%;
+				max-width: 500px;
+			}*/
+        /*h3 {
+				color: $complementary-color-two;
+				.pana-heating {
+					color: $complmentary-color;
+				}
+				.pana-cooling {
+					color: $secondary-color;
+				}
+			}*/ }
+      main .panasonic-container .panasonic-menu-container {
+        /*display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;*/
+        width: 48%;
+        /*.pana-products-container {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				h2 {
+					color: $complementary-color-two;
+				}
+				.products-line {
+					background-color: $complementary-color-two;
+					height: 3px;
+					width: 380px;
+				}
+			}*/
+        /*#menu-panasonic-meny {
+				list-style: none;
+
+				li > a {
+					color: $complementary-color-two;
+				}
+				li > a:hover {
+					color: $secondary-color;
+				}
+			}*/ }
+    main .lg-container {
+      display: flex;
+      /*padding: 15px;
+		height: 400px;
+		width: 100%;*/ }
+      main .lg-container .lg-image-container {
+        /*display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;*/
+        width: 49%;
+        /*h3 {
+				color: #6d6d6d;
+			}*/ }
+      main .lg-container .lg-menu-container {
+        /*display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;*/
+        width: 49%;
+        /*.lg-products-container {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				h2 {
+					color: $lg-primary-color;
+				}
+				.products-line {
+					background-color: $lg-primary-color;
+					height: 3px;
+					width: 380px;
+				}
+			}*/
+        /*h3 {
+				color: $lg-primary-color;
+			}
+			#menu-lg-menu {
+				list-style: none;
+
+				li > a {
+					color: $lg-primary-color;
+				}
+				li > a:hover {
+					color: $lg-secondary-color;
+				}
+			}*/ } }
