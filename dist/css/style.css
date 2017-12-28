@@ -1257,12 +1257,233 @@ footer {
       display: flex;
       height: 460px; }
       main .panasonic-container .panasonic-img-container {
+        width: 49%; }
+      main .panasonic-container .panasonic-menu-container {
+        width: 48%; }
+    main .lg-container {
+      display: flex; }
+      main .lg-container .lg-image-container {
+        width: 49%; }
+      main .lg-container .lg-menu-container {
+        width: 49%; }
+  /**********************************************************
+	page-panasonicpumpsair.php: PANASONIC AIR PUMPS PAGE
+***********************************************************/
+  .main-panasonic-air {
+    /** Panasonic support section on page-panasonicairpumps.php **/
+    /** Panasonic products section **/ }
+    .main-panasonic-air .panasonic-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 15px; }
+      .main-panasonic-air .panasonic-container .panasonic-img-container {
+        width: 49%; }
+      .main-panasonic-air .panasonic-container .panasonic-menu-container {
+        width: 49%; }
+      .main-panasonic-air .panasonic-container .page-title-container-air {
+        height: 80px; }
+    .main-panasonic-air .panasonic-support-container {
+      display: flex;
+      flex-direction: column; }
+      .main-panasonic-air .panasonic-support-container .panasonic-support-text-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%; }
+    .main-panasonic-air .panasonic-products-container {
+      display: flex;
+      justify-content: center;
+      height: auto;
+      width: 100%;
+      /** Panasonic accessories section **/ }
+      .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 49%; }
+        .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products {
+          margin-top: 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .airpump-image {
+            width: 100%;
+            max-width: 300px; }
+          .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text {
+            width: 40%; }
+      .main-panasonic-air .panasonic-products-container .accessories-container {
+        width: 49%; }
+        .main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container .products-line {
+            background-color: #000000;
+            height: 3px;
+            width: 380px; }
+  /*****************************************************************
+	page-panasonicpumpswater.php: PANASONIC AIR-WATER PUMPS PAGE
+*****************************************************************/
+  .main-panasonic-water {
+    /** Panasonic products section **/ }
+    .main-panasonic-water .panasonic-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 15px;
+      height: 550px; }
+      .main-panasonic-water .panasonic-container .panasonic-img-container {
+        width: 49%; }
+      .main-panasonic-water .panasonic-container .panasonic-menu-container {
+        width: 49%; }
+    .main-panasonic-water .panasonic-support-container .panasonic-support-text-container {
+      width: 49%; }
+    .main-panasonic-water .panasonic-waterpump-products-container {
+      display: flex;
+      justify-content: center;
+      height: auto;
+      width: 100%;
+      /** Panasonic accessories section **/ }
+      .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container {
+        width: 49%; }
+        .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products {
+          display: flex;
+          justify-content: center;
+          margin-top: 10px; }
+          .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .waterpump-image {
+            padding: 15px;
+            width: 100%;
+            /*max-width: 140px;*/ }
+          .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .pana-products-text {
+            width: 50%; }
+      .main-panasonic-water .panasonic-waterpump-products-container .accessories-container {
+        display: flex;
+        justify-content: center;
+        width: 49%; }
+  /*****************************************************************
+	page-lgsplitpumps.php: LG SPLIT PUMPS PAGE
+*****************************************************************/
+  .main-lg-split-pumps {
+    /** LG Support container **/
+    /** LG Splitpumps section **/
+    /** LG accessories section **/ }
+    .main-lg-split-pumps .lg-container {
+      height: 400px;
+      width: 100%; }
+    .main-lg-split-pumps .lg-support-container {
+      height: 300px; }
+      .main-lg-split-pumps .lg-support-container .lg-support-text-container {
+        width: 50%; }
+    .main-lg-split-pumps .lg-splitpumps-products-container {
+      display: flex;
+      justify-content: space-around; }
+      .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 49%; }
+    .main-lg-split-pumps .accessories-container {
+      width: 49%; }
+      .main-lg-split-pumps .accessories-container .lg-products-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .main-lg-split-pumps .accessories-container .lg-products-container .products-line {
+          background-color: #6d6d6d;
+          height: 3px;
+          width: 380px; }
+  /*****************************************************************
+	page-contactus.php: Contact Us PAGE
+*****************************************************************/
+  .main-contactus-container {
+    background-image: url("contactusbackground-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+    .main-contactus-container .contactus-flexbox-container {
+      display: flex; }
+      .main-contactus-container .contactus-flexbox-container .contactus-container {
+        margin-top: 50px;
+        padding: 15px;
+        width: 50%; }
+        .main-contactus-container .contactus-flexbox-container .contactus-container .contactus-header-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+        .main-contactus-container .contactus-flexbox-container .contactus-container h3, .main-contactus-container .contactus-flexbox-container .contactus-container p {
+          color: #000000; }
+        .main-contactus-container .contactus-flexbox-container .contactus-container p, .main-contactus-container .contactus-flexbox-container .contactus-container a {
+          font-size: 18px; }
+        .main-contactus-container .contactus-flexbox-container .contactus-container a {
+          color: #17a9de; }
+        .main-contactus-container .contactus-flexbox-container .contactus-container a:hover {
+          color: #fa233b; }
+        .main-contactus-container .contactus-flexbox-container .contactus-container .contactus-line {
+          background-color: #000000;
+          height: 3px;
+          width: 380px; }
+      .main-contactus-container .contactus-flexbox-container .visitor-container {
+        margin-top: 50px;
+        padding: 15px;
+        width: 49%; }
+        .main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container .visitor-title {
+            color: #000000; }
+          .main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container .visitor-line {
+            background-color: #000000;
+            height: 3px;
+            width: 380px; }
+      .main-contactus-container .contactus-flexbox-container .streetadress-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px; }
+        .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container .visitor-image {
+          width: 100%;
+          max-width: 200px; }
+        .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container p, .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a {
+          font-size: 18px;
+          margin: 0; }
+        .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a {
+          color: #17a9de; }
+        .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a:hover {
+          color: #fa233b; }
+    .main-contactus-container #wpforms-158-field_8 {
+      width: 415px; } }
+
+@media screen and (min-width: 1481px) and (max-width: 3000px) {
+  /*****************************************
+	page-start.php: HOME PAGE
+******************************************/
+  main {
+    /** First section on page-start.php **/
+    /** Middle section before panasonic section **/
+    /** Second section Panasonic, on page-start.php **/
+    /** Third section LG, on page-start.php **/ }
+    main .rvft-img-outer-container {
+      background-image: url("Panasonic-startsida-desktop.jpg");
+      height: 550px;
+      margin-top: 250px; }
+      main .rvft-img-outer-container .rvft-img-inner-container {
+        width: 49%; }
+      main .rvft-img-outer-container .placeholder-div {
+        display: block;
+        width: 48%; }
+    main .small-title-container h4 {
+      font-size: 24px; }
+    main .panasonic-container {
+      display: flex;
+      height: 460px; }
+      main .panasonic-container .panasonic-img-container {
         /*display: flex;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
 			padding: 15px;*/
-        width: 49%;
+        width: 30%;
         /*.panasonic-image {
 				width: 100%;
 				max-width: 500px;
@@ -1281,7 +1502,7 @@ footer {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;*/
-        width: 48%;
+        width: 30%;
         /*.pana-products-container {
 				display: flex;
 				flex-direction: column;
@@ -1316,7 +1537,7 @@ footer {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;*/
-        width: 49%;
+        width: 30%;
         /*h3 {
 				color: #6d6d6d;
 			}*/ }
@@ -1325,7 +1546,7 @@ footer {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;*/
-        width: 49%;
+        width: 30%;
         /*.lg-products-container {
 				display: flex;
 				flex-direction: column;
@@ -1707,124 +1928,3 @@ footer {
           color: #fa233b; }
     .main-contactus-container #wpforms-158-field_8 {
       width: 415px; } }
-
-@media screen and (min-width: 1481px) and (max-width: 3000px) {
-  /*****************************************
-	page-start.php: HOME PAGE
-******************************************/
-  main {
-    /** First section on page-start.php **/
-    /** Middle section before panasonic section **/
-    /** Second section Panasonic, on page-start.php **/
-    /** Third section LG, on page-start.php **/ }
-    main .rvft-img-outer-container {
-      background-image: url("Panasonic-startsida-desktop.jpg");
-      height: 550px; }
-      main .rvft-img-outer-container .rvft-img-inner-container {
-        width: 49%; }
-      main .rvft-img-outer-container .placeholder-div {
-        display: block;
-        width: 48%; }
-    main .small-title-container h4 {
-      font-size: 20px; }
-    main .panasonic-container {
-      display: flex;
-      height: 460px; }
-      main .panasonic-container .panasonic-img-container {
-        /*display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			padding: 15px;*/
-        width: 49%;
-        /*.panasonic-image {
-				width: 100%;
-				max-width: 500px;
-			}*/
-        /*h3 {
-				color: $complementary-color-two;
-				.pana-heating {
-					color: $complmentary-color;
-				}
-				.pana-cooling {
-					color: $secondary-color;
-				}
-			}*/ }
-      main .panasonic-container .panasonic-menu-container {
-        /*display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;*/
-        width: 48%;
-        /*.pana-products-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
-				h2 {
-					color: $complementary-color-two;
-				}
-				.products-line {
-					background-color: $complementary-color-two;
-					height: 3px;
-					width: 380px;
-				}
-			}*/
-        /*#menu-panasonic-meny {
-				list-style: none;
-
-				li > a {
-					color: $complementary-color-two;
-				}
-				li > a:hover {
-					color: $secondary-color;
-				}
-			}*/ }
-    main .lg-container {
-      display: flex;
-      /*padding: 15px;
-		height: 400px;
-		width: 100%;*/ }
-      main .lg-container .lg-image-container {
-        /*display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;*/
-        width: 49%;
-        /*h3 {
-				color: #6d6d6d;
-			}*/ }
-      main .lg-container .lg-menu-container {
-        /*display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;*/
-        width: 49%;
-        /*.lg-products-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
-
-				h2 {
-					color: $lg-primary-color;
-				}
-				.products-line {
-					background-color: $lg-primary-color;
-					height: 3px;
-					width: 380px;
-				}
-			}*/
-        /*h3 {
-				color: $lg-primary-color;
-			}
-			#menu-lg-menu {
-				list-style: none;
-
-				li > a {
-					color: $lg-primary-color;
-				}
-				li > a:hover {
-					color: $lg-secondary-color;
-				}
-			}*/ } }
