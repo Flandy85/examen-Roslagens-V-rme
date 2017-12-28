@@ -1094,6 +1094,13 @@ main {
   display: flex;
   justify-content: center; }
 
+/*************************************************
+		Active class for js script on hover
+*************************************************/
+.active {
+  color: #17a9de;
+  text-decoration: none; }
+
 .row {
   display: flex;
   align-items: center;

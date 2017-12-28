@@ -33,7 +33,8 @@ if(have_posts()) {
 		<div class="panasonic-support-container">
 			<div class="panasonic-support-text-container">
 				<h2 class="support-title"><?php echo get_field('support-title-waterpumps'); ?></h2>
-				<p><?php echo get_field('support-text-waterpumps'); ?><a href="https://www.aircon.panasonic.eu/SE_sv/contact/" rel="noopener" target="blank"> <span class="Panasonic">Panasonics</span> <span class="pan-customer">kund</span><span class="pan-customer-service">tjänst</span></a> <?php echo get_field('support-text2-waterpumps'); ?></p>
+				<p><?php echo get_field('support-text-waterpumps'); ?></p>
+				<!-- <a href="https://www.aircon.panasonic.eu/SE_sv/contact/" rel="noopener" target="blank"> <span class="Panasonic">Panasonics</span> <span class="pan-customer">kund</span><span class="pan-customer-service">tjänst</span></a> <?php //echo get_field('support-text2-waterpumps'); ?></p> -->
 			</div>	
 		</div>
 		<!-- Third section, Panasonic waterpumps products -->

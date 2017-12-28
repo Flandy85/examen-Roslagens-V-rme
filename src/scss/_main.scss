@@ -869,3 +869,11 @@ main {
 	display: flex;
 	justify-content: center;
 }
+/*************************************************
+		Active class for js script on hover
+*************************************************/
+
+.active {
+	color: $secondary-color;
+	text-decoration: none;
+}
