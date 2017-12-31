@@ -455,7 +455,7 @@ changing scroll direction*/
 /*************************************************************
 	Media query for company logos in topheader - Desktop
 *************************************************************/
-@media screen and (min-width: 1025px) and (max-width: 1480px) {
+@media screen and (min-width: 1025px) and (max-width: 3000px) {
   header .top-header-container .top-header-logotype {
     display: block;
     margin-right: 15px;
