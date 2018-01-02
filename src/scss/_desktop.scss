@@ -246,10 +246,12 @@ main {
 	background-position: center;
 	.contactus-flexbox-container {
 		display: flex;
+		justify-content: space-around;
+		width: 100%;
 		.contactus-container {
 			margin-top: 50px;
 			padding: 15px;
-			width: 50%;
+			width: 40%;
 
 			.contactus-header-container {
 				display: flex;
@@ -283,7 +285,7 @@ main {
 		.visitor-container {
 			margin-top: 50px;
 			padding: 15px;
-			width: 49%;
+			width: 40%;
 
 			.visitor-header-container {
 				display: flex;
@@ -303,28 +305,31 @@ main {
 
 		.streetadress-container {
 			display: flex;
-			justify-content: space-around;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 			margin-top: 50px;
 
 			.streetadress-image-container {
-
+				width: 39%;
 				.visitor-image {
 					width: 100%;
 					max-width: 200px;
 				}
 			}
 			.streetadress-adress-container {
-
-					p, a {
-						font-size: 18px;
-						margin: 0;
-					}
-					a {
-						color: $secondary-color;
-					}
-					a:hover {
-						color: $complmentary-color;
-					}
+				margin-top: 50px;
+				width: 39%;
+				p, a {
+					font-size: 18px;
+					margin: 0;
+				}
+				a {
+					color: $secondary-color;
+				}
+				a:hover {
+					color: $complmentary-color;
+				}
 			}
 		}
 	}

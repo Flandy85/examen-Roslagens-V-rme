@@ -39,7 +39,7 @@ header {
 			.logotype {
 				margin-left: 10px;
 				width: 100%;
-				max-width: 275px;
+				max-width: 265px;
 			}
 			.navigation-menu {
 				display: flex;
@@ -52,7 +52,6 @@ header {
 			
 		}
 	}
-
 }
 /*This class is for making header meny dissapear when scrolling down and return when
 changing scroll direction*/
@@ -79,7 +78,13 @@ changing scroll direction*/
 		.header-container {
 
 			.inner-header-container {
-				flex-direction: row;
+				/*flex-direction: row;*/
+
+				.logotype {
+					margin-left: 10px;
+					width: 100%;
+					max-width: 275px;
+				}
 			}
 		}
 	}
@@ -102,9 +107,14 @@ changing scroll direction*/
 			}
 		}
 		.header-container {
-			
+
 			.inner-header-container {
 				flex-direction: row;
+				.logotype {
+					margin-left: 10px;
+					width: 100%;
+					max-width: 330px;
+				}
 			}
 		}
 	}
