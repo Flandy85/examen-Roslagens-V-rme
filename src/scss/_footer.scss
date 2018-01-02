@@ -1,4 +1,4 @@
-.row {
+/*.row {
     display: flex;
     align-items: center;
     width: 100%;
@@ -36,13 +36,13 @@
       height: 30px;
       margin-right: 50px;
       }
-  }
+  }*/
   
   /*****************************************
     footer.php: MEDIQ QUERY FOR TABLETS
   ******************************************/
   
-  @media only screen and (max-width: 1381px) {
+  /*@media only screen and (max-width: 1381px) {
     .row {
       display: flex;
       align-items: center;
@@ -61,13 +61,13 @@
       margin-right: 20px;
       height: 30px;
     }
-  }
+  }*/
   
   /*****************************************
     footer.php: MEDIQ QUERY FOR TABLETS/PHONES
   ******************************************/
   
-  @media only screen and (max-width: 977px) {
+  /*@media only screen and (max-width: 977px) {
     .row {
       display: flex;
       align-items: center;
@@ -89,14 +89,14 @@
       border-bottom: 2px solid #fff;
       width: 70%;
     }
-  }
+  }*/
 /**********************************************
       FOOTER SCSS
 **********************************************/
-footer {
+/*footer {*/
 
   /*Support section*/
-  .col-md-3 {
+  /*.col-md-3 {
 
     .flex-item{
 
@@ -114,4 +114,152 @@ footer {
       }
     }
   }
+}*/
+/**********************************************
+      FOOTER SCSS
+**********************************************/
+
+footer {
+
+  .footer-container {
+    background-color: #333333;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+
+    .adress-container, .partners-container, .meny-container {
+      border-bottom: 2px solid $complementary-color-two;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .adress-container {
+
+        h1, p {
+          color: $complementary-color-two;
+        }
+        p > a {
+          color: $complementary-color-two;
+          text-decoration: underline;
+        }
+        p > a:hover {
+          color: $secondary-color;
+          text-decoration: none;
+        }
+    }
+
+    .partners-container {
+      width: 100%;
+      .title-partner {
+        color: #fff;
+        margin: 0 0 22px 0;
+      }
+      .partner-image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;  
+        width: 100%;
+
+        .footer-img {
+          height: 30px;
+          margin: 0 20px 10px 0;
+        }
+      }
+    }
+    .meny-container {
+
+      h1 {
+        color: $complementary-color-two;
+      }
+
+      ul {
+        padding: 5px 0 5px 0;
+        list-style: none;
+
+        li {
+          padding: 5px 0 5px 15px;
+        }
+
+        li > a {
+          color: #fff;
+          font-size: 18px;
+        }
+        li > a:hover {
+          color: $secondary-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }    
 }
+/*****************************************
+    footer.php: MEDIQ QUERY FOR Tablets
+******************************************/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  footer {
+    
+    .footer-container {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      /*height: 400px;*/
+      width: 100%;
+
+      .adress-container {
+        border-bottom: none;
+        width: 20%;
+      }
+      .partners-container {
+        border-bottom: none;
+        width: 59%;
+      }
+      .meny-container {
+        border-bottom: none;
+        width: 20%;
+
+        h1 {
+          margin: 0 0 12px 0;
+        }
+      }
+    }
+  }
+}
+/********************************************************
+    footer.php: MEDIQ QUERY FOR Desktop and big screens
+********************************************************/
+@media screen and (min-width: 1025px) and (max-width: 3000px) {
+
+  footer {
+
+    .footer-container {
+      
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%;
+
+      .adress-container, .partners-container, .meny-container {
+        border-bottom: none;
+        width: 20%;
+      }
+      .partners-container {
+        border-bottom: none;
+        width: 59%;
+      }
+      .meny-container {
+        border-bottom: none;
+        width: 20%;
+
+        h1 {
+          margin: 0 0 12px 0;
+        }
+      }
+    }    
+  }
+}
+
+
+
+

@@ -1079,97 +1079,209 @@ main {
   color: #17a9de;
   text-decoration: none; }
 
-.row {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 300px; }
-
-.footer-container {
-  background-color: #333333;
-  color: #fff;
-  display: flex;
-  align-items: center; }
-
-.flex-item {
-  margin-left: 60px;
-  margin-right: 60px; }
-
-.flex-item-center, .flex-item-center2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
-
-.footer-img {
-  height: 35px;
-  margin-right: 80px;
-  margin-bottom: 20px; }
-
-.title-partner {
-  text-align: center; }
-
-.employees-grid {
-  margin-bottom: 50px; }
-
-@media only screen and (max-width: 1691px) {
+/*.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+  
+  }
+  .footer-container {
+    background-color: #333333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  .flex-item {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .flex-item-center, .flex-item-center2 {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+  }
   .footer-img {
-    height: 30px;
-    margin-right: 50px; } }
-
+    height: 35px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+  }
+  .title-partner {
+    text-align: center;
+  }
+  .employees-grid {
+      margin-bottom: 50px;
+  }
+  @media only screen and (max-width: 1691px) {
+    .footer-img {
+      height: 30px;
+      margin-right: 50px;
+      }
+  }*/
 /*****************************************
     footer.php: MEDIQ QUERY FOR TABLETS
   ******************************************/
-@media only screen and (max-width: 1381px) {
-  .row {
-    display: flex;
-    align-items: center;
-    width: 100%; }
-  .flex-item {
-    margin-left: 15px;
-    margin-right: 15px; }
-  .footer-img {
-    margin-right: 30px; } }
-
-@media only screen and (max-width: 1020px) {
-  .footer-img {
-    margin-right: 20px;
-    height: 30px; } }
-
+/*@media only screen and (max-width: 1381px) {
+    .row {
+      display: flex;
+      align-items: center;
+      width: 100%; 
+  }
+    .flex-item {
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .footer-img{
+      margin-right: 30px;
+    }
+  }
+  @media only screen and (max-width: 1020px) {
+    .footer-img {
+      margin-right: 20px;
+      height: 30px;
+    }
+  }*/
 /*****************************************
     footer.php: MEDIQ QUERY FOR TABLETS/PHONES
   ******************************************/
-@media only screen and (max-width: 977px) {
-  .row {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    height: 500px; }
-  .footer-img {
-    height: 30px;
-    margin-right: 15px; }
-  .col-md-3 {
-    text-align: center;
-    border-bottom: 2px solid #fff;
-    width: 70%; }
-  .col-md-6 {
-    order: 1;
-    border-bottom: 2px solid #fff;
-    width: 70%; } }
-
+/*@media only screen and (max-width: 977px) {
+    .row {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      height: 500px; 
+  }
+    .footer-img {
+      height: 30px;
+      margin-right: 15px;
+    }
+    .col-md-3 {
+      text-align: center;
+      border-bottom: 2px solid #fff;
+      width: 70%;
+    }
+    .col-md-6 {
+      order: 1;
+      border-bottom: 2px solid #fff;
+      width: 70%;
+    }
+  }*/
 /**********************************************
       FOOTER SCSS
 **********************************************/
-footer {
-  /*Support section*/ }
-  footer .col-md-3 .flex-item ul {
+/*footer {*/
+/*Support section*/
+/*.col-md-3 {
+
+    .flex-item{
+
+      ul {
+        padding: 5px 0 5px 0;
+        list-style: none;
+
+        li > a {
+          color: #fff;
+        }
+        li > a:hover {
+          color: $secondary-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}*/
+/**********************************************
+      FOOTER SCSS
+**********************************************/
+footer .footer-container {
+  background-color: #333333;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: 100%; }
+  footer .footer-container .adress-container, footer .footer-container .partners-container, footer .footer-container .meny-container {
+    border-bottom: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  footer .footer-container .adress-container h1, footer .footer-container .adress-container p {
+    color: #fff; }
+  footer .footer-container .adress-container p > a {
+    color: #fff;
+    text-decoration: underline; }
+  footer .footer-container .adress-container p > a:hover {
+    color: #17a9de;
+    text-decoration: none; }
+  footer .footer-container .partners-container {
+    width: 100%; }
+    footer .footer-container .partners-container .title-partner {
+      color: #fff;
+      margin: 0 0 22px 0; }
+    footer .footer-container .partners-container .partner-image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%; }
+      footer .footer-container .partners-container .partner-image-container .footer-img {
+        height: 30px;
+        margin: 0 20px 10px 0; }
+  footer .footer-container .meny-container h1 {
+    color: #fff; }
+  footer .footer-container .meny-container ul {
     padding: 5px 0 5px 0;
     list-style: none; }
-    footer .col-md-3 .flex-item ul li > a {
-      color: #fff; }
-    footer .col-md-3 .flex-item ul li > a:hover {
+    footer .footer-container .meny-container ul li {
+      padding: 5px 0 5px 15px; }
+    footer .footer-container .meny-container ul li > a {
+      color: #fff;
+      font-size: 18px; }
+    footer .footer-container .meny-container ul li > a:hover {
       color: #17a9de;
       text-decoration: none; }
+
+/*****************************************
+    footer.php: MEDIQ QUERY FOR Tablets
+******************************************/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  footer .footer-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*height: 400px;*/
+    width: 100%; }
+    footer .footer-container .adress-container {
+      border-bottom: none;
+      width: 20%; }
+    footer .footer-container .partners-container {
+      border-bottom: none;
+      width: 59%; }
+    footer .footer-container .meny-container {
+      border-bottom: none;
+      width: 20%; }
+      footer .footer-container .meny-container h1 {
+        margin: 0 0 12px 0; } }
+
+/********************************************************
+    footer.php: MEDIQ QUERY FOR Desktop and big screens
+********************************************************/
+@media screen and (min-width: 1025px) and (max-width: 3000px) {
+  footer .footer-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%; }
+    footer .footer-container .adress-container, footer .footer-container .partners-container, footer .footer-container .meny-container {
+      border-bottom: none;
+      width: 20%; }
+    footer .footer-container .partners-container {
+      border-bottom: none;
+      width: 59%; }
+    footer .footer-container .meny-container {
+      border-bottom: none;
+      width: 20%; }
+      footer .footer-container .meny-container h1 {
+        margin: 0 0 12px 0; } }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   /*****************************************
