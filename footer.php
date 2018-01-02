@@ -60,7 +60,7 @@
 				<div class="partner-image-container">
 					<a href="https://www.airpatrol.eu/" rel="noopener" target="blank"><img class="footer-img" src="<?php echo get_template_directory_uri(); ?>/src/images/airPatrol-logo.png" alt="Bild på företaget airPatrol:s loggo"></a>
 					<a href="https://tnenergi.se/" rel="noopener" target="blank"><img class="footer-img" src="<?php echo get_template_directory_uri(); ?>/src/images/tecknorth-logo.png" alt="Bild på företaget technorths:s loggo"></a>
-					<a href="https://varmepumpshopen.se/" rel="noopener" target="blank"><img class="footer-img" src="<?php echo get_template_directory_uri(); ?>/src/images/Zave-logo.png" alt="Bild på företaget Zave:s loggo"></a>
+					<a href="https://varmepumpshopen.se/" rel="noopener" target="blank"><img class="footer-img" src="<?php echo get_template_directory_uri(); ?>/src/images/Zave-logo.png"></a>
 				</div>	
 			</div>
 			<div class="meny-container">

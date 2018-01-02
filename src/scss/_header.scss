@@ -6,7 +6,7 @@ header {
 	
 	.top-header-container {
 		background-color: $primary-color;
-		height: 50px;
+		height: 5px;
 		width: 100%;
 		display: flex;
 		justify-content: flex-end;
@@ -22,34 +22,35 @@ header {
 		justify-content: center;
 		height: 150px;
 		width: 100%;
-	}
 
-	.inner-header-container {
-		background-color: $primary-color;
-		border: 1px solid $primary-color;
-		border-radius: 50px;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		align-items: center;
-		margin-top: 20px;
-		height: 100px;
-		width: 98%;
-
-		.logotype {
-			margin-left: 10px;
-			width: 100%;
-			max-width: 310px;
-		}
-		.navigation-menu {
+		.inner-header-container {
+			background-color: $primary-color;
+			border: 1px solid $primary-color;
+			border-radius: 50px;
 			display: flex;
+			flex-direction: column;
+			/*flex-wrap: wrap;*/
+			justify-content: space-around;
+			align-items: center;
+			margin-top: 20px;
+			height: 100px;
+			width: 98%;
 
-			.menu {
-				width: 600px;
+			.logotype {
+				margin-left: 10px;
+				width: 100%;
+				max-width: 275px;
+			}
+			.navigation-menu {
+				display: flex;
+
+				.menu {
+					width: 600px;
+				}
+				
 			}
 			
 		}
-		
 	}
 
 }
@@ -66,13 +67,19 @@ changing scroll direction*/
 	header {
 		
 		.top-header-container {
-
+			height: 50px;
 			.top-header-logotype {
 				display: block;
 				margin-right: 15px;
 				padding: 5px;
 				width: 150px;
 				
+			}
+		}
+		.header-container {
+
+			.inner-header-container {
+				flex-direction: row;
 			}
 		}
 	}
@@ -85,13 +92,19 @@ changing scroll direction*/
 	header {
 		
 		.top-header-container {
-
+			height: 50px;
 			.top-header-logotype {
 				display: block;
 				margin-right: 15px;
 				padding: 5px;
 				width: 170px;
 				
+			}
+		}
+		.header-container {
+			
+			.inner-header-container {
+				flex-direction: row;
 			}
 		}
 	}

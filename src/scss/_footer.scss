@@ -152,6 +152,8 @@ footer {
 
     .partners-container {
       width: 100%;
+      padding: 10px;
+
       .title-partner {
         color: #fff;
         margin: 0 0 22px 0;
@@ -170,7 +172,7 @@ footer {
         }
         .footer-img {
           height: 30px;
-          margin: 0 20px 10px 0;
+          margin: 0 10px 10px 0;
         }
       }
     }
@@ -233,9 +235,9 @@ footer {
   }
 }
 /********************************************************
-    footer.php: MEDIQ QUERY FOR Desktop and big screens
+    footer.php: MEDIQ QUERY FOR DESKTOP
 ********************************************************/
-@media screen and (min-width: 1025px) and (max-width: 3000px) {
+@media screen and (min-width: 1025px) and (max-width: 1480px) {
 
   footer {
 
@@ -256,6 +258,38 @@ footer {
       .meny-container {
         border-bottom: none;
         width: 20%;
+
+        h1 {
+          margin: 0 0 12px 0;
+        }
+      }
+    }    
+  }
+}
+/********************************************************
+    footer.php: MEDIQ QUERY FOR  BIG SCREENS
+********************************************************/
+@media screen and (min-width: 1481px) and (max-width: 3000px) {
+
+  footer {
+
+    .footer-container {
+      
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%;
+
+      .adress-container, .partners-container, .meny-container {
+        border-bottom: none;
+        width: 32%;
+      }
+      .partners-container {
+        border-bottom: none;
+        width: 32%;
+      }
+      .meny-container {
+        border-bottom: none;
+        width: 32%;
 
         h1 {
           margin: 0 0 12px 0;

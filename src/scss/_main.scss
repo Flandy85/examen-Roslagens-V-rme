@@ -54,7 +54,7 @@ main {
 	/** Second section LG, on page-start.php **/
 	.lg-container {
 		padding: 15px;
-		height: 485px;
+		height: 430px;
 		width: 100%;
 
 		.lg-image-container {
@@ -64,7 +64,7 @@ main {
 			align-items: center;
 			.lg-image{
 				width: 100%;
-				max-width: 380px;
+				max-width: 360px;
 			}
 
 			h3 {
@@ -89,7 +89,7 @@ main {
 				.products-line {
 					background-color: $lg-primary-color;
 					height: 3px;
-					width: 380px;
+					width: 330px;
 				}
 			}
 			h3 {
