@@ -1804,17 +1804,24 @@ footer .footer-container {
             width: 380px; }
       .main-contactus-container .contactus-flexbox-container .streetadress-container {
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-top: 50px; }
-        .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container .visitor-image {
-          width: 100%;
-          max-width: 200px; }
-        .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container p, .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a {
-          font-size: 18px;
-          margin: 0; }
-        .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a {
-          color: #17a9de; }
-        .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a:hover {
-          color: #fa233b; }
+        .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container {
+          width: 39%; }
+          .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container .visitor-image {
+            width: 100%;
+            max-width: 200px; }
+        .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container {
+          margin-top: 50px;
+          width: 39%; }
+          .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container p, .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a {
+            font-size: 18px;
+            margin: 0; }
+          .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a {
+            color: #17a9de; }
+          .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a:hover {
+            color: #fa233b; }
     .main-contactus-container #wpforms-158-field_8 {
       width: 415px; } }
