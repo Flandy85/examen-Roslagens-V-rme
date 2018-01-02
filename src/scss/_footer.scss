@@ -163,6 +163,11 @@ footer {
         align-items: center;  
         width: 100%;
 
+        a:hover {
+          webkit-box-shadow: 3px 11px 91px 0px rgba(255,255,255,1);
+          -moz-box-shadow: 3px 11px 91px 0px rgba(255,255,255,1);
+          box-shadow: 3px 11px 91px 0px rgba(255,255,255,1);
+        }
         .footer-img {
           height: 30px;
           margin: 0 20px 10px 0;

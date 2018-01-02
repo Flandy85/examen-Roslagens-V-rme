@@ -1225,6 +1225,10 @@ footer .footer-container {
       justify-content: center;
       align-items: center;
       width: 100%; }
+      footer .footer-container .partners-container .partner-image-container a:hover {
+        webkit-box-shadow: 3px 11px 91px 0px white;
+        -moz-box-shadow: 3px 11px 91px 0px white;
+        box-shadow: 3px 11px 91px 0px white; }
       footer .footer-container .partners-container .partner-image-container .footer-img {
         height: 30px;
         margin: 0 20px 10px 0; }
