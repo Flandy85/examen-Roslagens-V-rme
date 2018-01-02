@@ -249,10 +249,12 @@ main {
 	background-position: center;
 	.contactus-flexbox-container {
 		display: flex;
+		justify-content: space-around;
+
 		.contactus-container {
 			margin-top: 50px;
 			padding: 15px;
-			width: 50%;
+			width: 40%;
 
 			.contactus-header-container {
 				display: flex;
@@ -286,7 +288,7 @@ main {
 		.visitor-container {
 			margin-top: 50px;
 			padding: 15px;
-			width: 49%;
+			width: 40%;
 
 			.visitor-header-container {
 				display: flex;

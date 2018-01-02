@@ -1766,11 +1766,12 @@ footer .footer-container {
     background-repeat: no-repeat;
     background-position: center; }
     .main-contactus-container .contactus-flexbox-container {
-      display: flex; }
+      display: flex;
+      justify-content: space-around; }
       .main-contactus-container .contactus-flexbox-container .contactus-container {
         margin-top: 50px;
         padding: 15px;
-        width: 50%; }
+        width: 40%; }
         .main-contactus-container .contactus-flexbox-container .contactus-container .contactus-header-container {
           display: flex;
           flex-direction: column;
@@ -1790,7 +1791,7 @@ footer .footer-container {
       .main-contactus-container .contactus-flexbox-container .visitor-container {
         margin-top: 50px;
         padding: 15px;
-        width: 49%; }
+        width: 40%; }
         .main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container {
           display: flex;
           flex-direction: column;
