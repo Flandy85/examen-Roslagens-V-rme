@@ -193,10 +193,11 @@ main {
 			width: 100%;
 		}
 	}
+	/*Support section*/
 	.panasonic-support-container {
 		background-color: #bababa;
 		display: flex;
-		height: 310px;
+		height: 365px;
 		width: 100%;
 
 		.panasonic-support-text-container {
@@ -222,30 +223,10 @@ main {
 				text-decoration: none;
 				text-transform: uppercase;
 			}
-			/*.Panasonic {
-				color: $complementary-color-three;
-
-				font-weight: bolder;
-			}
-			.pan-customer {
-				color: $complmentary-color;
-				font-weight: bolder;
-			}
-			.pan-customer-service {
-				color: $secondary-color;
-				font-weight: bolder;
-			}*/
 		}
 		.panasonic-propartners-container {
 			display: none;
 			
-
-			/*.propartners-title {
-				font-family: $primary-font;
-			}
-			.panasonic-propartners-image {
-				margin-top: 30px;
-			}*/
 		}
 	}
 	/** Panasonic products section **/
@@ -294,6 +275,7 @@ main {
 /*****************************************************************
 	page-panasonicpumpswater.php: PANASONIC AIR-WATER PUMPS PAGE
 *****************************************************************/
+/* Start section */
 .main-panasonic-water {
 	margin-top: 210px;
 	.panasonic-container {
@@ -305,10 +287,11 @@ main {
 			width: 100%;
 		}
 	}
+	/*Support section*/
 	.panasonic-support-container {
 		background-color: #bababa;
 		display: flex;
-		height: 310px;
+		height: 390px;
 		width: 100%;
 
 		.panasonic-support-text-container {
@@ -334,16 +317,9 @@ main {
 				text-transform: uppercase;
 			}
 		}
+		/*Certificate in support section, isn't shown in mobile view*/
 		.panasonic-propartners-container {
-			display: none;
-			
-
-			/*.propartners-title {
-				font-family: $primary-font;
-			}
-			.panasonic-propartners-image {
-				margin-top: 30px;
-			}*/
+			display: none; /*Dont display certificate container in mobile view*/
 		}
 	}
 	/** Panasonic products section **/
@@ -394,7 +370,7 @@ main {
 	page-lgsplitpumps.php: LG SPLIT PUMPS PAGE
 *****************************************************************/
 .main-lg-split-pumps {
-
+	/*Start section on LG Split pumps page*/
 	.lg-container {
 		height: 400px;
 		width: 100%;
@@ -453,7 +429,7 @@ main {
 			}
 		}
 	}
-	/** LG Support container **/
+	/** LG Support section container **/
 	.lg-support-container {
 		background-color: #f4f4f4;
 		display: flex;
@@ -529,7 +505,7 @@ main {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-
+	/*Contact us section*/
 	.contactus-container {
 		padding: 15px;
 		width: 100%;
@@ -563,6 +539,7 @@ main {
 		}
 
 	}
+	/*Visitor section container*/
 	.visitor-container {
 		width: 100%;
 		.visitor-header-container {
@@ -580,7 +557,7 @@ main {
 				width: 380px;
 			}
 		}
-
+		/*Streetadress section inside visitor section*/
 		.streetadress-container {
 			margin-top: 20px;
 			.visitor-image {
@@ -619,7 +596,7 @@ main {
 	
 }
 .box {
-	width: 100%; //Ta bort för att ändra utseende. Blir dock problem i stora skärmar i IE 11!!!
+	width: 100%; /*Ta bort för att ändra utseende. Blir dock problem i stora skärmar i IE 11!!! */
 	text-align: center;
 	flex: 1 auto;
 	
