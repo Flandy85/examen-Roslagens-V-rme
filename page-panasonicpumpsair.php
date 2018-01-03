@@ -37,6 +37,10 @@
 
 
 						<!-- <a href="https://www.aircon.panasonic.eu/SE_sv/contact/" rel="noopener" target="blank"> <span class="Panasonic">Panasonics</span> <span class="pan-customer">kund</span><span class="pan-customer-service">tjänst</span></a></p> -->
+				</div>
+				<div class="panasonic-propartners-container">
+					<h2 class="propartners-title"><?php echo get_field('propartners-title'); ?></h2>
+					<img src="<?php the_field('panasonic-propartners-image'); ?>" class="panasonic-propartners-image" alt="Logotype of the company Panasonic" />
 				</div>	
 			</div>
 			<!-- Third section, Panasonic products -->

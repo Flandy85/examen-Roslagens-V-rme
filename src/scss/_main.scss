@@ -203,11 +203,28 @@ main {
 			line-height: 25px;
 			padding: 15px;
 
+			.support-title, p {
+				color: $complementary-color-three;
+			}
+
 			.support-title {
 				font-family: $primary-font;
 			}
-			.Panasonic {
+			p {
+				font-family: $primary-font;
+				font-size: 18px;
+			}
+			a {
+				color: $secondary-color;
+			}
+			p > a:hover {
+				color: $secondary-color;
+				text-decoration: none;
+				text-transform: uppercase;
+			}
+			/*.Panasonic {
 				color: $complementary-color-three;
+
 				font-weight: bolder;
 			}
 			.pan-customer {
@@ -217,7 +234,18 @@ main {
 			.pan-customer-service {
 				color: $secondary-color;
 				font-weight: bolder;
+			}*/
+		}
+		.panasonic-propartners-container {
+			display: none;
+			
+
+			/*.propartners-title {
+				font-family: $primary-font;
 			}
+			.panasonic-propartners-image {
+				margin-top: 30px;
+			}*/
 		}
 	}
 	/** Panasonic products section **/
@@ -287,21 +315,35 @@ main {
 			line-height: 25px;
 			padding: 15px;
 
+			.support-title, p {
+				color: $complementary-color-three;
+			}
 			.support-title {
 				font-family: $primary-font;
 			}
-			.Panasonic {
-				color: $complementary-color-three;
-				font-weight: bolder;
+			p {
+				font-family: $primary-font;
+				font-size: 18px;
 			}
-			.pan-customer {
-				color: $complmentary-color;
-				font-weight: bolder;
-			}
-			.pan-customer-service {
+			a {
 				color: $secondary-color;
-				font-weight: bolder;
 			}
+			p > a:hover {
+				color: $secondary-color;
+				text-decoration: none;
+				text-transform: uppercase;
+			}
+		}
+		.panasonic-propartners-container {
+			display: none;
+			
+
+			/*.propartners-title {
+				font-family: $primary-font;
+			}
+			.panasonic-propartners-image {
+				margin-top: 30px;
+			}*/
 		}
 	}
 	/** Panasonic products section **/
@@ -364,9 +406,10 @@ main {
 			align-items: center;
 
 			h3 {
+				color: #6d6d6d;
 				margin: 2px;
 				padding: 0;
-				color: #6d6d6d;
+				
 			}
 		}
 		.lg-menu-container {
@@ -426,6 +469,7 @@ main {
 				font-family: $primary-font;
 			}
 			p > a {
+				font-family: $primary-font;
 				font-weight: bold;
 				color: $complementary-color-three;
 			}
