@@ -1546,7 +1546,8 @@ footer .footer-container {
     background-image: url("contactusbackground-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: center;
+    /*Css for wp plugin form, giving fields 100% max-width*/ }
     .main-contactus-container .contactus-flexbox-container {
       display: flex;
       justify-content: space-around;
@@ -1781,7 +1782,8 @@ footer .footer-container {
     background-image: url("contactusbackground-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: center;
+    /*Css for wp plugin form, giving fields 100% max-width*/ }
     .main-contactus-container .contactus-flexbox-container {
       display: flex;
       justify-content: center; }
