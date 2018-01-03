@@ -838,7 +838,8 @@ main {
   /*Visitor section container*/ }
   .main-contactus-container .contactus-container {
     padding: 15px;
-    width: 100%; }
+    width: 100%;
+    /*First section with contact information*/ }
     .main-contactus-container .contactus-container .contactus-header-container {
       display: flex;
       flex-direction: column;
@@ -1683,6 +1684,7 @@ footer .footer-container {
 	page-panasonicpumpswater.php: PANASONIC AIR-WATER PUMPS PAGE
 *****************************************************************/
   .main-panasonic-water {
+    /*Support section container with pro partners container */
     /** Panasonic products section **/ }
     .main-panasonic-water .panasonic-container {
       display: flex;
@@ -1696,7 +1698,8 @@ footer .footer-container {
     .main-panasonic-water .panasonic-support-container {
       display: flex;
       flex-direction: row;
-      justify-content: space-around; }
+      justify-content: space-around;
+      /*Panasonic Pro partners container*/ }
       .main-panasonic-water .panasonic-support-container .panasonic-support-text-container {
         width: 36%; }
       .main-panasonic-water .panasonic-support-container .panasonic-propartners-container {
@@ -1736,6 +1739,7 @@ footer .footer-container {
 	page-lgsplitpumps.php: LG SPLIT PUMPS PAGE
 *****************************************************************/
   .main-lg-split-pumps {
+    /*LG main container*/
     /** LG Support container **/
     /** LG Splitpumps section **/
     /** LG accessories section **/ }
@@ -1767,14 +1771,14 @@ footer .footer-container {
           height: 3px;
           width: 380px; }
   /*****************************************************************
-	page-contactus.php: Contact Us PAGE
+	page-contactus.php: CONTACT US PAGE
 *****************************************************************/
   .main-contactus-container {
     background-image: url("contactusbackground-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /*Css for wp plugin form, giving fields 100% max-width*/ }
+    /*Css for wp plugin form, giving text-fields 100% max-width*/ }
     .main-contactus-container .contactus-flexbox-container {
       display: flex;
       justify-content: center; }

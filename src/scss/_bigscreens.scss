@@ -3,7 +3,6 @@
 ******************************************/
 main {
 	/** First section on page-start.php **/
-
 	.rvft-img-outer-container {
 
 		background-image: url('Panasonic-startsida-desktop.jpg');
@@ -176,6 +175,7 @@ main {
 			width: 49%;
 		}
 	}
+	/*Support section container with pro partners container */
 	.panasonic-support-container {
 		display: flex;
 		flex-direction: row;
@@ -184,6 +184,7 @@ main {
 		.panasonic-support-text-container {
 			width: 36%;
 		}
+		/*Panasonic Pro partners container*/
 		.panasonic-propartners-container {
 			display: flex;
 			flex-direction: column;
@@ -238,7 +239,7 @@ main {
 	page-lgsplitpumps.php: LG SPLIT PUMPS PAGE
 *****************************************************************/
 .main-lg-split-pumps {
-
+	/*LG main container*/
 	.lg-container {
 		justify-content: center;
 		height: 400px;
@@ -283,7 +284,7 @@ main {
 	}
 }
 /*****************************************************************
-	page-contactus.php: Contact Us PAGE
+	page-contactus.php: CONTACT US PAGE
 *****************************************************************/
 .main-contactus-container {
 
@@ -384,7 +385,7 @@ main {
 			}
 		}
 	}
-	/*Css for wp plugin form, giving fields 100% max-width*/
+	/*Css for wp plugin form, giving text-fields 100% max-width*/
 	#wpforms-158-field_1, #wpforms-158-field_2, #wpforms-158-field_4, #wpforms-158-field_7 {
 		max-width: 100%;
 	}
