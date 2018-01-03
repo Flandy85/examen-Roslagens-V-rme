@@ -395,9 +395,12 @@ template {
 ****************************/
 /** LG COLORS **/
 /***************************
-		FONTS
+	FONTS AND FONT-SIZES
 ***************************/
 /** Font-size Panasonic/LG **/
+/************************************************
+			CSS FOR HEADER SECTION ONLY
+************************************************/
 header {
   position: fixed;
   top: 0px;
@@ -485,7 +488,8 @@ changing scroll direction*/
 
 	Every section is named after
 	every php file. Use ctrl/cmd + f
-	to find css for each page.php file.
+	to find  each css section 
+	for each page.php file.
 ***************************************/
 /*****************************************
 	page-start.php: HOME PAGE
@@ -626,7 +630,8 @@ main {
     background-color: #bababa;
     display: flex;
     height: 365px;
-    width: 100%; }
+    width: 100%;
+    /*Certificate in support section, isn't shown in mobile view*/ }
     .main-panasonic-air .panasonic-support-container .panasonic-support-text-container {
       line-height: 25px;
       padding: 15px; }
@@ -636,7 +641,8 @@ main {
         font-family: Josefin Sans, sans-serif; }
       .main-panasonic-air .panasonic-support-container .panasonic-support-text-container p {
         font-family: Josefin Sans, sans-serif;
-        font-size: 18px; }
+        font-size: 18px;
+        /*font-size: 18px;*/ }
       .main-panasonic-air .panasonic-support-container .panasonic-support-text-container a {
         color: #17a9de; }
       .main-panasonic-air .panasonic-support-container .panasonic-support-text-container p > a:hover {
@@ -644,7 +650,8 @@ main {
         text-decoration: none;
         text-transform: uppercase; }
     .main-panasonic-air .panasonic-support-container .panasonic-propartners-container {
-      display: none; }
+      display: none;
+      /*Dont display certificate container in mobile view*/ }
   .main-panasonic-air .panasonic-products-container {
     height: auto;
     width: 100%;
@@ -1338,6 +1345,7 @@ footer .footer-container {
 ***********************************************************/
   .main-panasonic-air {
     /** Panasonic support section on page-panasonicairpumps.php **/
+    /*Support section container*/
     /** Panasonic products section **/ }
     .main-panasonic-air .panasonic-container {
       display: flex;
@@ -1404,6 +1412,7 @@ footer .footer-container {
 	page-panasonicpumpswater.php: PANASONIC AIR-WATER PUMPS PAGE
 *****************************************************************/
   .main-panasonic-water {
+    /*Support section container*/
     /** Panasonic products section **/ }
     .main-panasonic-water .panasonic-container {
       display: flex;
@@ -1414,19 +1423,21 @@ footer .footer-container {
         width: 49%; }
       .main-panasonic-water .panasonic-container .panasonic-menu-container {
         width: 49%; }
-    .main-panasonic-water .panasonic-support-container .panasonic-support-text-container {
-      width: 49%; }
-    .main-panasonic-water .panasonic-support-container .panasonic-propartners-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 49%; }
-      .main-panasonic-water .panasonic-support-container .panasonic-propartners-container .propartners-title {
-        color: #000000;
-        font-family: Josefin Sans, sans-serif; }
-      .main-panasonic-water .panasonic-support-container .panasonic-propartners-container .panasonic-propartners-image {
-        margin-top: 30px; }
+    .main-panasonic-water .panasonic-support-container {
+      /*Certificate section inside support section container*/ }
+      .main-panasonic-water .panasonic-support-container .panasonic-support-text-container {
+        width: 49%; }
+      .main-panasonic-water .panasonic-support-container .panasonic-propartners-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 49%; }
+        .main-panasonic-water .panasonic-support-container .panasonic-propartners-container .propartners-title {
+          color: #000000;
+          font-family: Josefin Sans, sans-serif; }
+        .main-panasonic-water .panasonic-support-container .panasonic-propartners-container .panasonic-propartners-image {
+          margin-top: 30px; }
     .main-panasonic-water .panasonic-waterpump-products-container {
       display: flex;
       justify-content: center;
@@ -1454,7 +1465,7 @@ footer .footer-container {
 *****************************************************************/
   .main-lg-split-pumps {
     /** LG Support container **/
-    /** LG Splitpumps section **/
+    /** LG Splitpumps products section **/
     /** LG accessories section **/ }
     .main-lg-split-pumps .lg-container {
       height: 400px;
@@ -1494,11 +1505,14 @@ footer .footer-container {
     .main-contactus-container .contactus-flexbox-container {
       display: flex;
       justify-content: space-around;
-      width: 100%; }
+      width: 100%;
+      /*Section containing visitor title*/
+      /* Section containg adress picture and adress information*/ }
       .main-contactus-container .contactus-flexbox-container .contactus-container {
         margin-top: 50px;
         padding: 15px;
-        width: 40%; }
+        width: 40%;
+        /*Section containing contact us text and WP-Form plugin*/ }
         .main-contactus-container .contactus-flexbox-container .contactus-container .contactus-header-container {
           display: flex;
           flex-direction: column;

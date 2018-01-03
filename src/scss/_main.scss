@@ -4,7 +4,8 @@
 
 	Every section is named after
 	every php file. Use ctrl/cmd + f
-	to find css for each page.php file.
+	to find  each css section 
+	for each page.php file.
 ***************************************/
 /*****************************************
 	page-start.php: HOME PAGE
@@ -213,7 +214,8 @@ main {
 			}
 			p {
 				font-family: $primary-font;
-				font-size: 18px;
+				font-size: $primary-font-size;
+				/*font-size: 18px;*/
 			}
 			a {
 				color: $secondary-color;
@@ -224,9 +226,9 @@ main {
 				text-transform: uppercase;
 			}
 		}
+		/*Certificate in support section, isn't shown in mobile view*/
 		.panasonic-propartners-container {
-			display: none;
-			
+			display: none; /*Dont display certificate container in mobile view*/
 		}
 	}
 	/** Panasonic products section **/
@@ -248,7 +250,7 @@ main {
 					padding: 15px;
 
 					h3 {
-						font-size: 20px;
+						font-size: $secondary-font-size;
 					}
 					p > a {
 						color: $secondary-color;
@@ -306,7 +308,7 @@ main {
 			}
 			p {
 				font-family: $primary-font;
-				font-size: 18px;
+				font-size: $primary-font-size;
 			}
 			a {
 				color: $secondary-color;
@@ -342,7 +344,7 @@ main {
 					padding: 15px;
 
 					h3 {
-						font-size: 20px;
+						font-size: $secondary-font-size;
 					}
 					p > a {
 						color: $secondary-color;
@@ -471,7 +473,7 @@ main {
 					padding: 15px;
 
 					h3 {
-						font-size: 20px;
+						font-size: $secondary-font-size;
 					}
 					p > a {
 						font-weight: bold;
@@ -521,7 +523,7 @@ main {
 		}
 		p, a {
 			font-family: $primary-font;
-			font-size: 18px;
+			font-size: $primary-font-size;
 		}
 		a {
 			color: $secondary-color;
@@ -572,7 +574,7 @@ main {
 
 				p, a {
 					font-family: $primary-font;
-					font-size: 18px;
+					font-size: $primary-font-size;
 				}
 				a:hover {
 					color: $complmentary-color;
@@ -889,10 +891,10 @@ main {
 	display: flex;
 	justify-content: center;
 }
+
 /*************************************************
 		Active class for js script on hover
 *************************************************/
-
 .active {
 	color: $secondary-color;
 	text-decoration: none;

@@ -73,6 +73,7 @@ main {
 
 		
 	}
+	/*Support section container*/
 	.panasonic-support-container {
 		display: flex;
 		flex-direction: row;
@@ -161,6 +162,7 @@ main {
 			width: 49%;
 		}
 	}
+	/*Support section container*/
 	.panasonic-support-container {
 
 		.panasonic-support-text-container {
@@ -168,6 +170,7 @@ main {
 			width: 49%;
 
 		}
+		/*Certificate section inside support section container*/
 		.panasonic-propartners-container {
 			display: flex;
 			flex-direction: column;
@@ -236,7 +239,7 @@ main {
 		
 		}
 	}
-	/** LG Splitpumps section **/
+	/** LG Splitpumps products section **/
 	.lg-splitpumps-products-container {
 		display: flex;
 		justify-content: space-around;
@@ -281,7 +284,7 @@ main {
 			margin-top: 50px;
 			padding: 15px;
 			width: 40%;
-
+			/*Section containing contact us text and WP-Form plugin*/
 			.contactus-header-container {
 				display: flex;
 				flex-direction: column;
@@ -311,6 +314,7 @@ main {
 			}
 
 		}
+		/*Section containing visitor title*/
 		.visitor-container {
 			margin-top: 50px;
 			padding: 15px;
@@ -331,7 +335,7 @@ main {
 				}
 			}
 		}
-
+		/* Section containg adress picture and adress information*/
 		.streetadress-container {
 			display: flex;
 			flex-direction: column;
