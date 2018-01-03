@@ -36,6 +36,9 @@ main {
 				width: 100%;
 				max-width: 500px;
 			}
+			h2 {
+				font-family: $primary-font;
+			}
 		}
 		.placeholder-div {
 			display: none;
@@ -49,6 +52,10 @@ main {
 		justify-content: center;
 		padding: 10px;
 		width: 100%;
+
+		h4 {
+			font-family: $primary-font;
+		}
 
 	}
 	/** Second section LG, on page-start.php **/
@@ -489,9 +496,11 @@ main {
 		}
 
 		h3, p {
+			font-family: $primary-font;
 			color: $complementary-color-three;
 		}
 		p, a {
+			font-family: $primary-font;
 			font-size: 18px;
 		}
 		a {
@@ -519,6 +528,7 @@ main {
 			align-items: center;
 			.visitor-title {
 				color: $complementary-color-three;
+				font-family: $primary-font;
 			}
 			.visitor-line {
 				background-color: $complementary-color-three;
@@ -540,6 +550,7 @@ main {
 				align-items: center;
 
 				p, a {
+					font-family: $primary-font;
 					font-size: 18px;
 				}
 				a:hover {

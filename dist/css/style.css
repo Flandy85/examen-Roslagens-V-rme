@@ -516,6 +516,8 @@ main {
       main .rvft-img-outer-container .rvft-img-inner-container .rvft-img-logo {
         width: 100%;
         max-width: 500px; }
+      main .rvft-img-outer-container .rvft-img-inner-container h2 {
+        font-family: Josefin Sans, sans-serif; }
     main .rvft-img-outer-container .placeholder-div {
       display: none; }
   main .small-title-container {
@@ -525,6 +527,8 @@ main {
     justify-content: center;
     padding: 10px;
     width: 100%; }
+    main .small-title-container h4 {
+      font-family: Josefin Sans, sans-serif; }
   main .lg-container {
     padding: 15px;
     height: 430px;
@@ -816,8 +820,10 @@ main {
       flex-direction: column;
       align-items: center; }
     .main-contactus-container .contactus-container h3, .main-contactus-container .contactus-container p {
+      font-family: Josefin Sans, sans-serif;
       color: #000000; }
     .main-contactus-container .contactus-container p, .main-contactus-container .contactus-container a {
+      font-family: Josefin Sans, sans-serif;
       font-size: 18px; }
     .main-contactus-container .contactus-container a {
       color: #17a9de; }
@@ -836,7 +842,8 @@ main {
       justify-content: center;
       align-items: center; }
       .main-contactus-container .visitor-container .visitor-header-container .visitor-title {
-        color: #000000; }
+        color: #000000;
+        font-family: Josefin Sans, sans-serif; }
       .main-contactus-container .visitor-container .visitor-header-container .visitor-line {
         background-color: #000000;
         height: 3px;
@@ -852,6 +859,7 @@ main {
         justify-content: center;
         align-items: center; }
         .main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container p, .main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container a {
+          font-family: Josefin Sans, sans-serif;
           font-size: 18px; }
         .main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container a:hover {
           color: #fa233b;
@@ -1109,118 +1117,6 @@ main {
   color: #17a9de;
   text-decoration: none; }
 
-/*.row {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 300px;
-  
-  }
-  .footer-container {
-    background-color: #333333;
-    color: #fff;
-    display: flex;
-    align-items: center;
-  }
-  .flex-item {
-    margin-left: 60px;
-    margin-right: 60px;
-  }
-  .flex-item-center, .flex-item-center2 {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-around;
-  }
-  .footer-img {
-    height: 35px;
-    margin-right: 80px;
-    margin-bottom: 20px;
-  }
-  .title-partner {
-    text-align: center;
-  }
-  .employees-grid {
-      margin-bottom: 50px;
-  }
-  @media only screen and (max-width: 1691px) {
-    .footer-img {
-      height: 30px;
-      margin-right: 50px;
-      }
-  }*/
-/*****************************************
-    footer.php: MEDIQ QUERY FOR TABLETS
-  ******************************************/
-/*@media only screen and (max-width: 1381px) {
-    .row {
-      display: flex;
-      align-items: center;
-      width: 100%; 
-  }
-    .flex-item {
-      margin-left: 15px;
-      margin-right: 15px;
-    }
-    .footer-img{
-      margin-right: 30px;
-    }
-  }
-  @media only screen and (max-width: 1020px) {
-    .footer-img {
-      margin-right: 20px;
-      height: 30px;
-    }
-  }*/
-/*****************************************
-    footer.php: MEDIQ QUERY FOR TABLETS/PHONES
-  ******************************************/
-/*@media only screen and (max-width: 977px) {
-    .row {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      width: 100%;
-      height: 500px; 
-  }
-    .footer-img {
-      height: 30px;
-      margin-right: 15px;
-    }
-    .col-md-3 {
-      text-align: center;
-      border-bottom: 2px solid #fff;
-      width: 70%;
-    }
-    .col-md-6 {
-      order: 1;
-      border-bottom: 2px solid #fff;
-      width: 70%;
-    }
-  }*/
-/**********************************************
-      FOOTER SCSS
-**********************************************/
-/*footer {*/
-/*Support section*/
-/*.col-md-3 {
-
-    .flex-item{
-
-      ul {
-        padding: 5px 0 5px 0;
-        list-style: none;
-
-        li > a {
-          color: #fff;
-        }
-        li > a:hover {
-          color: $secondary-color;
-          text-decoration: none;
-        }
-      }
-    }
-  }
-}*/
 /**********************************************
       FOOTER SCSS
 **********************************************/
@@ -1236,10 +1132,16 @@ footer .footer-container {
     justify-content: center;
     align-items: center;
     width: 100%; }
-  footer .footer-container .adress-container h1, footer .footer-container .adress-container p {
-    color: #fff; }
+  footer .footer-container .adress-container h1 {
+    color: #fff;
+    font-family: Josefin Sans, sans-serif; }
+  footer .footer-container .adress-container p {
+    color: #fff;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 18px; }
   footer .footer-container .adress-container p > a {
     color: #fff;
+    font-family: Josefin Sans, sans-serif;
     text-decoration: underline; }
   footer .footer-container .adress-container p > a:hover {
     color: #17a9de;
@@ -1249,6 +1151,7 @@ footer .footer-container {
     padding: 10px; }
     footer .footer-container .partners-container .title-partner {
       color: #fff;
+      font-family: Josefin Sans, sans-serif;
       margin: 0 0 22px 0; }
     footer .footer-container .partners-container .partner-image-container {
       display: flex;
@@ -1256,19 +1159,17 @@ footer .footer-container {
       justify-content: center;
       align-items: center;
       width: 100%; }
-      footer .footer-container .partners-container .partner-image-container a:hover {
-        -webkit-box-shadow: 0px 0px 19px 9px white;
-        -moz-box-shadow: 0px 0px 19px 9px white;
-        box-shadow: 0px 0px 19px 9px white; }
       footer .footer-container .partners-container .partner-image-container .footer-img {
         height: 30px;
         margin: 0 10px 10px 0; }
   footer .footer-container .meny-container h1 {
-    color: #fff; }
+    color: #fff;
+    font-family: Josefin Sans, sans-serif; }
   footer .footer-container .meny-container ul {
     padding: 5px 0 5px 0;
     list-style: none; }
     footer .footer-container .meny-container ul li {
+      font-family: Josefin Sans, sans-serif;
       padding: 5px 0 5px 15px; }
     footer .footer-container .meny-container ul li > a {
       color: #fff;
