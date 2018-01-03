@@ -491,9 +491,6 @@ main {
 		h3, p {
 			color: $complementary-color-three;
 		}
-		h3 {
-			
-		}
 		p, a {
 			font-size: 18px;
 		}
@@ -502,6 +499,8 @@ main {
 		}
 		a:hover {
 			color: $complmentary-color;
+			text-decoration: none;
+
 		}
 		
 		.contactus-line {
@@ -529,10 +528,24 @@ main {
 		}
 
 		.streetadress-container {
-
+			margin-top: 20px;
 			.visitor-image {
 				width: 100%;
 				max-widht: 400px;
+			}
+			.streetadress-adress-container {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				p, a {
+					font-size: 18px;
+				}
+				a:hover {
+					color: $complmentary-color;
+					text-decoration: none;
+				}
 			}
 		}
 	}

@@ -822,7 +822,8 @@ main {
     .main-contactus-container .contactus-container a {
       color: #17a9de; }
     .main-contactus-container .contactus-container a:hover {
-      color: #fa233b; }
+      color: #fa233b;
+      text-decoration: none; }
     .main-contactus-container .contactus-container .contactus-line {
       background-color: #000000;
       height: 3px;
@@ -840,9 +841,21 @@ main {
         background-color: #000000;
         height: 3px;
         width: 380px; }
-    .main-contactus-container .visitor-container .streetadress-container .visitor-image {
-      width: 100%;
-      max-widht: 400px; }
+    .main-contactus-container .visitor-container .streetadress-container {
+      margin-top: 20px; }
+      .main-contactus-container .visitor-container .streetadress-container .visitor-image {
+        width: 100%;
+        max-widht: 400px; }
+      .main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container p, .main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container a {
+          font-size: 18px; }
+        .main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container a:hover {
+          color: #fa233b;
+          text-decoration: none; }
 
 /***********************************************************************************************************
   Inför.php: INFÖR 
@@ -1244,9 +1257,9 @@ footer .footer-container {
       align-items: center;
       width: 100%; }
       footer .footer-container .partners-container .partner-image-container a:hover {
-        webkit-box-shadow: 3px 11px 91px 0px white;
-        -moz-box-shadow: 3px 11px 91px 0px white;
-        box-shadow: 3px 11px 91px 0px white; }
+        -webkit-box-shadow: 0px 0px 19px 9px white;
+        -moz-box-shadow: 0px 0px 19px 9px white;
+        box-shadow: 0px 0px 19px 9px white; }
       footer .footer-container .partners-container .partner-image-container .footer-img {
         height: 30px;
         margin: 0 10px 10px 0; }
@@ -1292,6 +1305,7 @@ footer .footer-container {
   footer .footer-container {
     flex-wrap: wrap;
     justify-content: space-around;
+    height: 300px;
     width: 100%; }
     footer .footer-container .adress-container, footer .footer-container .partners-container, footer .footer-container .meny-container {
       border-bottom: none;
@@ -1312,6 +1326,7 @@ footer .footer-container {
   footer .footer-container {
     flex-wrap: wrap;
     justify-content: space-around;
+    height: 300px;
     width: 100%; }
     footer .footer-container .adress-container, footer .footer-container .partners-container, footer .footer-container .meny-container {
       border-bottom: none;
@@ -1592,6 +1607,8 @@ footer .footer-container {
             color: #17a9de; }
           .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a:hover {
             color: #fa233b; }
+    .main-contactus-container #wpforms-158-field_1, .main-contactus-container #wpforms-158-field_2, .main-contactus-container #wpforms-158-field_4, .main-contactus-container #wpforms-158-field_7 {
+      max-width: 77%; }
     .main-contactus-container #wpforms-158-field_8 {
       width: 415px; } }
 
@@ -1767,11 +1784,11 @@ footer .footer-container {
     background-position: center; }
     .main-contactus-container .contactus-flexbox-container {
       display: flex;
-      justify-content: space-around; }
+      justify-content: center; }
       .main-contactus-container .contactus-flexbox-container .contactus-container {
         margin-top: 50px;
         padding: 15px;
-        width: 40%; }
+        width: 30%; }
         .main-contactus-container .contactus-flexbox-container .contactus-container .contactus-header-container {
           display: flex;
           flex-direction: column;
@@ -1791,7 +1808,7 @@ footer .footer-container {
       .main-contactus-container .contactus-flexbox-container .visitor-container {
         margin-top: 50px;
         padding: 15px;
-        width: 40%; }
+        width: 30%; }
         .main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container {
           display: flex;
           flex-direction: column;
@@ -1815,14 +1832,20 @@ footer .footer-container {
             width: 100%;
             max-width: 200px; }
         .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container {
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
           margin-top: 50px;
           width: 39%; }
           .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container p, .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a {
+            text-align: left;
             font-size: 18px;
             margin: 0; }
           .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a {
             color: #17a9de; }
           .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a:hover {
             color: #fa233b; }
+    .main-contactus-container #wpforms-158-field_1, .main-contactus-container #wpforms-158-field_2, .main-contactus-container #wpforms-158-field_4, .main-contactus-container #wpforms-158-field_7 {
+      max-width: 100%; }
     .main-contactus-container #wpforms-158-field_8 {
       width: 415px; } }

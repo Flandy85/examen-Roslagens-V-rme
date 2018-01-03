@@ -249,12 +249,12 @@ main {
 	background-position: center;
 	.contactus-flexbox-container {
 		display: flex;
-		justify-content: space-around;
+		justify-content: center;
 
 		.contactus-container {
 			margin-top: 50px;
 			padding: 15px;
-			width: 40%;
+			width: 30%;
 
 			.contactus-header-container {
 				display: flex;
@@ -288,7 +288,7 @@ main {
 		.visitor-container {
 			margin-top: 50px;
 			padding: 15px;
-			width: 40%;
+			width: 30%;
 
 			.visitor-header-container {
 				display: flex;
@@ -321,9 +321,13 @@ main {
 				}
 			}
 			.streetadress-adress-container {
+				display: flex;
+				justify-content: flex-start;
+				align-items: flex-start;
 				margin-top: 50px;
 				width: 39%;
 				p, a {
+					text-align: left;
 					font-size: 18px;
 					margin: 0;
 				}
@@ -335,6 +339,9 @@ main {
 				}
 			}
 		}
+	}
+	#wpforms-158-field_1, #wpforms-158-field_2, #wpforms-158-field_4, #wpforms-158-field_7 {
+		max-width: 100%;
 	}
 	#wpforms-158-field_8 {
 		width: 415px;
