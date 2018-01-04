@@ -1508,12 +1508,13 @@ footer .footer-container {
       .main-panasonic-air .panasonic-support-container .panasonic-propartners-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         width: 49%; }
         .main-panasonic-air .panasonic-support-container .panasonic-propartners-container .propartners-title {
           color: #000000;
-          font-family: Josefin Sans, sans-serif; }
+          font-family: Josefin Sans, sans-serif;
+          margin-top: 35px; }
         .main-panasonic-air .panasonic-support-container .panasonic-propartners-container .panasonic-propartners-image {
           margin-top: 30px; }
     .main-panasonic-air .panasonic-products-container {
@@ -1570,12 +1571,13 @@ footer .footer-container {
       .main-panasonic-water .panasonic-support-container .panasonic-propartners-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         width: 49%; }
         .main-panasonic-water .panasonic-support-container .panasonic-propartners-container .propartners-title {
           color: #000000;
-          font-family: Josefin Sans, sans-serif; }
+          font-family: Josefin Sans, sans-serif;
+          margin-top: 35px; }
         .main-panasonic-water .panasonic-support-container .panasonic-propartners-container .panasonic-propartners-image {
           margin-top: 30px; }
     .main-panasonic-water .panasonic-waterpump-products-container {
@@ -1792,12 +1794,13 @@ footer .footer-container {
       .main-panasonic-air .panasonic-support-container .panasonic-propartners-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         width: 40%; }
         .main-panasonic-air .panasonic-support-container .panasonic-propartners-container .propartners-title {
           color: #000000;
-          font-family: Josefin Sans, sans-serif; }
+          font-family: Josefin Sans, sans-serif;
+          margin-top: 35px; }
         .main-panasonic-air .panasonic-support-container .panasonic-propartners-container .panasonic-propartners-image {
           margin-top: 30px; }
     .main-panasonic-air .panasonic-products-container {
@@ -1857,12 +1860,13 @@ footer .footer-container {
       .main-panasonic-water .panasonic-support-container .panasonic-propartners-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         width: 40%; }
         .main-panasonic-water .panasonic-support-container .panasonic-propartners-container .propartners-title {
           color: #000000;
-          font-family: Josefin Sans, sans-serif; }
+          font-family: Josefin Sans, sans-serif;
+          margin-top: 35px; }
         .main-panasonic-water .panasonic-support-container .panasonic-propartners-container .panasonic-propartners-image {
           margin-top: 30px; }
     .main-panasonic-water .panasonic-waterpump-products-container {
@@ -1900,15 +1904,17 @@ footer .footer-container {
       height: 400px;
       width: 100%; }
     .main-lg-split-pumps .lg-support-container {
+      display: flex;
+      justify-content: center;
       height: 300px; }
       .main-lg-split-pumps .lg-support-container .lg-support-text-container {
-        width: 50%; }
+        width: 37%; }
       .main-lg-split-pumps .lg-support-container .lg-businesspartners-container {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        width: 49%; }
+        width: 40%; }
         .main-lg-split-pumps .lg-support-container .lg-businesspartners-container .businesspartners-title {
           color: #000000;
           font-family: Josefin Sans, sans-serif;

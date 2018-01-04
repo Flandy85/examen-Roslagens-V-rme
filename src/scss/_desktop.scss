@@ -86,13 +86,14 @@ main {
 		.panasonic-propartners-container {
 			display: flex;
 			flex-direction: column;
-			justify-content: center;
+			justify-content: flex-start;
 			align-items: center;
 			width: 49%;
 
 			.propartners-title {
 				color: $complementary-color-three;
 				font-family: $primary-font;
+				margin-top: 35px;
 			}
 			.panasonic-propartners-image {
 				margin-top: 30px;
@@ -174,13 +175,14 @@ main {
 		.panasonic-propartners-container {
 			display: flex;
 			flex-direction: column;
-			justify-content: center;
+			justify-content: flex-start;
 			align-items: center;
 			width: 49%;
 
 			.propartners-title {
 				color: $complementary-color-three;
 				font-family: $primary-font;
+				margin-top: 35px;
 			}
 			.panasonic-propartners-image {
 				margin-top: 30px;

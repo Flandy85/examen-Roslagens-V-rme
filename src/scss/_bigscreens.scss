@@ -99,13 +99,14 @@ main {
 		.panasonic-propartners-container {
 			display: flex;
 			flex-direction: column;
-			justify-content: center;
+			justify-content: flex-start;
 			align-items: center;
 			width: 40%;
 
 			.propartners-title {
 				color: $complementary-color-three;
 				font-family: $primary-font;
+				margin-top: 35px;
 			}
 			.panasonic-propartners-image {
 				margin-top: 30px;
@@ -188,13 +189,14 @@ main {
 		.panasonic-propartners-container {
 			display: flex;
 			flex-direction: column;
-			justify-content: center;
+			justify-content: flex-start;
 			align-items: center;
 			width: 40%;
 
 			.propartners-title {
 				color: $complementary-color-three;
 				font-family: $primary-font;
+				margin-top: 35px;
 			}
 			.panasonic-propartners-image {
 				margin-top: 30px;
@@ -248,10 +250,12 @@ main {
 	}
 	/** LG Support container **/
 	.lg-support-container {
+		display: flex;
+		justify-content: center;
 		height: 300px;
 
 		.lg-support-text-container {
-			width: 50%;
+			width: 37%;
 		
 		}
 		.lg-businesspartners-container {
@@ -259,7 +263,7 @@ main {
 			flex-direction: column;
 			justify-content: flex-start;
 			align-items: center;
-			width: 49%;
+			width: 40%;
 
 			.businesspartners-title {
 				color: $complementary-color-three;
