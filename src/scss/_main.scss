@@ -383,6 +383,11 @@ main {
 			justify-content: center;
 			align-items: center;
 
+			.lg-image {
+				width: 100%;
+				max-width: 200px;
+			}
+
 			h3 {
 				color: #6d6d6d;
 				margin: 2px;
@@ -455,6 +460,10 @@ main {
 				color: $lg-secondary-color;
 			}
 			
+		}
+		/*Certificate in support section, isn't shown in mobile view*/
+		.lg-businesspartners-container {
+			display: none; /*Dont display certificate container in mobile view*/
 		}
 	}
 	/** LG Splitpumps section **/

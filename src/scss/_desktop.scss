@@ -232,11 +232,28 @@ main {
 	}
 	/** LG Support container **/
 	.lg-support-container {
-		height: 300px;
+		height: 390px;
 
 		.lg-support-text-container {
 			width: 50%;
 		
+		}
+		/*Certificate section inside support section container*/
+		.lg-businesspartners-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			width: 49%;
+
+			.businesspartners-title {
+				color: $complementary-color-three;
+				font-family: $primary-font;
+				margin-top: 35px;
+			}
+			.lg-businesspartners-image {
+				margin-top: 30px;
+			}
 		}
 	}
 	/** LG Splitpumps products section **/

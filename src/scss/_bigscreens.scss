@@ -254,6 +254,22 @@ main {
 			width: 50%;
 		
 		}
+		.lg-businesspartners-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			width: 49%;
+
+			.businesspartners-title {
+				color: $complementary-color-three;
+				font-family: $primary-font;
+				margin-top: 35px;
+			}
+			.lg-businesspartners-image {
+				margin-top: 30px;
+			}
+		}
 	}
 	/** LG Splitpumps section **/
 	.lg-splitpumps-products-container {

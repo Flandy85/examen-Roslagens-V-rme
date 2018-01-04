@@ -42,6 +42,145 @@ main {
 	
 }
 /*****************************************************************
+	page-lgsplitpumps.php: LG SPLIT PUMPS PAGE
+*****************************************************************/
+.main-lg-split-pumps {
+	/*Start section on LG Split pumps page*/
+	/*.lg-container {
+		height: 400px;
+		width: 100%;
+
+		.lg-image-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			.lg-image {
+				width: 100%;
+				max-width: 200px;
+			}
+
+			h3 {
+				color: #6d6d6d;
+				margin: 2px;
+				padding: 0;
+				
+			}
+		}
+		.lg-menu-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			.lg-products-container {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				h2 {
+					color: $lg-primary-color;
+				}
+				.products-line {
+					background-color: $lg-primary-color;
+					height: 3px;
+					width: 380px;
+				}
+			}
+			h3 {
+				color: $lg-primary-color;
+			}
+			#menu-lg-menu {
+				list-style: none;
+
+				li > a {
+					color: $lg-primary-color;
+				}
+				li > a:hover {
+					color: $lg-secondary-color;
+				}
+			}
+			.products-line {
+				background-color: $lg-primary-color;
+				height: 3px;
+				width: 380px;
+			}
+		}
+	}*/
+	/** LG Support section container **/
+	.lg-support-container {
+		/*background-color: #f4f4f4;
+		display: flex;*/
+		height: 300px;
+		/*width: 100%;*/
+
+		
+		/*.lg-support-text-container {
+			line-height: 25px;
+			padding: 15px;
+
+			.lg-support-title {
+				font-family: $primary-font;
+			}
+			p > a {
+				font-family: $primary-font;
+				font-weight: bold;
+				color: $complementary-color-three;
+			}
+			p > a:hover {
+				color: $lg-secondary-color;
+			}
+			
+		}*/
+		/*Certificate in support section, isn't shown in mobile view*/
+		.lg-businesspartners-container {
+			display: none; /*Dont display certificate container in mobile view*/
+		}
+	}
+	/** LG Splitpumps section **/
+	.lg-splitpumps-products-container {
+
+		.lg-splitpumps-products-inner-container {
+
+			.lg-products {
+
+				.splitpump-image {
+					width: 100%;
+					max-width: 350px;
+				}
+				.lg-products-text {
+					line-height: 23px;
+					padding: 15px;
+
+					h3 {
+						font-size: $secondary-font-size;
+					}
+					p > a {
+						font-weight: bold;
+						color: $lg-secondary-color;
+					}
+				}
+			}
+		}
+	}
+	/** LG accessories section **/
+	.accessories-container {
+
+		.lg-products-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			.products-line {
+				background-color: $lg-primary-color;
+				height: 3px;
+				width: 380px;
+			}
+		}
+	}
+}
+/*****************************************************************
 	page-contactus.php: Contact Us PAGE
 *****************************************************************/
 .main-contactus-container {
