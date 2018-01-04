@@ -14,8 +14,8 @@
 	<header class="nav-down"><!-- class nav-down is for making header to go up when users scroll down -->
 		<div class="top-header-container">
 			<a href="http://www.incert.se/om-incert/" rel="noopener" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/src/images/Incert-loga.png" class="top-header-logotype" alt="Bild av företaget Incert loggo"></a>
-			<a href="https://www.aircon.panasonic.eu/GB_en/happening/how-to-become-a-panasonic-pro-partner/" rel="noopener" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/src/images/Panapropartners-2.png" class="top-header-logotype" alt="Bild av företaget Panasonic Pro Partners loggo"></a>
-			<a href="http://www.lg.com/global/sustainability/business-partner/win-win-growth" rel="noopener" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/src/images/LG-logo.png" class="top-header-logotype" alt="Bild av företaget LG Business Partner loggo"></a>	
+			<a href="https://www.aircon.panasonic.eu/GB_en/happening/how-to-become-a-panasonic-pro-partner/" rel="noopener" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/src/images/Panapropartners-2.png" class="top-header-logotype1" alt="Bild av företaget Panasonic Pro Partners loggo"></a>
+			<a href="http://www.lg.com/global/sustainability/business-partner/win-win-growth" rel="noopener" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/src/images/LG-logo.png" class="top-header-logotype2" alt="Bild av företaget LG Business Partner loggo"></a>	
 		</div><!-- .top-header-container -->
 		<div class="header-container">
 			<div class="inner-header-container">
