@@ -22,10 +22,14 @@ if(have_posts()) {
             <!-- Är till för om vi vill öpnna bilden i nytt fönster
             <a href="<?php the_field('insta-picture1'); ?>" target="_blank">
             <img class="installation-img installation-img-one" src="<?php the_field('insta-picture1'); ?>"></a> -->
+            <div class="container-gridinstallation">
                 <img class="installation-img installation-img-one" src="<?php the_field('insta-picture1'); ?>">
-                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture1'); ?>">
-                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture1'); ?>">
-                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture1'); ?>">
+                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture2'); ?>">
+            </div>
+            <div class="container-gridinstallation">
+                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture3'); ?>">
+                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture4'); ?>">
+             </div>
             </div>
             <div class="box box2">
                 <img class="number-img" src="<?php the_field('number2'); ?>">
@@ -35,10 +39,10 @@ if(have_posts()) {
                 <p>Vi montera EJ utan detta.</p> 
             </div>
             <div class="box box-installation-pictures ">
-                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture1'); ?>">
-                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture1'); ?>">
-                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture1'); ?>">
-                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture1'); ?>">
+                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture5'); ?>">
+                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture6'); ?>">
+                <!-- <img class="installation-img installation-img-one" src="<?php the_field('insta-picture1'); ?>">
+                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture1'); ?>"> -->
             </div>
             <div class="box box3">
                 <img class="number-img" src="<?php the_field('number3'); ?>">   
@@ -49,10 +53,14 @@ if(have_posts()) {
                 <p>måste ett kondensvatten tråg med värmekabel monteras så man kan leda bort vattnet</p> 
             </div>
             <div class="box box-installation-pictures ">
-                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture1'); ?>">
-                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture1'); ?>">
-                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture1'); ?>">
-                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture1'); ?>">
+            <div class="container-gridinstallation">
+                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture7'); ?>">
+                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture8'); ?>">
+            </div>
+            <div class="container-gridinstallation">
+                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture9'); ?>">
+                <img class="installation-img installation-img-one" src="<?php the_field('insta-picture10'); ?>">
+            </div>  
             </div>
         </div>
 		<?php
