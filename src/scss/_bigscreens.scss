@@ -278,19 +278,19 @@ main {
 	/** LG Splitpumps section **/
 	.lg-splitpumps-products-container {
 		display: flex;
-		justify-content: space-around;
+		justify-content: center;
 
 		.lg-splitpumps-products-inner-container {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			width: 49%;
+			width: 30%;
 		}
 	}
 	/** LG accessories section **/
 	.accessories-container {
-		width: 49%;
+		width: 30%;
 		.lg-products-container {
 			display: flex;
 			flex-direction: column;
@@ -406,7 +406,7 @@ main {
 		}
 	}
 	/*Css for wp plugin form, giving text-fields 100% max-width*/
-	#wpforms-158-field_1, #wpforms-158-field_2, #wpforms-158-field_4, #wpforms-158-field_7 {
+	#wpforms-76-field_0, #wwpforms-76-field_1, #wpforms-76-field_3, #wpforms-76-field_4 {
 		max-width: 100%;
 	}
 	#wpforms-158-field_8 {
