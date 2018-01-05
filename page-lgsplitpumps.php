@@ -73,6 +73,14 @@ if(have_posts()) {
 					<h2><?php echo get_field('accessories-title'); ?></h2>
 					<div class="products-line"></div>
 				</div><!-- .lg-products-container -->
+				<div class="accesories-products">
+					<img src="<?php the_field('accesories-image1'); ?>" class="accessories-image" alt="Bild på tillbehör till värmepumpskydd. Trälåda" />
+					<div class="accessories-products-text">
+						<h3><?php echo get_field('accesories-product-title1'); ?></h3>
+						<p><?php echo get_field('accessories-product-text1'); ?></p>
+						<!-- <p class="lg-link-tag"><?php //echo get_field('lgsplit-product-link1'); ?></p> -->
+					</div><!-- .accessories-products-text -->
+				</div><!-- .accesories-products -->
 			</div><!-- .accessories-container -->
 		</div><!-- .lg-splitpumps-products-container -->
 		<?php
