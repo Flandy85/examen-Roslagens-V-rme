@@ -197,16 +197,21 @@ main {
 		width: 100%;
 
 		.panasonic-waterpump-products-inner-container {
-			width: 49%;
+			display: flex;
+			width: 100%;
 			.pana-products {
 				display: flex;
 				justify-content: center;
 				margin-top: 10px;
+				width: 49%;
 
 				.waterpump-image {
 					padding: 15px;
-					width: 100%;
+					/*width: 100%;*/
 					/*max-width: 140px;*/
+				}
+				.waterpump-image2 {
+					height: 400px;
 				}
 				.pana-products-text {
 					width: 50%;

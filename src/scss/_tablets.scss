@@ -141,6 +141,8 @@ main {
 	}
 	/** LG Splitpumps section **/
 	.lg-splitpumps-products-container {
+		display: flex;
+		justify-content: space-around;
 
 		.lg-splitpumps-products-inner-container {
 

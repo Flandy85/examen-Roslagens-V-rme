@@ -106,7 +106,46 @@
 						<h2><?php echo get_field('accessories-title'); ?></h2>
 						<div class="products-line"></div>
 					</div>
-					
+					<div class="accesories-products">
+						<img src="<?php the_field('accesories-image1'); ?>" class="accessories-image" alt="Bild på tillbehör till värmepumpskydd. Trälåda" />
+						<div class="accessories-products-text">
+							<h3><?php echo get_field('accesories-product-title1'); ?></h3>
+							<p><?php echo get_field('accessories-product-text1'); ?></p>
+							<!-- <p class="lg-link-tag"><?php //echo get_field('lgsplit-product-link1'); ?></p> -->
+						</div><!-- .accessories-products-text -->
+					</div><!-- .accesories-products -->
+					<div class="accesories-products">
+						<img src="<?php the_field('accesories-image2'); ?>" class="accessories-image" alt="Bild på tillbehör till värmepumptak. Plåttak" />
+						<div class="accessories-products-text">
+							<h3><?php echo get_field('accesories-product-title2'); ?></h3>
+							<p><?php echo get_field('accessories-product-text2'); ?></p>
+							<!-- <p class="lg-link-tag"><?php //echo get_field('lgsplit-product-link1'); ?></p> -->
+						</div><!-- .accessories-products-text -->
+					</div><!-- .accesories-products -->
+					<div class="accesories-products">
+						<img src="<?php the_field('accesories-image3'); ?>" class="accessories-image" alt="Bild på tillbehör till värmepump. Droppskål med värmekabel" />
+						<div class="accessories-products-text">
+							<h3><?php echo get_field('accesories-product-title3'); ?></h3>
+							<p><?php echo get_field('accessories-product-text3'); ?></p>
+							<!-- <p class="lg-link-tag"><?php //echo get_field('lgsplit-product-link1'); ?></p> -->
+						</div><!-- .accessories-products-text -->
+					</div><!-- .accesories-products -->
+					<div class="accesories-products">
+						<img src="<?php the_field('accesories-image4'); ?>" class="accessories-image" alt="Bild på tillbehör till värmepump. Elektronisk styrdosa för wifi" />
+						<div class="accessories-products-text">
+							<h3><?php echo get_field('accesories-product-title4'); ?></h3>
+							<p><?php echo get_field('accessories-product-text4'); ?></p>
+							<!-- <p class="lg-link-tag"><?php //echo get_field('lgsplit-product-link1'); ?></p> -->
+						</div><!-- .accessories-products-text -->
+					</div><!-- .accesories-products -->
+					<div class="accesories-products">
+						<img src="<?php the_field('accesories-image5'); ?>" class="accessories-image" alt="Bild på tillbehör till värmepump. Elektronisk styrdosa för sms" />
+						<div class="accessories-products-text">
+							<h3><?php echo get_field('accesories-product-title5'); ?></h3>
+							<p><?php echo get_field('accessories-product-text5'); ?></p>
+							<!-- <p class="lg-link-tag"><?php //echo get_field('lgsplit-product-link1'); ?></p> -->
+						</div><!-- .accessories-products-text -->
+					</div><!-- .accesories-products -->
 				</div><!-- accessories-container -->
 			</div><!-- .panasonic-products-container -->
 			<?php

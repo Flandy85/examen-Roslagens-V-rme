@@ -55,7 +55,7 @@ if(have_posts()) {
 					</div><!-- .pana-products-text -->
 				</div><!-- .pana-products -->
 				<div class="pana-products">
-					<img src="<?php the_field('waterpump-image2'); ?>" class="waterpump-image" alt="Image of an Panasonic heating air pump" />
+					<img src="<?php the_field('waterpump-image2'); ?>" class="waterpump-image2" alt="Image of an Panasonic heating air pump" />
 					<div class="pana-products-text">
 						<h3><?php echo get_field('panawater-product-title2'); ?></h3>
 						<p><?php echo get_field('panawater-product-text2'); ?></p>
@@ -66,12 +66,12 @@ if(have_posts()) {
 			</div><!-- .panasonic-waterpump-products-inner-container -->
 			
 			<!-- Fourth Section, Accessories section -->
-			<div class="accessories-container">
+			<!-- <div class="accessories-container">
 				<div class="pana-products-container">
-					<h2><?php echo get_field('accessories-title'); ?></h2>
-					<div class="products-line"></div>
-				</div><!-- .pana-products-container -->
-			</div><!-- .accessories-container -->
+					<h2><?php //echo get_field('accessories-title'); ?></h2>
+					<div class="products-line"></div> -->
+				<!--</div> .pana-products-container -->
+			<!--</div> .accessories-container -->
 		</div><!-- .panasonic-waterpump-products-container -->
 		<?php
 		

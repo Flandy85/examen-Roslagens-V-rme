@@ -271,6 +271,17 @@ main {
 					width: 380px;
 				}
 			}
+			.accesories-products {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+
+				.accessories-image {
+					width: 100%;
+					max-width: 300px;
+				}
+			}
 		}
 	}
 }
@@ -334,7 +345,7 @@ main {
 			.pana-products {
 				margin-top: 10px;
 
-				.waterpump-image {
+				.waterpump-image, .waterpump-image2 {
 					padding: 15px;
 					width: 100%;
 					max-width: 200px;
@@ -503,6 +514,17 @@ main {
 				background-color: $lg-primary-color;
 				height: 3px;
 				width: 380px;
+			}
+		}
+		.accesories-products {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			.accessories-image {
+				width: 100%;
+				max-width: 300px;
 			}
 		}
 	}
