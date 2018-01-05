@@ -1038,34 +1038,44 @@ main {
 .aboutus-box-title {
   text-align: center;
   background-color: #ced9d3;
-  color: #fff;
-  height: inherit !important; }
+  color: #fff; }
 
 .title-certifierad {
   text-align: center;
   border-top: 3px solid #000;
   border-bottom: 3px solid #000;
-  font-weight: bold;
-  margin-bottom: 120px; }
+  font-weight: bold; }
 
 .line-black {
-  border-bottom: 3px solid #000;
-  width: 420px; }
+  border-bottom: 3px solid #000; }
 
 .line-white {
-  border-bottom: 3px solid #fff;
-  width: 420px; }
+  border-bottom: 3px solid #fff; }
 
-.aboutus-info-title {
-  height: inherit !important; }
-
-.box-company1, .box-company2, .box-company3 {
-  margin-bottom: 50px;
-  height: inherit !important; }
+.box-company1, .box-company2 {
+  margin-bottom: 50px; }
 
 .box-company2 {
+  display: flex;
+  justify-content: space-around;
   color: #fff;
   background-color: #000; }
+
+.layoutbox {
+  width: 5%; }
+
+.box-company1 {
+  display: flex;
+  justify-content: space-around; }
+
+@media only screen and (max-width: 1000px) {
+  .layoutbox {
+    display: none; }
+  .title-box-aboutus, .imgbox-aboutus {
+    display: flex;
+    justify-content: center; }
+  .aboutus-text {
+    text-align: center; } }
 
 /***********************************************************************************************************
   Completedworks.php:BLOGGPOST
