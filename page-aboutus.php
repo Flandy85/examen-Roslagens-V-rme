@@ -12,7 +12,7 @@ if(have_posts()) {
 		
 		the_post();
 		?>
-		<!-- This page is constructed with Bootstrap -->
+		<!-- This page is constructed with flexbox -->
 		<div class="main-aboutus">
 			<div class="aboutus-box-title">
 				<div class="">
@@ -35,11 +35,11 @@ if(have_posts()) {
 						<div class="line-black"></div>
 						<div class="aboutus-text">
 							<p><?php echo get_field('incert-text'); ?></p>
-						</div>
+						</div> <!--aboutus-text -->
 						<div class="imgbox-aboutus">
 							<img class="aboutus-img" src="<?php the_field('incert-logo'); ?>">
-						</div><!-- . -->
-					</div><!-- ."" -->
+						</div><!-- imgbox-aboutus -->
+					</div><!-- aboutus-content -->
 				</div><!-- container-box-aboutus-left -->
 				<div class="layoutbox"></div>
 			</div><!-- box-company1 -->
@@ -51,11 +51,11 @@ if(have_posts()) {
 						<div class="line-white"></div>
 						<div class="aboutus-text">
 							<p><?php echo get_field('panasonic-text'); ?></p>
-						</div>
+						</div><!--aboutus-text -->
 						<div class="imgbox-aboutus">
 							<img class="aboutus-img" src="<?php the_field('panasonic-logo'); ?>">	
-						</div>
-					</div><!-- ."" -->
+						</div><!-- imgbox-aboutus -->
+					</div><!-- aboutus-content -->
 				</div><!-- container-box-aboutus-right -->
 			</div><!-- box-company2 -->
 			<div class="box-company1">
@@ -65,14 +65,15 @@ if(have_posts()) {
 						<div class="line-black"></div>
 						<div class="aboutus-text">
 							<p><?php echo get_field('incert-text'); ?></p>
-						</div>
+						</div><!--aboutus-text -->
 						<div class="imgbox-aboutus">
 							<img class="aboutus-img" src="<?php the_field('incert-logo'); ?>">
 						</div><!-- . -->
-					</div><!-- ."" -->
+					</div><!-- aboutus-content -->
 				</div><!-- container-box-aboutus-left -->
 				<div class="layoutbox"></div>
 				</div><!-- box-company1 -->
+		</div> <!-- main-aboutus -->
 		<?php
 		
 	}
