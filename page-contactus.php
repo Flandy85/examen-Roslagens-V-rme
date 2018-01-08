@@ -23,7 +23,7 @@ if(have_posts()) {
 					<p><?php echo get_field('contactus-text2'); ?></p>
 					<!-- Contact form container for short code from WP-Form plugin -->
 					<div class="contact-form-container">
-						<?php echo do_shortcode("[wpforms id='158']"); ?>
+						<?php echo do_shortcode("[wpforms id='377']"); ?>
 					</div><!-- .contact-form-container -->
 				</div><!-- .contactus-container -->
 				<div class="visitor-container">
