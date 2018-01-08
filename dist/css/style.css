@@ -621,7 +621,7 @@ main {
         main .panasonic-container .panasonic-menu-container .pana-products-container .products-line {
           background-color: #fff;
           height: 3px;
-          width: 380px; }
+          width: 340px; }
       main .panasonic-container .panasonic-menu-container #menu-panasonic-meny {
         list-style: none; }
         main .panasonic-container .panasonic-menu-container #menu-panasonic-meny li > a {
@@ -691,7 +691,7 @@ main {
       .main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container .products-line {
         background-color: #000000;
         height: 3px;
-        width: 380px; }
+        width: 340px; }
     .main-panasonic-air .panasonic-products-container .accessories-container .accesories-products {
       display: flex;
       flex-direction: column;
@@ -700,6 +700,8 @@ main {
       .main-panasonic-air .panasonic-products-container .accessories-container .accesories-products .accessories-image {
         width: 100%;
         max-width: 300px; }
+      .main-panasonic-air .panasonic-products-container .accessories-container .accesories-products .accessories-products-text {
+        padding: 10px; }
 
 /*****************************************************************
 	page-panasonicpumpswater.php: PANASONIC AIR-WATER PUMPS PAGE
@@ -764,7 +766,9 @@ main {
       .main-panasonic-water .panasonic-waterpump-products-container .accessories-container .pana-products-container .products-line {
         background-color: #000000;
         height: 3px;
-        width: 380px; }
+        width: 340px; }
+    .main-panasonic-water .panasonic-waterpump-products-container .accessories-container .accesories-products .accessories-products-text {
+      padding: 10px; }
 
 /*****************************************************************
 	page-lgsplitpumps.php: LG SPLIT PUMPS PAGE
@@ -775,7 +779,7 @@ main {
   /** LG Splitpumps section **/
   /** LG accessories section **/ }
   .main-lg-split-pumps .lg-container {
-    height: 400px;
+    height: 350px;
     width: 100%; }
     .main-lg-split-pumps .lg-container .lg-image-container {
       display: flex;
@@ -804,7 +808,7 @@ main {
         .main-lg-split-pumps .lg-container .lg-menu-container .lg-products-container .products-line {
           background-color: #6d6d6d;
           height: 3px;
-          width: 380px; }
+          width: 340px; }
       .main-lg-split-pumps .lg-container .lg-menu-container h3 {
         color: #6d6d6d; }
       .main-lg-split-pumps .lg-container .lg-menu-container #menu-lg-menu {
@@ -816,11 +820,11 @@ main {
       .main-lg-split-pumps .lg-container .lg-menu-container .products-line {
         background-color: #6d6d6d;
         height: 3px;
-        width: 380px; }
+        width: 340px; }
   .main-lg-split-pumps .lg-support-container {
     background-color: #f4f4f4;
     display: flex;
-    height: 400px;
+    height: 500px;
     width: 100%;
     /*Certificate in support section, isn't shown in mobile view*/ }
     .main-lg-split-pumps .lg-support-container .lg-support-text-container {
@@ -837,17 +841,22 @@ main {
     .main-lg-split-pumps .lg-support-container .lg-businesspartners-container {
       display: none;
       /*Dont display certificate container in mobile view*/ }
-  .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .splitpump-image {
-    width: 100%;
-    max-width: 350px; }
-  .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text {
-    line-height: 23px;
-    padding: 15px; }
-    .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text h3 {
-      font-size: 20px; }
-    .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text p > a {
-      font-weight: bold;
-      color: #ad1639; }
+  .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .splitpump-image {
+      width: 100%;
+      max-width: 350px; }
+    .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text {
+      line-height: 23px;
+      padding: 15px; }
+      .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text h3 {
+        font-size: 20px; }
+      .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text p > a {
+        font-weight: bold;
+        color: #ad1639; }
   .main-lg-split-pumps .accessories-container .lg-products-container {
     display: flex;
     flex-direction: column;

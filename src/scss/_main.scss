@@ -160,7 +160,7 @@ main {
 				.products-line {
 					background-color: $complementary-color-two;
 					height: 3px;
-					width: 380px;
+					width: 340px;
 				}
 			}
 			#menu-panasonic-meny {
@@ -268,7 +268,7 @@ main {
 				.products-line {
 					background-color: $complementary-color-three;
 					height: 3px;
-					width: 380px;
+					width: 340px;
 				}
 			}
 			.accesories-products {
@@ -280,6 +280,9 @@ main {
 				.accessories-image {
 					width: 100%;
 					max-width: 300px;
+				}
+				.accessories-products-text {
+					padding: 10px;
 				}
 			}
 		}
@@ -373,7 +376,13 @@ main {
 				.products-line {
 					background-color: $complementary-color-three;
 					height: 3px;
-					width: 380px;
+					width: 340px;
+				}
+			}
+			.accesories-products {
+
+				.accessories-products-text {
+					padding: 10px;
 				}
 			}
 		}
@@ -385,7 +394,7 @@ main {
 .main-lg-split-pumps {
 	/*Start section on LG Split pumps page*/
 	.lg-container {
-		height: 400px;
+		height: 350px;
 		width: 100%;
 
 		.lg-image-container {
@@ -424,7 +433,7 @@ main {
 				.products-line {
 					background-color: $lg-primary-color;
 					height: 3px;
-					width: 380px;
+					width: 340px;
 				}
 			}
 			h3 {
@@ -443,7 +452,7 @@ main {
 			.products-line {
 				background-color: $lg-primary-color;
 				height: 3px;
-				width: 380px;
+				width: 340px;
 			}
 		}
 	}
@@ -451,7 +460,7 @@ main {
 	.lg-support-container {
 		background-color: #f4f4f4;
 		display: flex;
-		height: 400px;
+		height: 500px;
 		width: 100%;
 
 		
@@ -481,7 +490,10 @@ main {
 	.lg-splitpumps-products-container {
 
 		.lg-splitpumps-products-inner-container {
-
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 			.lg-products {
 
 				.splitpump-image {
