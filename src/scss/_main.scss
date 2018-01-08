@@ -848,6 +848,27 @@ justify-content: space-around;
 
 
 @media only screen and (max-width: 1000px) {
+
+	
+.main-aboutus-container {
+
+	.box-company1 { 
+
+		.container-box-aboutus-left {
+
+			.aboutus-content {
+
+				.imgbox-aboutus {
+
+					.aboutus-img-incert {
+						width: 100%;
+						max-width: 200px;
+					}
+				}
+			}
+		}
+	}
+}
 	.layoutbox {
 		display: none;
 	}
