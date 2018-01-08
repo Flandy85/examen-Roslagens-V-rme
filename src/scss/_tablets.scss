@@ -189,7 +189,33 @@ main {
 
 	background-image: url('contactusbackground-tablet1.jpg');
 
+	.contactus-flexbox-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		.contactus-container {
+			width: 70%;
+		}
+		.streetadress-container {
+
+			.streetadress-image-container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				.visitor-image {
+					padding: 20px;
+					width: 100%;
+					max-width: 600px;
+				}
+			}
+		}
+	}
+
 	#wpforms-158-field_8 {
 		width: 415px;
+	}
+	#wpforms-377-field_5 {
+		width: 60%;
 	}
 }

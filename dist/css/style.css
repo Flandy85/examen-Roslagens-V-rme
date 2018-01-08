@@ -578,7 +578,7 @@ main {
         main .lg-container .lg-menu-container .lg-products-container .products-line {
           background-color: #6d6d6d;
           height: 3px;
-          width: 330px; }
+          width: 320px; }
       main .lg-container .lg-menu-container h3 {
         color: #6d6d6d; }
       main .lg-container .lg-menu-container #menu-lg-menu {
@@ -621,7 +621,7 @@ main {
         main .panasonic-container .panasonic-menu-container .pana-products-container .products-line {
           background-color: #fff;
           height: 3px;
-          width: 340px; }
+          width: 320px; }
       main .panasonic-container .panasonic-menu-container #menu-panasonic-meny {
         list-style: none; }
         main .panasonic-container .panasonic-menu-container #menu-panasonic-meny li > a {
@@ -691,7 +691,7 @@ main {
       .main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container .products-line {
         background-color: #000000;
         height: 3px;
-        width: 340px; }
+        width: 320px; }
     .main-panasonic-air .panasonic-products-container .accessories-container .accesories-products {
       display: flex;
       flex-direction: column;
@@ -766,7 +766,7 @@ main {
       .main-panasonic-water .panasonic-waterpump-products-container .accessories-container .pana-products-container .products-line {
         background-color: #000000;
         height: 3px;
-        width: 340px; }
+        width: 320px; }
     .main-panasonic-water .panasonic-waterpump-products-container .accessories-container .accesories-products .accessories-products-text {
       padding: 10px; }
 
@@ -808,7 +808,7 @@ main {
         .main-lg-split-pumps .lg-container .lg-menu-container .lg-products-container .products-line {
           background-color: #6d6d6d;
           height: 3px;
-          width: 340px; }
+          width: 320px; }
       .main-lg-split-pumps .lg-container .lg-menu-container h3 {
         color: #6d6d6d; }
       .main-lg-split-pumps .lg-container .lg-menu-container #menu-lg-menu {
@@ -820,7 +820,7 @@ main {
       .main-lg-split-pumps .lg-container .lg-menu-container .products-line {
         background-color: #6d6d6d;
         height: 3px;
-        width: 340px; }
+        width: 320px; }
   .main-lg-split-pumps .lg-support-container {
     background-color: #f4f4f4;
     display: flex;
@@ -864,7 +864,7 @@ main {
     .main-lg-split-pumps .accessories-container .lg-products-container .products-line {
       background-color: #6d6d6d;
       height: 3px;
-      width: 380px; }
+      width: 320px; }
   .main-lg-split-pumps .accessories-container .accesories-products {
     display: flex;
     flex-direction: column;
@@ -873,6 +873,8 @@ main {
     .main-lg-split-pumps .accessories-container .accesories-products .accessories-image {
       width: 100%;
       max-width: 300px; }
+    .main-lg-split-pumps .accessories-container .accesories-products .accessories-products-text {
+      padding: 10px; }
 
 /*****************************************************************
 	page-contactus.php: Contact Us PAGE
@@ -925,6 +927,7 @@ main {
     .main-contactus-container .visitor-container .streetadress-container {
       margin-top: 20px; }
       .main-contactus-container .visitor-container .streetadress-container .visitor-image {
+        padding: 20px;
         width: 100%;
         max-widht: 400px; }
       .main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container {
@@ -1060,6 +1063,10 @@ main {
 /***********************************************************************************************************
   Inför.php: OM FÖRETAGET
 *************************************************************************************************************/
+.main-aboutus-container .box-company1 .container-box-aboutus-left .aboutus-content .imgbox-aboutus .aboutus-img-incert {
+  width: 100%;
+  max-width: 200px; }
+
 .aboutus-box-title {
   text-align: center;
   background-color: #ced9d3;
@@ -1092,6 +1099,10 @@ main {
 .box-company1 {
   display: flex;
   justify-content: space-around; }
+
+.aboutus-img-incert {
+  width: 100%;
+  max-width: 300px; }
 
 @media only screen and (max-width: 1000px) {
   .layoutbox {
@@ -1494,8 +1505,25 @@ footer .footer-container {
 *****************************************************************/
   .main-contactus-container {
     background-image: url("contactusbackground-tablet1.jpg"); }
+    .main-contactus-container .contactus-flexbox-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .main-contactus-container .contactus-flexbox-container .contactus-container {
+        width: 70%; }
+      .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container .visitor-image {
+          padding: 20px;
+          width: 100%;
+          max-width: 600px; }
     .main-contactus-container #wpforms-158-field_8 {
-      width: 415px; } }
+      width: 415px; }
+    .main-contactus-container #wpforms-377-field_5 {
+      width: 60%; } }
 
 @media screen and (min-width: 1025px) and (max-width: 1480px) {
   /*****************************************
@@ -1762,10 +1790,10 @@ footer .footer-container {
         align-items: center;
         margin-top: 50px; }
         .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container {
-          width: 39%; }
+          width: 55%; }
           .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container .visitor-image {
             width: 100%;
-            max-width: 200px; }
+            max-width: 300px; }
         .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container {
           margin-top: 50px;
           width: 39%; }
@@ -1777,7 +1805,7 @@ footer .footer-container {
           .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a:hover {
             color: #fa233b; }
     .main-contactus-container #wpforms-377-field_1, .main-contactus-container #wpforms-377-field_2, .main-contactus-container #wpforms-377-field_3, .main-contactus-container #wpforms-377-field_4 {
-      max-width: 77%; }
+      max-width: 100%; }
     .main-contactus-container #wpforms-377-field_8 {
       width: 415px; } }
 
@@ -2060,10 +2088,10 @@ footer .footer-container {
         align-items: center;
         margin-top: 50px; }
         .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container {
-          width: 39%; }
+          width: 54%; }
           .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container .visitor-image {
             width: 100%;
-            max-width: 200px; }
+            max-width: 293px; }
         .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container {
           display: flex;
           justify-content: flex-start;
@@ -2079,6 +2107,6 @@ footer .footer-container {
           .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a:hover {
             color: #fa233b; }
     .main-contactus-container #wpforms-377-field_1, .main-contactus-container #wpforms-377-field_2, .main-contactus-container #wpforms-377-field_3, .main-contactus-container #wpforms-377-field_4 {
-      max-width: 77%; }
+      max-width: 100%; }
     .main-contactus-container #wpforms-377-field_8 {
       width: 415px; } }

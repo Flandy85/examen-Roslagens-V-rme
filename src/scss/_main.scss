@@ -97,7 +97,7 @@ main {
 				.products-line {
 					background-color: $lg-primary-color;
 					height: 3px;
-					width: 330px;
+					width: 320px;
 				}
 			}
 			h3 {
@@ -160,7 +160,7 @@ main {
 				.products-line {
 					background-color: $complementary-color-two;
 					height: 3px;
-					width: 340px;
+					width: 320px;
 				}
 			}
 			#menu-panasonic-meny {
@@ -268,7 +268,7 @@ main {
 				.products-line {
 					background-color: $complementary-color-three;
 					height: 3px;
-					width: 340px;
+					width: 320px;
 				}
 			}
 			.accesories-products {
@@ -376,7 +376,7 @@ main {
 				.products-line {
 					background-color: $complementary-color-three;
 					height: 3px;
-					width: 340px;
+					width: 320px;
 				}
 			}
 			.accesories-products {
@@ -433,7 +433,7 @@ main {
 				.products-line {
 					background-color: $lg-primary-color;
 					height: 3px;
-					width: 340px;
+					width: 320px;
 				}
 			}
 			h3 {
@@ -452,7 +452,7 @@ main {
 			.products-line {
 				background-color: $lg-primary-color;
 				height: 3px;
-				width: 340px;
+				width: 320px;
 			}
 		}
 	}
@@ -525,7 +525,7 @@ main {
 			.products-line {
 				background-color: $lg-primary-color;
 				height: 3px;
-				width: 380px;
+				width: 320px;
 			}
 		}
 		.accesories-products {
@@ -537,6 +537,9 @@ main {
 			.accessories-image {
 				width: 100%;
 				max-width: 300px;
+			}
+			.accessories-products-text {
+				padding: 10px;
 			}
 		}
 	}
@@ -607,6 +610,7 @@ main {
 		.streetadress-container {
 			margin-top: 20px;
 			.visitor-image {
+				padding: 20px;
 				width: 100%;
 				max-widht: 400px;
 			}
@@ -780,6 +784,26 @@ main {
   /***********************************************************************************************************
   Inför.php: OM FÖRETAGET
 *************************************************************************************************************/
+.main-aboutus-container {
+
+	.box-company1 { 
+
+		.container-box-aboutus-left {
+
+			.aboutus-content {
+
+				.imgbox-aboutus {
+
+					.aboutus-img-incert {
+						width: 100%;
+						max-width: 200px;
+					}
+				}
+			}
+		}
+	}
+}
+
 .aboutus-box-title {
 	text-align: center;
     background-color: #ced9d3;
@@ -817,6 +841,11 @@ main {
 display: flex;
 justify-content: space-around;
 }
+.aboutus-img-incert {
+	width: 100%;
+	max-width: 300px;
+}
+
 
 @media only screen and (max-width: 1000px) {
 	.layoutbox {

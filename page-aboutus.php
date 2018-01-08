@@ -5,7 +5,7 @@
 ?>
 
 <?php get_header(); ?>
-<main>
+<main class="main-aboutus-container">
 <?php
 if(have_posts()) { 
 	while(have_posts()) {
@@ -67,7 +67,7 @@ if(have_posts()) {
 							<p><?php echo get_field('incert-text'); ?></p>
 						</div><!--aboutus-text -->
 						<div class="imgbox-aboutus">
-							<img class="aboutus-img" src="<?php the_field('incert-logo'); ?>">
+							<img class="aboutus-img-incert" src="<?php the_field('incert-logo'); ?>">
 						</div><!-- . -->
 					</div><!-- aboutus-content -->
 				</div><!-- container-box-aboutus-left -->
