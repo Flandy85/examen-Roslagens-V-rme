@@ -31,13 +31,13 @@ if(have_posts()) {
 			<div class="box-company1">
 				<div class="container-box-aboutus-left">
 					<div class="aboutus-content">
-						<h2 class="title-box-aboutus"><?php echo get_field('incert-title'); ?></h2>
+						<h2 class="title-box-aboutus"><?php echo get_field('lgt-title'); ?></h2>
 						<div class="line-black"></div>
 						<div class="aboutus-text">
-							<p><?php echo get_field('incert-text'); ?></p>
+							<p><?php echo get_field('lg-text'); ?></p>
 						</div> <!--aboutus-text -->
 						<div class="imgbox-aboutus">
-							<img class="aboutus-img" src="<?php the_field('incert-logo'); ?>">
+							<img class="aboutus-img" src="<?php the_field('lg-logo'); ?>">
 						</div><!-- imgbox-aboutus -->
 					</div><!-- aboutus-content -->
 				</div><!-- container-box-aboutus-left -->
