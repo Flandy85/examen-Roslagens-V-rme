@@ -1015,6 +1015,38 @@ main {
 /***********************************************************************************************************
   anställda.php: ANSTÄLLDA STYLE
 *************************************************************************************************************/
+.main-employees .flexbox-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  .main-employees .flexbox-container .employee-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+    .main-employees .flexbox-container .employee-container .employee-img-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%; }
+      .main-employees .flexbox-container .employee-container .employee-img-container img {
+        width: 100%;
+        max-width: 300px; }
+    .main-employees .flexbox-container .employee-container .employee-info-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      width: 50%; }
+      .main-employees .flexbox-container .employee-container .employee-info-container h2, .main-employees .flexbox-container .employee-container .employee-info-container h3 {
+        font-family: Josefin Sans, sans-serif; }
+      .main-employees .flexbox-container .employee-container .employee-info-container h2 {
+        font-size: 20px; }
+      .main-employees .flexbox-container .employee-container .employee-info-container h3 {
+        font-size: 18px; }
+
 /*GRID FOR ANSTÄLLDA*/
 .employees-grid {
   display: flex;
@@ -1526,7 +1558,32 @@ footer .footer-container {
     .main-contactus-container #wpforms-158-field_8 {
       width: 415px; }
     .main-contactus-container #wpforms-377-field_5 {
-      width: 60%; } }
+      width: 60%; }
+  /**************************************************************
+	page-employess.php - Employees Desktop
+**************************************************************/
+  .main-employees .flexbox-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    .main-employees .flexbox-container .employee-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%; }
+      .main-employees .flexbox-container .employee-container .employee-img-container {
+        widht: 50%; }
+        .main-employees .flexbox-container .employee-container .employee-img-container img {
+          width: 100%;
+          max-width: 400px; }
+      .main-employees .flexbox-container .employee-container .employee-info-container {
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px;
+        width: 48%; } }
 
 @media screen and (min-width: 1025px) and (max-width: 1480px) {
   /*****************************************
@@ -1810,7 +1867,34 @@ footer .footer-container {
     .main-contactus-container #wpforms-377-field_1, .main-contactus-container #wpforms-377-field_2, .main-contactus-container #wpforms-377-field_3, .main-contactus-container #wpforms-377-field_4 {
       max-width: 100%; }
     .main-contactus-container #wpforms-377-field_8 {
-      width: 415px; } }
+      width: 415px; }
+  /**************************************************************
+	page-employess.php - Employees Desktop
+**************************************************************/
+  .main-employees .flexbox-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+    .main-employees .flexbox-container .employee-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 49%; }
+      .main-employees .flexbox-container .employee-container .employee-img-container {
+        display: flex;
+        widht: 49%; }
+        .main-employees .flexbox-container .employee-container .employee-img-container img {
+          width: 100%;
+          max-width: 400px; }
+      .main-employees .flexbox-container .employee-container .employee-info-container {
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px;
+        width: 49%; } }
 
 @media screen and (min-width: 1481px) and (max-width: 3000px) {
   /*****************************************
@@ -2112,4 +2196,32 @@ footer .footer-container {
     .main-contactus-container #wpforms-377-field_1, .main-contactus-container #wpforms-377-field_2, .main-contactus-container #wpforms-377-field_3, .main-contactus-container #wpforms-377-field_4 {
       max-width: 100%; }
     .main-contactus-container #wpforms-377-field_8 {
-      width: 415px; } }
+      width: 415px; }
+  /**************************************************************
+	page-employess.php - Employees Desktop
+**************************************************************/
+  .main-employees .flexbox-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    .main-employees .flexbox-container .employee-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 48%; }
+      .main-employees .flexbox-container .employee-container .employee-img-container {
+        widht: 50%; }
+        .main-employees .flexbox-container .employee-container .employee-img-container img {
+          width: 100%;
+          max-width: 500px; }
+        .main-employees .flexbox-container .employee-container .employee-img-container .pic-two {
+          width: 100%;
+          max-width: 400px; }
+      .main-employees .flexbox-container .employee-container .employee-info-container {
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px;
+        width: 49%; } }

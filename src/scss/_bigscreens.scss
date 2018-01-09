@@ -424,3 +424,40 @@ main {
 		width: 415px;
 	}
 }
+/**************************************************************
+	page-employess.php - Employees Desktop
+**************************************************************/
+.main-employees {
+
+	.flexbox-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		.employee-container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+			width: 48%;
+			.employee-img-container {
+				widht: 50%;
+				img {
+					width: 100%;
+					max-width: 500px;
+				}
+				.pic-two {
+					width: 100%;
+					max-width: 400px;
+				}
+			}
+			.employee-info-container {
+				justify-content: flex-start;
+				align-items: flex-start;
+				padding: 20px;
+				width: 49%;
+			}
+		}
+	}
+}

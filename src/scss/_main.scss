@@ -721,6 +721,51 @@ main {
 /***********************************************************************************************************
   anställda.php: ANSTÄLLDA STYLE
 *************************************************************************************************************/
+.main-employees {
+
+	.flexbox-container {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		.employee-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			.employee-img-container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				img {
+					width: 100%;
+					max-width: 300px;
+				}
+			}
+			.employee-info-container {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				padding: 20px;
+				width: 50%;
+
+				h2, h3 {
+					font-family: $primary-font;
+				}
+				h2 {
+					
+					font-size: $secondary-font-size;
+				}
+				h3 {
+					font-size: $primary-font-size;
+				}
+			}
+		}
+	}
+}
+
 
 /*GRID FOR ANSTÄLLDA*/
 .employees-grid {
