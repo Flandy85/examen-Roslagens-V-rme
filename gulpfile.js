@@ -34,7 +34,7 @@ gulp.task('default', function() {
 	}))
 	.pipe(gulp.dest('./dist/css'))
 });
-
+/*Minifies html code and avoids touching inbeded php code*/
 gulp.task('htmltask', function(){
   return gulp.src(['./*.html','./*.php'])
       .pipe(htmlmin({
@@ -43,7 +43,7 @@ gulp.task('htmltask', function(){
       }))
       .pipe(gulp.dest('./site'));
 });
-// gulp task watchers, sass and js scripts
+// gulp task watchers, sass, css, html and js scripts
 gulp.task('watch', ['sass', 'scripts', 'default', 'css', 'htmltask'], function (){
   gulp.watch('./src/scss/**/*.scss', ['sass']); 
   gulp.watch('src/js/**/*.js', ['scripts']);
