@@ -25,7 +25,7 @@ gulp.task('css', function() {
     .pipe(concat('style.css'))
     .pipe(gulp.dest('./dist/css'));
 });
-/*Adds prefixes*/
+/*Adds webprefixes*/
 gulp.task('default', function() {
 	gulp.src('./src/scss/style.scss')
 	.pipe(autoprefixer ({
@@ -34,7 +34,7 @@ gulp.task('default', function() {
 	}))
 	.pipe(gulp.dest('./dist/css'))
 });
-/*Minifies html code and avoids touching inbeded php code*/
+/*Minifies html code and ignores compressing inbeded php code and place compressed files in folder: site*/
 gulp.task('htmltask', function(){
   return gulp.src(['./*.html','./*.php'])
       .pipe(htmlmin({
