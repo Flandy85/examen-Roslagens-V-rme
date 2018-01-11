@@ -13,7 +13,7 @@
 				<div class="partner-image-container">
 					<a href="http://www.elon.se/" rel="noopener" target="blank"><img class="footer-img" src="<?php echo get_template_directory_uri(); ?>/src/images/elon-logo.png" alt="Bild på företaget ELON:s loggo "></a>
 					<a href="http://www.lg.com/se/kyla-varmepumpar" rel="noopener" target="blank"><img class="footer-img" src="<?php echo get_template_directory_uri(); ?>/src/images/LG_Logo_svg.png" alt="Bild på företaget LG:s loggo "></a>
-					<a href="https://www.aircon.panasonic.eu/SE_sv/" rel="noopener" target="blank"><img class="footer-img" src="<?php echo get_template_directory_uri(); ?>/src/images/Panasonic-Logo-footer.png" alt="Bild på företaget Panasonic:s loggo"></a>
+					<a href="https://www.aircon.panasonic.eu/SE_sv/" rel="noopener" target="blank"><img class="footer-img" src="<?php echo get_template_directory_uri(); ?>/src/images/Panasonic-Logo.png" alt="Bild på företaget Panasonic:s loggo"></a>
 				</div>
 				<div class="partner-image-container">
 					<a href="https://www.airpatrol.eu/" rel="noopener" target="blank"><img class="footer-img" src="<?php echo get_template_directory_uri(); ?>/src/images/airPatrol-logo.png" alt="Bild på företaget airPatrol:s loggo"></a>
