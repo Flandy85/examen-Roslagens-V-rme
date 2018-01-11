@@ -3,7 +3,7 @@
 # In wp-content -> theme directory folder, download this project as a zip or clone with terminal.
 # In gitignore contains: node modules
 
-#Plugins for gulpfile.js
+# Plugins for gulpfile.js
 install the following in gulpfile.js:
 
 // Installs gulps globally
@@ -27,7 +27,7 @@ https://www.npmjs.com/package/gulp-autoprefixer
 npm install gulp-htmlmin
 https://www.npmjs.com/package/gulp-htmlmin
 
-#This project use Wordpress plugins
+# This project use Wordpress plugins
 Max Mega Menu - For Navigation menu
 
 Advanced Custom Fields - For Custom layout
