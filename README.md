@@ -1,7 +1,16 @@
 # examen-Roslagens-V-rme
-# Download Wordpress starter from https://sv.wordpress.org/ and do local installation
-# In wp-content -> theme directory folder, download this project as a zip or clone with terminal.
-# In gitignore contains: node modules
+
+# In gitignore contains:
+
+node modules
+package-lock.json
+
+# Installation instructions
+
+Download Wordpress starter from https://sv.wordpress.org/ and do local installation
+
+In wp-content -> theme directory folder, download this project as a zip or clone with terminal.
+
 
 # Plugins for gulpfile.js
 install the following in gulpfile.js:
@@ -28,6 +37,7 @@ npm install gulp-htmlmin
 https://www.npmjs.com/package/gulp-htmlmin
 
 # This project use Wordpress plugins
+
 Max Mega Menu - For Navigation menu
 
 Advanced Custom Fields - For Custom layout
