@@ -29,12 +29,19 @@ https://www.npmjs.com/package/gulp-htmlmin
 
 #This project use Wordpress plugins
 Max Mega Menu - For Navigation menu
+
 Advanced Custom Fields - For Custom layout
+
 Clef - For easier phone access without logname and password
+
 Limit Login Attempts - For limited login attempts
+
 Really Simple SSL - For ssl 
+
 WP Super Cache - For generating static html files
+
 WPForms Lite - For contact form
+
 Yoast SEO - For search engine optimazation
 
 
