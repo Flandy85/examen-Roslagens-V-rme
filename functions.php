@@ -32,10 +32,6 @@ function rvft_blog_setup() {
 	add_image_size('home-thumb', 715, 449);
 	
 
-	
-
-	// Loads css for bootstrap and custom css
-	wp_enqueue_style( 'bootstrap_css',get_template_directory_uri() . '/src/bootstrap-3.3.7-dist/css/bootstrap.min.css' );
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/dist/css/style.css', null, '1.0', 'all' );
 	// Make sure to not write http/https in googlefont link, security protocall for SSL will not work otherwise
 	wp_enqueue_style('googlefonts', '//fonts.googleapis.com/css?family=Josefin+Sans:400,600');
