@@ -7,7 +7,7 @@
   	<meta name="author" content="Anders Gustavsson, Johan Walberg">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Roslagens Värme & Fastighetsteknik AB</title>
+	<title><?php wp_title(); ?></title>
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
@@ -27,5 +27,13 @@
 				</nav><!-- navigation-menu -->
 			</div><!-- .inner-header-container -->
 		</div><!-- header-container -->
+		<?php
+			if ( substr_count( $_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip' ) ) {
+			    ob_start( "ob_gzhandler" );
+			}
+			else {
+			    ob_start();
+			}
+		?>
 	</header>
 

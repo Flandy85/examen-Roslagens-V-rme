@@ -23,12 +23,13 @@ footer {
         h1 {
           color: $complementary-color-two;
           font-family: $primary-font;
+          font-size: $secondary-font-size;
         }
 
         p {
           color: $complementary-color-two;
           font-family: $primary-font;
-          font-size: 18px;
+          font-size: $primary-font-size;
         }
         p > a {
           color: $complementary-color-two;
@@ -48,7 +49,9 @@ footer {
       .title-partner {
         color: #fff;
         font-family: $primary-font;
+        font-size: $secondary-font-size;
         margin: 0 0 22px 0;
+
       }
       .partner-image-container {
         display: flex;
@@ -68,6 +71,7 @@ footer {
       h1 {
         color: $complementary-color-two;
         font-family: $primary-font;
+        font-size: $secondary-font-size;
       }
 
       ul {
@@ -105,12 +109,18 @@ footer {
       width: 100%;
 
       .adress-container {
+        flex-wrap: wrap;
         border-bottom: none;
         width: 20%;
       }
       .partners-container {
         border-bottom: none;
-        width: 59%;
+        width: 50%;
+
+        .title-partner {
+          margin: 0 0 40px 0;
+
+        }
       }
       .meny-container {
         border-bottom: none;
