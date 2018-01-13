@@ -4,19 +4,19 @@
 *************************************************************************/
 console.log('Testing header.js');
 // Variables for Hiding Header when scrolling down
-var didScroll;
-var lastScrollTop = 0;
-var delta = 5;
+var scrolling;
+var scrollToTop = 0;
+var scrollLength = 5;
 var navbarHeight = $('header').outerHeight();
 
 $(window).scroll(function(event){
-    didScroll = true;
+    scrolling = true;
 });
 
 setInterval(function() {
-    if (didScroll) {
+    if (scrolling) {
         hasScrolled();
-        didScroll = false;
+        scrolling = false;
     }
 }, 250);
 
@@ -24,23 +24,23 @@ setInterval(function() {
 function hasScrolled() {
     var st = $(this).scrollTop();
     
-    // Make sure they scroll more than delta
-    if(Math.abs(lastScrollTop - st) <= delta)
+    // Make sure they scroll more than 5
+    if(Math.abs(scrollToTop - st) <= scrollLength)
         return;
     
     // If users has scrolled down and are past the navigationbar, adding class .nav-up.
     // This is so users wont see what is behind the navigationbar.
-    if (st > lastScrollTop && st > navbarHeight){
+    if (st > scrollToTop && st > navbarHeight){
         // Scrolling Down
-        console.log('When scrolling down');
+        console.log('Scrolling down');
         $('header').removeClass('nav-down').addClass('nav-up');
     } else {
         // Scrolling Up
-        console.log('When scrolling up');
+        console.log('Scrolling up');
         if(st + $(window).height() < $(document).height()) {
             $('header').removeClass('nav-up').addClass('nav-down');
         }
     }
     
-    lastScrollTop = st;
+    scrollToTop = st;
 }

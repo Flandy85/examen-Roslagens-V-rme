@@ -78,7 +78,6 @@ if(have_posts()) {
 					<div class="accessories-products-text">
 						<h3><?php echo get_field('accesories-product-title1'); ?></h3>
 						<p><?php echo get_field('accessories-product-text1'); ?></p>
-						<!-- <p class="lg-link-tag"><?php //echo get_field('lgsplit-product-link1'); ?></p> -->
 					</div><!-- .accessories-products-text -->
 				</div><!-- .accesories-products -->
 				<div class="accesories-products">
@@ -86,7 +85,6 @@ if(have_posts()) {
 					<div class="accessories-products-text">
 						<h3><?php echo get_field('accesories-product-title2'); ?></h3>
 						<p><?php echo get_field('accessories-product-text2'); ?></p>
-						<!-- <p class="lg-link-tag"><?php //echo get_field('lgsplit-product-link1'); ?></p> -->
 					</div><!-- .accessories-products-text -->
 				</div><!-- .accesories-products -->
 				<div class="accesories-products">
@@ -94,7 +92,6 @@ if(have_posts()) {
 					<div class="accessories-products-text">
 						<h3><?php echo get_field('accesories-product-title3'); ?></h3>
 						<p><?php echo get_field('accessories-product-text3'); ?></p>
-						<!-- <p class="lg-link-tag"><?php //echo get_field('lgsplit-product-link1'); ?></p> -->
 					</div><!-- .accessories-products-text -->
 				</div><!-- .accesories-products -->
 				<div class="accesories-products">
@@ -102,7 +99,6 @@ if(have_posts()) {
 					<div class="accessories-products-text">
 						<h3><?php echo get_field('accesories-product-title4'); ?></h3>
 						<p><?php echo get_field('accessories-product-text4'); ?></p>
-						<!-- <p class="lg-link-tag"><?php //echo get_field('lgsplit-product-link1'); ?></p> -->
 					</div><!-- .accessories-products-text -->
 				</div><!-- .accesories-products -->
 				<div class="accesories-products">
@@ -110,7 +106,6 @@ if(have_posts()) {
 					<div class="accessories-products-text">
 						<h3><?php echo get_field('accesories-product-title5'); ?></h3>
 						<p><?php echo get_field('accessories-product-text5'); ?></p>
-						<!-- <p class="lg-link-tag"><?php //echo get_field('lgsplit-product-link1'); ?></p> -->
 					</div><!-- .accessories-products-text -->
 				</div><!-- .accesories-products -->
 			</div><!-- .accessories-container -->
