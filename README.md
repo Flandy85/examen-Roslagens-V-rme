@@ -23,6 +23,7 @@ npm install gulp -D
 //In project directory
 // 2017-12-18
 npm install gulp
+https://www.npmjs.com/package/gulp-install
 
 npm install gulp-sass
 https://www.npmjs.com/package/gulp-sass
@@ -35,6 +36,9 @@ https://www.npmjs.com/package/gulp-autoprefixer
 
 npm install gulp-htmlmin
 https://www.npmjs.com/package/gulp-htmlmin
+
+npm install gulp-minify
+https://www.npmjs.com/package/gulp-minify
 
 # This project use Wordpress plugins
 
