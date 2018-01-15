@@ -154,13 +154,20 @@ main {
 		display: flex;
 		flex-wrap: wrap;
 		margin-top: 15px;
-		height: 550px;
+		height: 460px;
+
+		.panasonic-img-container, .panasonic-menu-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
 
 		.panasonic-img-container {
 			width: 49%;
 		}
 		.panasonic-menu-container {
-			width: 49%;
+			width: 48%;
 		}
 	}
 	/*Support section container*/

@@ -631,6 +631,16 @@ main {
 			}
 		}
 	}
+	/*Css for wp plugin form, giving fields 100% max-width*/
+	/*#wpforms-158-field_1, #wpforms-158-field_2, #wpforms-158-field_4, #wpforms-158-field_7 {
+		max-width: 77%;
+	}*/
+	#wpforms-377-field_1, #wpforms-377-field_2, #wpforms-377-field_3, #wpforms-377-field_4 {
+		padding: 0;
+	}
+	#wpforms-377-field_8 {
+		padding: 0;
+	}
 }
 
 /***********************************************************************************************************

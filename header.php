@@ -29,13 +29,6 @@
 		</div><!-- header-container -->
 
 		<!-- This php script is for compression files. The script reduces response times by reducing the size of the HTTP response. This will compress HTML, scripts and stylesheets. -->
-		<?php
-			if ( substr_count( $_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip' ) ) {
-			    ob_start( "ob_gzhandler" );
-			}
-			else {
-			    ob_start();
-			}
-		?>
+		
 	</header>
 
