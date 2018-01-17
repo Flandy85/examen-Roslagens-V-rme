@@ -27,10 +27,8 @@ main {
 		width: 100%;
 
 		.rvft-img-inner-container {
-			display: flex;
-    		flex-direction: column;
-    		justify-content: center;
-    		align-items: center;
+			/*_mixin.scss*/
+    		@include flex-center;
     		padding: 15px;
 			
 			.rvft-img-logo {
@@ -66,10 +64,8 @@ main {
 		width: 100%;
 
 		.lg-image-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			.lg-image{
 				width: 100%;
 				max-width: 360px;
@@ -80,16 +76,12 @@ main {
 			}
 		}
 		.lg-menu-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 
 			.lg-products-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 
 				h2 {
 					color: $lg-primary-color;
@@ -122,10 +114,8 @@ main {
 		width: 100%;
 
 		.panasonic-img-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			padding: 15px;
 
 			.panasonic-image {
@@ -144,16 +134,12 @@ main {
 			}
 		}
 		.panasonic-menu-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 
 			.pana-products-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 				h2 {
 					color: $complementary-color-two;
 				}
@@ -262,9 +248,8 @@ main {
 		.accessories-container {
 
 			.pana-products-container {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-align-center;
 				.products-line {
 					background-color: $complementary-color-three;
 					height: 3px;
@@ -272,10 +257,8 @@ main {
 				}
 			}
 			.accesories-products {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 
 				.accessories-image {
 					width: 100%;
@@ -370,9 +353,8 @@ main {
 		.accessories-container {
 
 			.pana-products-container {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-align-center
 				.products-line {
 					background-color: $complementary-color-three;
 					height: 3px;
@@ -398,10 +380,8 @@ main {
 		width: 100%;
 
 		.lg-image-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 
 			.lg-image {
 				width: 100%;
@@ -416,16 +396,12 @@ main {
 			}
 		}
 		.lg-menu-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 
 			.lg-products-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 
 				h2 {
 					color: $lg-primary-color;
@@ -490,10 +466,8 @@ main {
 	.lg-splitpumps-products-container {
 
 		.lg-splitpumps-products-inner-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			.lg-products {
 
 				.splitpump-image {
@@ -519,9 +493,8 @@ main {
 	.accessories-container {
 
 		.lg-products-container {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-align-center
 			.products-line {
 				background-color: $lg-primary-color;
 				height: 3px;
@@ -529,10 +502,8 @@ main {
 			}
 		}
 		.accesories-products {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 
 			.accessories-image {
 				width: 100%;
@@ -559,9 +530,8 @@ main {
 		width: 100%;
 		/*First section with contact information*/
 		.contactus-header-container {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-align-center
 
 			h3, p {
 				font-family: $primary-font;
@@ -592,10 +562,8 @@ main {
 	.visitor-container {
 		width: 100%;
 		.visitor-header-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			.visitor-title {
 				color: $complementary-color-three;
 				font-family: $primary-font;
@@ -615,10 +583,8 @@ main {
 				max-widht: 400px;
 			}
 			.streetadress-adress-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 
 				p, a {
 					font-family: $primary-font;
@@ -738,10 +704,8 @@ main {
 		flex-direction: column;
 		flex-wrap: wrap;
 		.employee-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			width: 100%;
 			.employee-img-container {
 				display: flex;
@@ -754,10 +718,8 @@ main {
 				}
 			}
 			.employee-info-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 				padding: 20px;
 				width: 50%;
 

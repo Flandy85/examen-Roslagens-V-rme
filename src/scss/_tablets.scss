@@ -68,9 +68,8 @@ main {
 	.accessories-container {
 
 		.lg-products-container {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-align-center;
 			.products-line {
 				background-color: $lg-primary-color;
 				height: 3px;
@@ -87,10 +86,8 @@ main {
 	background-image: url('contactusbackground-tablet1.jpg');
 
 	.contactus-flexbox-container {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+		/*_mixin.scss*/
+		@include flex-center;
 		.contactus-container {
 			width: 70%;
 		}
@@ -129,7 +126,7 @@ main {
 		align-items: center;
 		.employee-container {
 			display: flex;
-			flex-direction: row;
+			/*flex-direction: row;*/
 			justify-content: space-around;
 			align-items: center;
 			width: 100%;

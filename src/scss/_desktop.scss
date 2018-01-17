@@ -65,7 +65,7 @@ main {
 			width: 49%;
 		}
 		.panasonic-menu-container {
-			width: 49%;
+			width: 48%;
 		}
 		.page-title-container-air {
 			height: 80px;
@@ -84,10 +84,8 @@ main {
 			width: 50%;
 		}
 		.panasonic-propartners-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-start;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			width: 49%;
 
 			.propartners-title {
@@ -102,8 +100,8 @@ main {
 	}
 	/** Panasonic products section **/
 	.panasonic-products-container {
-		display: flex;
-		justify-content: center;
+		/*_mixin.scss*/
+		@include flex-justify-center;
 		height: auto;
 		width: 100%;
 
@@ -114,10 +112,8 @@ main {
 			width: 49%;
 			.pana-products {
 				margin-top: 10px;
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 
 				.airpump-image {
 					width: 100%;
@@ -132,9 +128,8 @@ main {
 		.accessories-container {
 			width: 49%;
 			.pana-products-container {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-align-center;
 				.products-line {
 					background-color: $complementary-color-three;
 					height: 3px;
@@ -157,10 +152,8 @@ main {
 		height: 460px;
 
 		.panasonic-img-container, .panasonic-menu-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 		}
 
 		.panasonic-img-container {
@@ -180,10 +173,8 @@ main {
 		}
 		/*Certificate section inside support section container*/
 		.panasonic-propartners-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-start;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			width: 49%;
 
 			.propartners-title {
@@ -198,8 +189,8 @@ main {
 	}
 	/** Panasonic products section **/
 	.panasonic-waterpump-products-container {
-		display: flex;
-		justify-content: center;
+		/*_mixin.scss*/
+		@include flex-justify-center;
 		height: auto;
 		width: 100%;
 
@@ -207,8 +198,8 @@ main {
 			display: flex;
 			width: 100%;
 			.pana-products {
-				display: flex;
-				justify-content: center;
+				/*_mixin.scss*/
+				@include flex-justify-center;
 				margin-top: 10px;
 				width: 49%;
 
@@ -227,8 +218,8 @@ main {
 		}
 		/** Panasonic accessories section **/
 		.accessories-container {
-			display: flex;
-			justify-content: center;
+			/*_mixin.scss*/
+			@include flex-justify-center;
 			width: 49%;
 
 		}
@@ -254,10 +245,8 @@ main {
 		}
 		/*Certificate section inside support section container*/
 		.lg-businesspartners-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-start;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			width: 49%;
 
 			.businesspartners-title {
@@ -276,10 +265,8 @@ main {
 		justify-content: space-around;
 
 		.lg-splitpumps-products-inner-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			width: 49%;
 		}
 	}
@@ -287,9 +274,8 @@ main {
 	.accessories-container {
 		width: 49%;
 		.lg-products-container {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-align-center;
 			.products-line {
 				background-color: $lg-primary-color;
 				height: 3px;
@@ -317,9 +303,8 @@ main {
 			width: 40%;
 			/*Section containing contact us text and WP-Form plugin*/
 			.contactus-header-container {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-align-center;
 			}
 
 			h3, p {
@@ -352,10 +337,8 @@ main {
 			width: 40%;
 
 			.visitor-header-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 				.visitor-title {
 					color: $complementary-color-three;
 				}
@@ -368,10 +351,8 @@ main {
 		}
 		/* Section containg adress picture and adress information*/
 		.streetadress-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			margin-top: 50px;
 
 			.streetadress-image-container {
@@ -415,7 +396,7 @@ main {
 
 	.flexbox-container {
 		display: flex;
-		flex-direction: row;
+		/*flex-direction: row;*/
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;

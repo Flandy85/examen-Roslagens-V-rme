@@ -42,8 +42,9 @@ main {
 	}
 	/** Third section LG, on page-start.php **/
 	.lg-container {
-		display: flex;
-		justify-content: center;
+		/*display: flex;
+		justify-content: center;*/
+		@include flex-justify-center;
 
 		.lg-image-container {
 			width: 30%;
@@ -126,11 +127,9 @@ main {
 			justify-content: center;
 			width: 49%;
 			.pana-products {
+				/*_mixin.scss*/
+				@include flex-center;
 				margin-top: 10px;
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
 
 				.airpump-image {
 					width: 100%;
@@ -145,9 +144,10 @@ main {
 		.accessories-container {
 			width: 49%;
 			.pana-products-container {
-				display: flex;
+				/*display: flex;
 				flex-direction: column;
-				align-items: center;
+				align-items: center;*/
+				@include flex-align-center;
 				.products-line {
 					background-color: $complementary-color-three;
 					height: 3px;
@@ -206,8 +206,8 @@ main {
 	}
 	/** Panasonic products section **/
 	.panasonic-waterpump-products-container {
-		display: flex;
-		justify-content: center;
+		/*_mixin.scss*/
+		@include flex-justify-center;
 		height: auto;
 		width: 100%;
 
@@ -215,8 +215,8 @@ main {
 			display: flex;
 			width: 100%;
 			.pana-products {
-				display: flex;
-				justify-content: center;
+				/*_mixin.scss*/
+				@include flex-justify-center;
 				margin-top: 10px;
 				width: 49%;
 
@@ -235,8 +235,8 @@ main {
 		}
 		/** Panasonic accessories section **/
 		.accessories-container {
-			display: flex;
-			justify-content: center;
+			/*_mixin.scss*/
+			@include flex-justify-center;
 			width: 49%;
 
 		}
@@ -255,8 +255,8 @@ main {
 	}
 	/** LG Support container **/
 	.lg-support-container {
-		display: flex;
-		justify-content: center;
+		/*_mixin.scss*/
+		@include flex-justify-center;
 		height: 300px;
 
 		.lg-support-text-container {
@@ -282,14 +282,12 @@ main {
 	}
 	/** LG Splitpumps section **/
 	.lg-splitpumps-products-container {
-		display: flex;
-		justify-content: center;
+		/*_mixin.scss*/
+		@include flex-justify-center;
 
 		.lg-splitpumps-products-inner-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			width: 30%;
 		}
 	}
@@ -297,9 +295,8 @@ main {
 	.accessories-container {
 		width: 30%;
 		.lg-products-container {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-align-center;
 			.products-line {
 				background-color: $lg-primary-color;
 				height: 3px;
@@ -327,9 +324,8 @@ main {
 			width: 30%;
 
 			.contactus-header-container {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-align-center;
 			}
 
 			h3, p {
@@ -361,10 +357,8 @@ main {
 			width: 30%;
 
 			.visitor-header-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 				.visitor-title {
 					color: $complementary-color-three;
 				}
@@ -377,10 +371,8 @@ main {
 		}
 
 		.streetadress-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			margin-top: 50px;
 
 			.streetadress-image-container {
