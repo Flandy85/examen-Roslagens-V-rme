@@ -7,6 +7,7 @@
 	to find  each css section 
 	for each page.php file.
 ***************************************/
+
 /*****************************************
 	page-start.php: HOME PAGE
 ******************************************/
@@ -100,10 +101,12 @@ main {
 
 				li > a {
 					color: $lg-primary-color;
+
+					&:hover {
+						color: $lg-secondary-color;
+					}
 				}
-				li > a:hover {
-					color: $lg-secondary-color;
-				}
+				
 			}
 		}
 	}
@@ -154,10 +157,12 @@ main {
 
 				li > a {
 					color: $complementary-color-two;
+
+					&:hover {
+						color: $secondary-color;
+					}
 				}
-				li > a:hover {
-					color: $secondary-color;
-				}
+				
 			}
 			
 		}
@@ -205,12 +210,14 @@ main {
 			}
 			a {
 				color: $secondary-color;
+
+				&:hover {
+					color: $secondary-color;
+					text-decoration: none;
+					text-transform: uppercase;
+				}
 			}
-			p > a:hover {
-				color: $secondary-color;
-				text-decoration: none;
-				text-transform: uppercase;
-			}
+			
 		}
 		/*Certificate in support section, isn't shown in mobile view*/
 		.panasonic-propartners-container {
@@ -309,12 +316,14 @@ main {
 			}
 			a {
 				color: $secondary-color;
+
+				&:hover {
+					color: $secondary-color;
+					text-decoration: none;
+					text-transform: uppercase;
+				}
 			}
-			p > a:hover {
-				color: $secondary-color;
-				text-decoration: none;
-				text-transform: uppercase;
-			}
+		
 		}
 		/*Certificate in support section, isn't shown in mobile view*/
 		.panasonic-propartners-container {
@@ -420,10 +429,12 @@ main {
 
 				li > a {
 					color: $lg-primary-color;
+
+					&:hover {
+						color: $lg-secondary-color;
+					}
 				}
-				li > a:hover {
-					color: $lg-secondary-color;
-				}
+				
 			}
 			.products-line {
 				background-color: $lg-primary-color;
@@ -451,11 +462,11 @@ main {
 				font-family: $primary-font;
 				font-weight: bold;
 				color: $complementary-color-three;
-			}
-			p > a:hover {
-				color: $lg-secondary-color;
-			}
-			
+
+				&:hover {
+					color: $lg-secondary-color;
+				}
+			}	
 		}
 		/*Certificate in support section, isn't shown in mobile view*/
 		.lg-businesspartners-container {
@@ -543,11 +554,12 @@ main {
 			}
 			a {
 				color: $secondary-color;
-			}
-			a:hover {
-				color: $complmentary-color;
-				text-decoration: none;
 
+				&:hover {
+					color: $complmentary-color;
+					text-decoration: none;
+
+				}
 			}
 		}
 		

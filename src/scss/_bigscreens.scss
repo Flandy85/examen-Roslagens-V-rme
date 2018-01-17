@@ -42,8 +42,7 @@ main {
 	}
 	/** Third section LG, on page-start.php **/
 	.lg-container {
-		/*display: flex;
-		justify-content: center;*/
+		/*_mixin.scss*/
 		@include flex-justify-center;
 
 		.lg-image-container {
@@ -98,10 +97,8 @@ main {
 			width: 36%;
 		}
 		.panasonic-propartners-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-start;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-justify-start;
 			width: 40%;
 
 			.propartners-title {
@@ -144,10 +141,9 @@ main {
 		.accessories-container {
 			width: 49%;
 			.pana-products-container {
-				/*display: flex;
-				flex-direction: column;
-				align-items: center;*/
+				/*_mixin.scss*/
 				@include flex-align-center;
+
 				.products-line {
 					background-color: $complementary-color-three;
 					height: 3px;
@@ -187,10 +183,8 @@ main {
 		}
 		/*Panasonic Pro partners container*/
 		.panasonic-propartners-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-start;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-justify-start;
 			width: 40%;
 
 			.propartners-title {
@@ -264,10 +258,8 @@ main {
 		
 		}
 		.lg-businesspartners-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-start;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-justify-start;
 			width: 40%;
 
 			.businesspartners-title {
@@ -339,9 +331,10 @@ main {
 			}
 			a {
 				color: $secondary-color;
-			}
-			a:hover {
-				color: $complmentary-color;
+
+				&:hover {
+					color: $complmentary-color;
+				}
 			}
 			
 			.contactus-line {
@@ -403,12 +396,6 @@ main {
 		}
 	}
 	/*Css for wp plugin form, giving text-fields 100% max-width*/
-	/*#wpforms-76-field_0, #wpforms-76-field_1, #wpforms-76-field_3, #wpforms-76-field_4 {
-		max-width: 100%;
-	}
-	#wpforms-158-field_8 {
-		width: 415px;
-	}*/
 	#wpforms-377-field_1, #wpforms-377-field_2, #wpforms-377-field_3, #wpforms-377-field_4 {
 		max-width: 100%;
 	}

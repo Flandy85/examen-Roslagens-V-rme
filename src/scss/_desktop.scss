@@ -318,11 +318,11 @@ main {
 			}
 			a {
 				color: $secondary-color;
+
+				&:hover {
+					color: $complmentary-color;
+				}
 			}
-			a:hover {
-				color: $complmentary-color;
-			}
-			
 			.contactus-line {
 				background-color: $complementary-color-three;
 				height: 3px;
@@ -371,9 +371,10 @@ main {
 				}
 				a {
 					color: $secondary-color;
-				}
-				a:hover {
-					color: $complmentary-color;
+
+					&:hover {
+						color: $complmentary-color;
+					}
 				}
 			}
 		}
