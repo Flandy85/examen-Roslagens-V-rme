@@ -555,30 +555,30 @@ main {
 	background-position: center;
 	/*Contact us section*/
 	.contactus-container {
-		padding: 15px;
+		
 		width: 100%;
 		/*First section with contact information*/
 		.contactus-header-container {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-		}
 
-		h3, p {
-			font-family: $primary-font;
-			color: $complementary-color-three;
-		}
-		p, a {
-			font-family: $primary-font;
-			font-size: $primary-font-size;
-		}
-		a {
-			color: $secondary-color;
-		}
-		a:hover {
-			color: $complmentary-color;
-			text-decoration: none;
+			h3, p {
+				font-family: $primary-font;
+				color: $complementary-color-three;
+			}
+			p, a {
+				font-family: $primary-font;
+				font-size: $primary-font-size;
+			}
+			a {
+				color: $secondary-color;
+			}
+			a:hover {
+				color: $complmentary-color;
+				text-decoration: none;
 
+			}
 		}
 		
 		.contactus-line {
@@ -610,7 +610,7 @@ main {
 		.streetadress-container {
 			margin-top: 20px;
 			.visitor-image {
-				padding: 20px;
+				/*padding: 20px;*/
 				width: 100%;
 				max-widht: 400px;
 			}
