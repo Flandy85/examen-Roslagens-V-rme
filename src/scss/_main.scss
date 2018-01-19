@@ -815,31 +815,54 @@ main {
 *************************************************************************************************************/
 .main-aboutus-container {
 
-	.aboutus-box-title {
-		@include flex-center;
-		width: 100%;
+	.main-aboutus {
 
-		.info-aboutus {
+		.aboutus-box-title {
+			background-image: url('aboutus-mobile.jpg');
+			background-size: cover;
+	  		background-repeat: no-repeat;
+	  		background-position: center;
+			@include flex-center;
 			width: 100%;
 
-			p {
-				line-height: 25px;
-				padding: 0 10px 0 10px;
-				text-align: left;
+			.info-aboutus {
+				width: 100%;
+				h3, p {
+					color: $complementary-color-three;
+					font-family: $primary-font;
+				}
+				p {
+					line-height: 25px;
+					padding: 0 10px 0 10px;
+					text-align: left;
+				}
 			}
 		}
-	}
-	.box-company1 { 
+		.aboutus-info-title {
+			border-top: 3px solid #000;
+			border-bottom: 3px solid #000;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
 
-		.container-box-aboutus-left {
+			h2 {
+				color: $complementary-color-three;
+				font-family: $primary-font;
+			}
+		}
+		.box-company1 { 
 
-			.aboutus-content {
+			.container-box-aboutus-left {
 
-				.imgbox-aboutus {
+				.aboutus-content {
 
-					.aboutus-img-incert {
-						width: 100%;
-						max-width: 200px;
+					.imgbox-aboutus {
+
+						.aboutus-img-incert {
+							width: 100%;
+							max-width: 200px;
+						}
 					}
 				}
 			}
@@ -849,15 +872,15 @@ main {
 
 .aboutus-box-title {
 	text-align: center;
-    background-color: #ced9d3;
+    /*background-color: #ced9d3;*/
 	color: #fff;
 	
 }
 .title-certifierad {
-		text-align: center;
+		/*text-align: center;
 		border-top: 3px solid #000;
 		border-bottom: 3px solid #000;
-		font-weight: bold;
+		font-weight: bold;*/
 }
 .line-black {
 		border-bottom: 3px solid #000;

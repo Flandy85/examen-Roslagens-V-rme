@@ -395,29 +395,53 @@ main {
 **************************************************************/
 .main-aboutus-container {
 
-	.aboutus-box-title {
-		display: flex;
-		flex-direction: row;
-		width: 100%;
-		.info-aboutus {
-			/*text-align: left;*/
-			width: 30%;
+	.main-aboutus {
+
+		.aboutus-box-title {
+			background-image: url('aboutus-desktop.jpg');
+			display: flex;
+			flex-direction: row;
+			height: 500px;
+			width: 100%;
+			.info-aboutus {
+				/*text-align: left;*/
+				width: 35%;
+
+				p {
+					font-size: 18px;
+				}
+			}
+			.info-aboutus-img-container {
+				width: 35%;
+				.company-pic {
+					padding: 5px;
+				}
+			}
 		}
-		.info-aboutus-img-container {
-			width: 30%;
+		.aboutus-info-title {
+			border-top: 3px solid #000;
+			border-bottom: 3px solid #000;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+
+			h2 {
+
+			}
 		}
-	}
-	.box-company1 { 
+		.box-company1 { 
 
-		.container-box-aboutus-left {
+			.container-box-aboutus-left {
 
-			.aboutus-content {
+				.aboutus-content {
 
-				.imgbox-aboutus {
+					.imgbox-aboutus {
 
-					.aboutus-img-incert {
-						width: 100%;
-						max-width: 200px;
+						.aboutus-img-incert {
+							width: 100%;
+							max-width: 200px;
+						}
 					}
 				}
 			}

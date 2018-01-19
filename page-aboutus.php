@@ -24,11 +24,7 @@ if(have_posts()) {
 				</div>	
 			</div><!-- aboutus-box-title -->
 			<div class="aboutus-info-title">
-				<div class="">
-					<div class="title-box">
-						<h2 class="title-certifierad"><?php echo get_field('certified-title'); ?></h2>
-					</div><!-- .title-box -->
-				</div><!--  -->
+					<h2 class="title-certifierad"><?php echo get_field('certified-title'); ?></h2>
 			</div><!-- aboutus-info-title -->
 			<div class="box-company1">
 				<div class="container-box-aboutus-left">
