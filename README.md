@@ -1,4 +1,4 @@
-# examen-Roslagens-V-rme
+## examen-Roslagens-V-rme
 
 # In gitignore contains:
 node modules
@@ -11,11 +11,13 @@ Download Wordpress starter from https://sv.wordpress.org/ and do local installat
 
 In wp-content -> theme directory folder, download this project as a zip or clone with terminal.
 
+With the terminal, got to working directory and run npm plugins installations 
+for gulpfile.js
 
 # Plugins for gulpfile.js
 install the following in gulpfile.js:
 
-// Installs gulps globally
+// Installs gulps globally if you havent already
 npm install gulp -G
 
 npm install gulp -D
