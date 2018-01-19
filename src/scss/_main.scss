@@ -830,11 +830,18 @@ main {
 				h3, p {
 					color: $complementary-color-three;
 					font-family: $primary-font;
+					font-size: 16px;
 				}
 				p {
 					line-height: 25px;
 					padding: 0 10px 0 10px;
 					text-align: left;
+				}
+			}
+			.info-aboutus-img-container {
+				.company-pic {
+					width: 100%;
+					max-width: 250px;
 				}
 			}
 		}
