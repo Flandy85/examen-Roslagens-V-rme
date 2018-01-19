@@ -114,6 +114,40 @@ main {
 	}
 }
 /**************************************************************
+	page-aboutus.php - About Company Tablet
+**************************************************************/
+.main-aboutus-container {
+
+	.aboutus-box-title {
+		/*@include flex-justify-center;*/
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		.info-aboutus {
+			width: 49%;
+		}
+		.info-aboutus-img-container {
+			width: 48%;
+		}
+	}
+	.box-company1 { 
+
+		.container-box-aboutus-left {
+
+			.aboutus-content {
+
+				.imgbox-aboutus {
+
+					.aboutus-img-incert {
+						width: 100%;
+						max-width: 200px;
+					}
+				}
+			}
+		}
+	}
+}
+/**************************************************************
 	page-employess.php - Employees Tablet
 **************************************************************/
 .main-employees {

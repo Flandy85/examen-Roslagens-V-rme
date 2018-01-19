@@ -815,6 +815,20 @@ main {
 *************************************************************************************************************/
 .main-aboutus-container {
 
+	.aboutus-box-title {
+		@include flex-center;
+		width: 100%;
+
+		.info-aboutus {
+			width: 100%;
+
+			p {
+				line-height: 25px;
+				padding: 0 10px 0 10px;
+				text-align: left;
+			}
+		}
+	}
 	.box-company1 { 
 
 		.container-box-aboutus-left {

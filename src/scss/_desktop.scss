@@ -391,6 +391,40 @@ main {
 	}
 }
 /**************************************************************
+	page-aboutus.php - About Company Desktop
+**************************************************************/
+.main-aboutus-container {
+
+	.aboutus-box-title {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		.info-aboutus {
+			/*text-align: left;*/
+			width: 30%;
+		}
+		.info-aboutus-img-container {
+			width: 30%;
+		}
+	}
+	.box-company1 { 
+
+		.container-box-aboutus-left {
+
+			.aboutus-content {
+
+				.imgbox-aboutus {
+
+					.aboutus-img-incert {
+						width: 100%;
+						max-width: 200px;
+					}
+				}
+			}
+		}
+	}
+}
+/**************************************************************
 	page-employess.php - Employees Desktop
 **************************************************************/
 .main-employees {

@@ -14,12 +14,14 @@ if(have_posts()) {
 		?>
 		<!-- This page is constructed with flexbox -->
 		<div class="main-aboutus">
-			<div class="aboutus-box-title">
-				<div class="">
-					<div class="info-aboutus">
-						<h3><?php echo get_field('info-box-title'); ?></h3>
-					</div><!-- .info-aboutus -->
-				</div><!--  -->
+			<div class="aboutus-box-title">	
+				<div class="info-aboutus">
+					<h3><?php echo get_field('info-box-title'); ?></h3>
+					<p><?php echo get_field('info-box-text'); ?></p>
+				</div><!-- .info-aboutus -->
+				<div class="info-aboutus-img-container">
+					<img src="<?php the_field('company-picture'); ?>" alt="Bild av företaget Roslagens Värme & Fastighetsteknik" class="company-pic">
+				</div>	
 			</div><!-- aboutus-box-title -->
 			<div class="aboutus-info-title">
 				<div class="">
