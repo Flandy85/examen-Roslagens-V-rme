@@ -10,6 +10,7 @@ main {
 		.rvft-img-inner-container {
     		width: 49%;		
 		}
+		/*Flexbox positioning*/
 		.placeholder-div {
 			display: block;
 			width: 48%;
@@ -85,7 +86,7 @@ main {
 		}
 		.panasonic-propartners-container {
 			/*_mixin.scss*/
-			@include flex-center;
+			@include flex-align-center;
 			width: 49%;
 
 			.propartners-title {
@@ -174,7 +175,7 @@ main {
 		/*Certificate section inside support section container*/
 		.panasonic-propartners-container {
 			/*_mixin.scss*/
-			@include flex-center;
+			@include flex-align-center;
 			width: 49%;
 
 			.propartners-title {

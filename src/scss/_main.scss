@@ -102,7 +102,11 @@ main {
 				li > a {
 					color: $lg-primary-color;
 
-					&:hover {
+					/*&:hover {
+						color: $lg-secondary-color;
+					}*/
+					/*Hover and focus mixin*/
+					@include hocus() {
 						color: $lg-secondary-color;
 					}
 				}
@@ -157,8 +161,10 @@ main {
 
 				li > a {
 					color: $complementary-color-two;
+					text-decoration: none;
 
-					&:hover {
+					/*Hover and focus mixin*/
+					@include hocus() {
 						color: $secondary-color;
 					}
 				}
@@ -211,7 +217,8 @@ main {
 			a {
 				color: $secondary-color;
 
-				&:hover {
+				/*Hover and focus mixin*/
+				@include hocus() {
 					color: $secondary-color;
 					text-decoration: none;
 					text-transform: uppercase;
@@ -555,10 +562,10 @@ main {
 			a {
 				color: $secondary-color;
 
-				&:hover {
+				/*Hover and focus mixin*/
+				@include hocus() {
 					color: $complmentary-color;
 					text-decoration: none;
-
 				}
 			}
 		}
@@ -601,11 +608,16 @@ main {
 				p, a {
 					font-family: $primary-font;
 					font-size: $primary-font-size;
+
+					@include hocus(){
+						color: $complmentary-color;
+						text-decoration: none;
+					}
 				}
-				a:hover {
+				/*a:hover {
 					color: $complmentary-color;
 					text-decoration: none;
-				}
+				}*/
 			}
 		}
 	}

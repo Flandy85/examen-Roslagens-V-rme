@@ -12,10 +12,9 @@ footer {
 
     .adress-container, .partners-container, .meny-container {
       border-bottom: 2px solid $complementary-color-two;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      
+      /*Flexbox positioning mixin*/
+      @include flex-center;
       width: 100%;
     }
     .adress-container {
@@ -34,11 +33,12 @@ footer {
         p > a {
           color: $complementary-color-two;
           font-family: $primary-font;
-          text-decoration: underline;
-        }
-        p > a:hover {
-          color: $secondary-color;
           text-decoration: none;
+
+          /*Hover and focus mixin*/
+          @include hocus() {
+            color: $secondary-color;
+          }
         }
     }
 
@@ -84,12 +84,15 @@ footer {
         }
 
         li > a {
-          color: #fff;
-          font-size: 18px;
-        }
-        li > a:hover {
-          color: $secondary-color;
+          color: $complementary-color-two;
+          font-size: $primary-font-size;
           text-decoration: none;
+
+          /*Hover and focus mixin*/
+          @include hocus() {
+            color: $secondary-color;
+            
+          }
         }
       }
     }

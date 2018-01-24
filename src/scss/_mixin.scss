@@ -30,3 +30,10 @@
 	justify-content: flex-start;
 	align-items: center;
 }
+/*Mixin for hover and focus effect on atags*/
+@mixin hocus() {
+
+	&:hover, &:focus {
+		@content;
+	}
+}
