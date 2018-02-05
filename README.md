@@ -44,6 +44,11 @@ https://www.npmjs.com/package/gulp-htmlmin
 npm install gulp-minify
 https://www.npmjs.com/package/gulp-minify
 
+npm gulp-js-minify 
+https://www.npmjs.com/package/gulp-js-minify
+
+Install
+
 ## This project use Wordpress plugins
 
 Max Mega Menu - For Navigation menu
