@@ -10,6 +10,7 @@ main {
 		.rvft-img-inner-container {
     		width: 49%;		
 		}
+		/*Flexbox positioning*/
 		.placeholder-div {
 			display: block;
 			width: 48%;
@@ -65,7 +66,7 @@ main {
 			width: 49%;
 		}
 		.panasonic-menu-container {
-			width: 49%;
+			width: 48%;
 		}
 		.page-title-container-air {
 			height: 80px;
@@ -84,10 +85,8 @@ main {
 			width: 50%;
 		}
 		.panasonic-propartners-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-start;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-align-center;
 			width: 49%;
 
 			.propartners-title {
@@ -102,8 +101,8 @@ main {
 	}
 	/** Panasonic products section **/
 	.panasonic-products-container {
-		display: flex;
-		justify-content: center;
+		/*_mixin.scss*/
+		@include flex-justify-center;
 		height: auto;
 		width: 100%;
 
@@ -114,10 +113,8 @@ main {
 			width: 49%;
 			.pana-products {
 				margin-top: 10px;
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 
 				.airpump-image {
 					width: 100%;
@@ -132,9 +129,8 @@ main {
 		.accessories-container {
 			width: 49%;
 			.pana-products-container {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-align-center;
 				.products-line {
 					background-color: $complementary-color-three;
 					height: 3px;
@@ -154,13 +150,18 @@ main {
 		display: flex;
 		flex-wrap: wrap;
 		margin-top: 15px;
-		height: 550px;
+		height: 460px;
+
+		.panasonic-img-container, .panasonic-menu-container {
+			/*_mixin.scss*/
+			@include flex-center;
+		}
 
 		.panasonic-img-container {
 			width: 49%;
 		}
 		.panasonic-menu-container {
-			width: 49%;
+			width: 48%;
 		}
 	}
 	/*Support section container*/
@@ -173,10 +174,8 @@ main {
 		}
 		/*Certificate section inside support section container*/
 		.panasonic-propartners-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-start;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-align-center;
 			width: 49%;
 
 			.propartners-title {
@@ -191,8 +190,8 @@ main {
 	}
 	/** Panasonic products section **/
 	.panasonic-waterpump-products-container {
-		display: flex;
-		justify-content: center;
+		/*_mixin.scss*/
+		@include flex-justify-center;
 		height: auto;
 		width: 100%;
 
@@ -200,8 +199,8 @@ main {
 			display: flex;
 			width: 100%;
 			.pana-products {
-				display: flex;
-				justify-content: center;
+				/*_mixin.scss*/
+				@include flex-justify-center;
 				margin-top: 10px;
 				width: 49%;
 
@@ -220,8 +219,8 @@ main {
 		}
 		/** Panasonic accessories section **/
 		.accessories-container {
-			display: flex;
-			justify-content: center;
+			/*_mixin.scss*/
+			@include flex-justify-center;
 			width: 49%;
 
 		}
@@ -247,10 +246,8 @@ main {
 		}
 		/*Certificate section inside support section container*/
 		.lg-businesspartners-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-start;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			width: 49%;
 
 			.businesspartners-title {
@@ -269,10 +266,8 @@ main {
 		justify-content: space-around;
 
 		.lg-splitpumps-products-inner-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			width: 49%;
 		}
 	}
@@ -280,9 +275,8 @@ main {
 	.accessories-container {
 		width: 49%;
 		.lg-products-container {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-align-center;
 			.products-line {
 				background-color: $lg-primary-color;
 				height: 3px;
@@ -310,9 +304,8 @@ main {
 			width: 40%;
 			/*Section containing contact us text and WP-Form plugin*/
 			.contactus-header-container {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-align-center;
 			}
 
 			h3, p {
@@ -326,11 +319,11 @@ main {
 			}
 			a {
 				color: $secondary-color;
+
+				&:hover {
+					color: $complmentary-color;
+				}
 			}
-			a:hover {
-				color: $complmentary-color;
-			}
-			
 			.contactus-line {
 				background-color: $complementary-color-three;
 				height: 3px;
@@ -345,10 +338,8 @@ main {
 			width: 40%;
 
 			.visitor-header-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 				.visitor-title {
 					color: $complementary-color-three;
 				}
@@ -361,10 +352,8 @@ main {
 		}
 		/* Section containg adress picture and adress information*/
 		.streetadress-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			margin-top: 50px;
 
 			.streetadress-image-container {
@@ -383,9 +372,10 @@ main {
 				}
 				a {
 					color: $secondary-color;
-				}
-				a:hover {
-					color: $complmentary-color;
+
+					&:hover {
+						color: $complmentary-color;
+					}
 				}
 			}
 		}
@@ -402,13 +392,73 @@ main {
 	}
 }
 /**************************************************************
+	page-aboutus.php - About Company Desktop
+**************************************************************/
+.main-aboutus-container {
+
+	.main-aboutus {
+
+		.aboutus-box-title {
+			background-image: url('aboutus-desktop.jpg');
+			display: flex;
+			flex-direction: row;
+			height: 500px;
+			width: 100%;
+			.info-aboutus {
+				/*text-align: left;*/
+				width: 35%;
+
+				p {
+					font-size: 18px;
+				}
+			}
+			.info-aboutus-img-container {
+				width: 35%;
+				.company-pic {
+					padding: 5px;
+					width: 100%;
+					max-width: 500px;
+				}
+			}
+		}
+		.aboutus-info-title {
+			border-top: 3px solid #000;
+			border-bottom: 3px solid #000;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+
+			h2 {
+
+			}
+		}
+		.box-company1 { 
+
+			.container-box-aboutus-left {
+
+				.aboutus-content {
+
+					.imgbox-aboutus {
+
+						.aboutus-img-incert {
+							width: 100%;
+							max-width: 200px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/**************************************************************
 	page-employess.php - Employees Desktop
 **************************************************************/
 .main-employees {
 
 	.flexbox-container {
 		display: flex;
-		flex-direction: row;
+		/*flex-direction: row;*/
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;

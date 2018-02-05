@@ -1,0 +1,39 @@
+/*********************************************************
+	Note: @mixin is for using webkits etc but havent found
+	another way to re-use flexbox so we are using this
+	mixin partial scss. We're saving about 100 lines
+	of css code.
+*********************************************************/
+
+/*Flex positioning center elements width and height for column layout*/
+@mixin flex-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/*Flex positioning align-center elements for height in column layout*/
+@mixin flex-align-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/*Flex positioning elements width center row layout */
+@mixin flex-justify-center {
+	display: flex;
+	justify-content: center;
+}
+/*Flex positioning elements width start row layout */
+@mixin flex-justify-start {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+/*Mixin for hover and focus effect on atags*/
+@mixin hocus() {
+
+	&:hover, &:focus {
+		@content;
+	}
+}

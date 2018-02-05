@@ -5,7 +5,7 @@ main {
 	/** First section on page-start.php **/
 	.rvft-img-outer-container {
 
-		background-image: url('Panasonic-startsida-desktop.jpg');
+		background-image: url('Panasonic-startsida-bigscreen.jpg');
 		height: 550px;
 		margin-top: 250px;
 
@@ -42,8 +42,8 @@ main {
 	}
 	/** Third section LG, on page-start.php **/
 	.lg-container {
-		display: flex;
-		justify-content: center;
+		/*_mixin.scss*/
+		@include flex-justify-center;
 
 		.lg-image-container {
 			width: 30%;
@@ -97,10 +97,8 @@ main {
 			width: 36%;
 		}
 		.panasonic-propartners-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-start;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-justify-start;
 			width: 40%;
 
 			.propartners-title {
@@ -126,11 +124,9 @@ main {
 			justify-content: center;
 			width: 49%;
 			.pana-products {
+				/*_mixin.scss*/
+				@include flex-center;
 				margin-top: 10px;
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
 
 				.airpump-image {
 					width: 100%;
@@ -145,9 +141,9 @@ main {
 		.accessories-container {
 			width: 49%;
 			.pana-products-container {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-align-center;
+
 				.products-line {
 					background-color: $complementary-color-three;
 					height: 3px;
@@ -187,10 +183,8 @@ main {
 		}
 		/*Panasonic Pro partners container*/
 		.panasonic-propartners-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-start;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-justify-start;
 			width: 40%;
 
 			.propartners-title {
@@ -206,8 +200,8 @@ main {
 	}
 	/** Panasonic products section **/
 	.panasonic-waterpump-products-container {
-		display: flex;
-		justify-content: center;
+		/*_mixin.scss*/
+		@include flex-justify-center;
 		height: auto;
 		width: 100%;
 
@@ -215,8 +209,8 @@ main {
 			display: flex;
 			width: 100%;
 			.pana-products {
-				display: flex;
-				justify-content: center;
+				/*_mixin.scss*/
+				@include flex-justify-center;
 				margin-top: 10px;
 				width: 49%;
 
@@ -235,8 +229,8 @@ main {
 		}
 		/** Panasonic accessories section **/
 		.accessories-container {
-			display: flex;
-			justify-content: center;
+			/*_mixin.scss*/
+			@include flex-justify-center;
 			width: 49%;
 
 		}
@@ -255,8 +249,8 @@ main {
 	}
 	/** LG Support container **/
 	.lg-support-container {
-		display: flex;
-		justify-content: center;
+		/*_mixin.scss*/
+		@include flex-justify-center;
 		height: 300px;
 
 		.lg-support-text-container {
@@ -264,10 +258,8 @@ main {
 		
 		}
 		.lg-businesspartners-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-start;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-justify-start;
 			width: 40%;
 
 			.businesspartners-title {
@@ -282,14 +274,12 @@ main {
 	}
 	/** LG Splitpumps section **/
 	.lg-splitpumps-products-container {
-		display: flex;
-		justify-content: center;
+		/*_mixin.scss*/
+		@include flex-justify-center;
 
 		.lg-splitpumps-products-inner-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			width: 30%;
 		}
 	}
@@ -297,9 +287,8 @@ main {
 	.accessories-container {
 		width: 30%;
 		.lg-products-container {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-align-center;
 			.products-line {
 				background-color: $lg-primary-color;
 				height: 3px;
@@ -327,9 +316,8 @@ main {
 			width: 30%;
 
 			.contactus-header-container {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-align-center;
 			}
 
 			h3, p {
@@ -343,9 +331,10 @@ main {
 			}
 			a {
 				color: $secondary-color;
-			}
-			a:hover {
-				color: $complmentary-color;
+
+				&:hover {
+					color: $complmentary-color;
+				}
 			}
 			
 			.contactus-line {
@@ -361,10 +350,8 @@ main {
 			width: 30%;
 
 			.visitor-header-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 				.visitor-title {
 					color: $complementary-color-three;
 				}
@@ -377,10 +364,8 @@ main {
 		}
 
 		.streetadress-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			margin-top: 50px;
 
 			.streetadress-image-container {
@@ -411,17 +396,52 @@ main {
 		}
 	}
 	/*Css for wp plugin form, giving text-fields 100% max-width*/
-	/*#wpforms-76-field_0, #wpforms-76-field_1, #wpforms-76-field_3, #wpforms-76-field_4 {
-		max-width: 100%;
-	}
-	#wpforms-158-field_8 {
-		width: 415px;
-	}*/
 	#wpforms-377-field_1, #wpforms-377-field_2, #wpforms-377-field_3, #wpforms-377-field_4 {
 		max-width: 100%;
 	}
 	#wpforms-377-field_8 {
 		width: 415px;
+	}
+}
+/**************************************************************
+	page-aboutus.php - About Company Desktop
+**************************************************************/
+.main-aboutus-container {
+	.main-aboutus {
+		
+		.aboutus-box-title {
+			background-image: url('aboutus-desktop.jpg');
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+			.info-aboutus {
+				/*text-align: left;*/
+				width: 30%;
+
+				h3, p {
+					
+				}
+			}
+			.info-aboutus-img-container {
+				width: 30%;
+			}
+		}
+		.box-company1 { 
+
+			.container-box-aboutus-left {
+
+				.aboutus-content {
+
+					.imgbox-aboutus {
+
+						.aboutus-img-incert {
+							width: 100%;
+							max-width: 200px;
+						}
+					}
+				}
+			}
+		}
 	}
 }
 /**************************************************************

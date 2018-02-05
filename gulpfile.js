@@ -4,7 +4,8 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     concat = require('gulp-concat'),
     autoprefixer = require('gulp-autoprefixer'),
-    htmlmin = require('gulp-htmlmin');
+    htmlmin = require('gulp-htmlmin'),
+    minifyjs = require('gulp-js-minify');
 
 // sass
 gulp.task('sass', function(){
@@ -16,8 +17,17 @@ gulp.task('sass', function(){
 gulp.task('scripts', function() {
   return gulp.src('./src/js/**/*.js')
     .pipe(concat('bundle.js'))
+    .pipe(minifyjs())
     .pipe(gulp.dest('./dist/js'));
 });
+
+// gulp.task('minify-js', function(){
+//   gulp.src('./src/js/**/*.js')
+//     .pipe(minifyjs())
+//     .pipe(gulp.dest('./dist/js'));
+// });
+
+
 /*Compress all scss files in*/
 gulp.task('css', function() {
   return gulp.src('./src/scss/**/*.scss')

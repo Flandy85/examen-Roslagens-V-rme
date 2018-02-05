@@ -7,6 +7,7 @@
 	to find  each css section 
 	for each page.php file.
 ***************************************/
+
 /*****************************************
 	page-start.php: HOME PAGE
 ******************************************/
@@ -27,10 +28,8 @@ main {
 		width: 100%;
 
 		.rvft-img-inner-container {
-			display: flex;
-    		flex-direction: column;
-    		justify-content: center;
-    		align-items: center;
+			/*_mixin.scss*/
+    		@include flex-center;
     		padding: 15px;
 			
 			.rvft-img-logo {
@@ -51,7 +50,7 @@ main {
 		border-bottom: solid 2px black;
 		display: flex;
 		justify-content: center;
-		padding: 10px;
+		/*padding: 10px;*/
 		width: 100%;
 
 		h4 {
@@ -61,15 +60,13 @@ main {
 	}
 	/** Second section LG, on page-start.php **/
 	.lg-container {
-		padding: 15px;
+		/*padding: 15px;*/
 		height: 430px;
 		width: 100%;
 
 		.lg-image-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			.lg-image{
 				width: 100%;
 				max-width: 360px;
@@ -80,16 +77,12 @@ main {
 			}
 		}
 		.lg-menu-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 
 			.lg-products-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 
 				h2 {
 					color: $lg-primary-color;
@@ -108,10 +101,16 @@ main {
 
 				li > a {
 					color: $lg-primary-color;
+
+					/*&:hover {
+						color: $lg-secondary-color;
+					}*/
+					/*Hover and focus mixin*/
+					@include hocus() {
+						color: $lg-secondary-color;
+					}
 				}
-				li > a:hover {
-					color: $lg-secondary-color;
-				}
+				
 			}
 		}
 	}
@@ -122,10 +121,8 @@ main {
 		width: 100%;
 
 		.panasonic-img-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			padding: 15px;
 
 			.panasonic-image {
@@ -144,16 +141,12 @@ main {
 			}
 		}
 		.panasonic-menu-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 
 			.pana-products-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 				h2 {
 					color: $complementary-color-two;
 				}
@@ -168,10 +161,14 @@ main {
 
 				li > a {
 					color: $complementary-color-two;
+					text-decoration: none;
+
+					/*Hover and focus mixin*/
+					@include hocus() {
+						color: $secondary-color;
+					}
 				}
-				li > a:hover {
-					color: $secondary-color;
-				}
+				
 			}
 			
 		}
@@ -219,12 +216,15 @@ main {
 			}
 			a {
 				color: $secondary-color;
+
+				/*Hover and focus mixin*/
+				@include hocus() {
+					color: $secondary-color;
+					text-decoration: none;
+					text-transform: uppercase;
+				}
 			}
-			p > a:hover {
-				color: $secondary-color;
-				text-decoration: none;
-				text-transform: uppercase;
-			}
+			
 		}
 		/*Certificate in support section, isn't shown in mobile view*/
 		.panasonic-propartners-container {
@@ -262,9 +262,8 @@ main {
 		.accessories-container {
 
 			.pana-products-container {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-align-center;
 				.products-line {
 					background-color: $complementary-color-three;
 					height: 3px;
@@ -272,10 +271,8 @@ main {
 				}
 			}
 			.accesories-products {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 
 				.accessories-image {
 					width: 100%;
@@ -326,12 +323,14 @@ main {
 			}
 			a {
 				color: $secondary-color;
+
+				&:hover {
+					color: $secondary-color;
+					text-decoration: none;
+					text-transform: uppercase;
+				}
 			}
-			p > a:hover {
-				color: $secondary-color;
-				text-decoration: none;
-				text-transform: uppercase;
-			}
+		
 		}
 		/*Certificate in support section, isn't shown in mobile view*/
 		.panasonic-propartners-container {
@@ -370,9 +369,8 @@ main {
 		.accessories-container {
 
 			.pana-products-container {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-align-center
 				.products-line {
 					background-color: $complementary-color-three;
 					height: 3px;
@@ -398,10 +396,8 @@ main {
 		width: 100%;
 
 		.lg-image-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 
 			.lg-image {
 				width: 100%;
@@ -416,16 +412,12 @@ main {
 			}
 		}
 		.lg-menu-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 
 			.lg-products-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 
 				h2 {
 					color: $lg-primary-color;
@@ -444,10 +436,12 @@ main {
 
 				li > a {
 					color: $lg-primary-color;
+
+					&:hover {
+						color: $lg-secondary-color;
+					}
 				}
-				li > a:hover {
-					color: $lg-secondary-color;
-				}
+				
 			}
 			.products-line {
 				background-color: $lg-primary-color;
@@ -475,11 +469,11 @@ main {
 				font-family: $primary-font;
 				font-weight: bold;
 				color: $complementary-color-three;
-			}
-			p > a:hover {
-				color: $lg-secondary-color;
-			}
-			
+
+				&:hover {
+					color: $lg-secondary-color;
+				}
+			}	
 		}
 		/*Certificate in support section, isn't shown in mobile view*/
 		.lg-businesspartners-container {
@@ -490,10 +484,8 @@ main {
 	.lg-splitpumps-products-container {
 
 		.lg-splitpumps-products-inner-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			.lg-products {
 
 				.splitpump-image {
@@ -519,9 +511,8 @@ main {
 	.accessories-container {
 
 		.lg-products-container {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-align-center
 			.products-line {
 				background-color: $lg-primary-color;
 				height: 3px;
@@ -529,10 +520,8 @@ main {
 			}
 		}
 		.accesories-products {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 
 			.accessories-image {
 				width: 100%;
@@ -555,30 +544,30 @@ main {
 	background-position: center;
 	/*Contact us section*/
 	.contactus-container {
-		padding: 15px;
+		
 		width: 100%;
 		/*First section with contact information*/
 		.contactus-header-container {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-		}
+			/*_mixin.scss*/
+			@include flex-align-center
 
-		h3, p {
-			font-family: $primary-font;
-			color: $complementary-color-three;
-		}
-		p, a {
-			font-family: $primary-font;
-			font-size: $primary-font-size;
-		}
-		a {
-			color: $secondary-color;
-		}
-		a:hover {
-			color: $complmentary-color;
-			text-decoration: none;
+			h3, p {
+				font-family: $primary-font;
+				color: $complementary-color-three;
+			}
+			p, a {
+				font-family: $primary-font;
+				font-size: $primary-font-size;
+			}
+			a {
+				color: $secondary-color;
 
+				/*Hover and focus mixin*/
+				@include hocus() {
+					color: $complmentary-color;
+					text-decoration: none;
+				}
+			}
 		}
 		
 		.contactus-line {
@@ -592,10 +581,8 @@ main {
 	.visitor-container {
 		width: 100%;
 		.visitor-header-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			.visitor-title {
 				color: $complementary-color-three;
 				font-family: $primary-font;
@@ -610,26 +597,39 @@ main {
 		.streetadress-container {
 			margin-top: 20px;
 			.visitor-image {
-				padding: 20px;
+				/*padding: 20px;*/
 				width: 100%;
 				max-widht: 400px;
 			}
 			.streetadress-adress-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 
 				p, a {
 					font-family: $primary-font;
 					font-size: $primary-font-size;
+
+					@include hocus(){
+						color: $complmentary-color;
+						text-decoration: none;
+					}
 				}
-				a:hover {
+				/*a:hover {
 					color: $complmentary-color;
 					text-decoration: none;
-				}
+				}*/
 			}
 		}
+	}
+	/*Css for wp plugin form, giving fields 100% max-width*/
+	/*#wpforms-158-field_1, #wpforms-158-field_2, #wpforms-158-field_4, #wpforms-158-field_7 {
+		max-width: 77%;
+	}*/
+	#wpforms-377-field_1, #wpforms-377-field_2, #wpforms-377-field_3, #wpforms-377-field_4 {
+		padding: 0;
+	}
+	#wpforms-377-field_8 {
+		padding: 0;
 	}
 }
 
@@ -728,10 +728,8 @@ main {
 		flex-direction: column;
 		flex-wrap: wrap;
 		.employee-container {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
+			/*_mixin.scss*/
+			@include flex-center;
 			width: 100%;
 			.employee-img-container {
 				display: flex;
@@ -744,10 +742,8 @@ main {
 				}
 			}
 			.employee-info-container {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+				/*_mixin.scss*/
+				@include flex-center;
 				padding: 20px;
 				width: 50%;
 
@@ -831,17 +827,61 @@ main {
 *************************************************************************************************************/
 .main-aboutus-container {
 
-	.box-company1 { 
+	.main-aboutus {
 
-		.container-box-aboutus-left {
+		.aboutus-box-title {
+			background-image: url('aboutus-mobile.jpg');
+			background-size: cover;
+	  		background-repeat: no-repeat;
+	  		background-position: center;
+			@include flex-center;
+			width: 100%;
 
-			.aboutus-content {
+			.info-aboutus {
+				width: 100%;
+				h3, p {
+					color: $complementary-color-three;
+					font-family: $primary-font;
+					font-size: 16px;
+				}
+				p {
+					line-height: 25px;
+					padding: 0 10px 0 10px;
+					text-align: left;
+				}
+			}
+			.info-aboutus-img-container {
+				.company-pic {
+					width: 100%;
+					max-width: 250px;
+				}
+			}
+		}
+		.aboutus-info-title {
+			border-top: 3px solid #000;
+			border-bottom: 3px solid #000;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
 
-				.imgbox-aboutus {
+			h2 {
+				color: $complementary-color-three;
+				font-family: $primary-font;
+			}
+		}
+		.box-company1 { 
 
-					.aboutus-img-incert {
-						width: 100%;
-						max-width: 200px;
+			.container-box-aboutus-left {
+
+				.aboutus-content {
+
+					.imgbox-aboutus {
+
+						.aboutus-img-incert {
+							width: 100%;
+							max-width: 200px;
+						}
 					}
 				}
 			}
@@ -851,15 +891,15 @@ main {
 
 .aboutus-box-title {
 	text-align: center;
-    background-color: #ced9d3;
+    /*background-color: #ced9d3;*/
 	color: #fff;
 	
 }
 .title-certifierad {
-		text-align: center;
+		/*text-align: center;
 		border-top: 3px solid #000;
 		border-bottom: 3px solid #000;
-		font-weight: bold;
+		font-weight: bold;*/
 }
 .line-black {
 		border-bottom: 3px solid #000;

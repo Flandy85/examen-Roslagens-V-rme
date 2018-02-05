@@ -64,14 +64,6 @@ if(have_posts()) {
 					</div><!-- .pana-products-text -->
 				</div><!-- .pana-products -->
 			</div><!-- .panasonic-waterpump-products-inner-container -->
-			
-			<!-- Fourth Section, Accessories section -->
-			<!-- <div class="accessories-container">
-				<div class="pana-products-container">
-					<h2><?php //echo get_field('accessories-title'); ?></h2>
-					<div class="products-line"></div> -->
-				<!--</div> .pana-products-container -->
-			<!--</div> .accessories-container -->
 		</div><!-- .panasonic-waterpump-products-container -->
 		<?php
 		

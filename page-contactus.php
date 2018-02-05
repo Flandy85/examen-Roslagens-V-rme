@@ -18,9 +18,10 @@ if(have_posts()) {
 					<div class="contactus-header-container">
 						<h3 class="contactus-title"><?php echo get_field('contactus-title'); ?></h3>
 						<div class="contactus-line"></div>
+					
+						<p><?php echo get_field('contactus-text1'); ?><a href="tel: 08-201201"><?php echo get_field('contactus-phonenumber'); ?></a></p>
+						<p><?php echo get_field('contactus-text2'); ?></p>
 					</div><!-- .contactus-header-container -->
-					<p><?php echo get_field('contactus-text1'); ?><a href="tel: 08-201201"><?php echo get_field('contactus-phonenumber'); ?></a></p>
-					<p><?php echo get_field('contactus-text2'); ?></p>
 					<!-- Contact form container for short code from WP-Form plugin -->
 					<div class="contact-form-container">
 						<?php echo do_shortcode("[wpforms id='377']"); ?>

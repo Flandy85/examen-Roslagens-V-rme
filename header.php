@@ -7,7 +7,7 @@
   	<meta name="author" content="Anders Gustavsson, Johan Walberg">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Roslagens Värme & Fastighetsteknik AB</title>
+	<title><?php wp_title(); ?></title>
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
@@ -27,5 +27,8 @@
 				</nav><!-- navigation-menu -->
 			</div><!-- .inner-header-container -->
 		</div><!-- header-container -->
+
+		<!-- This php script is for compression files. The script reduces response times by reducing the size of the HTTP response. This will compress HTML, scripts and stylesheets. -->
+		
 	</header>
 
