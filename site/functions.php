@@ -30,6 +30,7 @@ function rvft_blog_setup() {
 	// Add Featured Image Support
 	add_theme_support('post-thumbnails');
 	add_image_size('home-thumb', 715, 449);
+	add_theme_support('html5',array('search-form'));
 	
 
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/dist/css/style.css', null, '1.0', 'all' );
