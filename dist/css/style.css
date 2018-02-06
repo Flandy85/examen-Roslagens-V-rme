@@ -1,1 +1,2373 @@
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:0.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:0.35em 0.75em 0.625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}header{position:fixed;top:0px;transition:top 0.4s ease-in-out;width:100%}header .top-header-container{background-color:#333;height:5px;width:100%;display:flex;justify-content:flex-end}header .top-header-container .top-header-logotype,header .top-header-container .top-header-logotype1,header .top-header-container .top-header-logotype2{display:none}header .header-container{background-color:#f4f4f4;display:flex;justify-content:center;height:150px;width:100%}header .header-container .inner-header-container{background-color:#333;border:1px solid #333;border-radius:50px;display:flex;flex-direction:column;justify-content:space-around;align-items:center;margin-top:20px;height:100px;width:98%}header .header-container .inner-header-container .logotype{margin-left:10px;width:100%;max-width:265px}header .header-container .inner-header-container .navigation-menu{display:flex}header .header-container .inner-header-container .navigation-menu .menu{width:600px}.nav-up{top:-200px}@media screen and (min-width: 768px) and (max-width: 1024px){header .top-header-container{height:50px}header .top-header-container .top-header-logotype,header .top-header-container .top-header-logotype1,header .top-header-container .top-header-logotype2{display:flex;height:40px;margin-right:15px;padding:5px;width:170px}header .header-container .inner-header-container .logotype{margin-left:10px;width:100%;max-width:275px}}@media screen and (min-width: 1025px) and (max-width: 3000px){header .top-header-container{height:50px}header .top-header-container .top-header-logotype,header .top-header-container .top-header-logotype1,header .top-header-container .top-header-logotype2{display:flex;height:40px;margin-right:15px;padding:5px;width:170px}header .header-container .inner-header-container{flex-direction:row}header .header-container .inner-header-container .logotype{margin-left:10px;width:100%;max-width:330px}}main{margin-top:210px}main .rvft-img-outer-container{background-image:url("Panasonic-startsida-mobile.jpg");background-size:cover;background-repeat:no-repeat;background-position:center;display:flex;justify-content:center;align-items:center;margin-top:15px;height:400px;width:100%}main .rvft-img-outer-container .rvft-img-inner-container{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:15px}main .rvft-img-outer-container .rvft-img-inner-container .rvft-img-logo{width:100%;max-width:500px}main .rvft-img-outer-container .rvft-img-inner-container h2{font-family:Josefin Sans,sans-serif}main .rvft-img-outer-container .placeholder-div{display:none}main .small-title-container{border-top:solid 2px black;border-bottom:solid 2px black;display:flex;justify-content:center;width:100%}main .small-title-container h4{font-family:Josefin Sans,sans-serif}main .lg-container{height:430px;width:100%}main .lg-container .lg-image-container{display:flex;flex-direction:column;justify-content:center;align-items:center}main .lg-container .lg-image-container .lg-image{width:100%;max-width:360px}main .lg-container .lg-image-container h3{color:#6d6d6d}main .lg-container .lg-menu-container{display:flex;flex-direction:column;justify-content:center;align-items:center}main .lg-container .lg-menu-container .lg-products-container{display:flex;flex-direction:column;justify-content:center;align-items:center}main .lg-container .lg-menu-container .lg-products-container h2{color:#6d6d6d}main .lg-container .lg-menu-container .lg-products-container .products-line{background-color:#6d6d6d;height:3px;width:320px}main .lg-container .lg-menu-container h3{color:#6d6d6d}main .lg-container .lg-menu-container #menu-lg-menu{list-style:none}main .lg-container .lg-menu-container #menu-lg-menu li>a{color:#6d6d6d}main .lg-container .lg-menu-container #menu-lg-menu li>a:hover,main .lg-container .lg-menu-container #menu-lg-menu li>a:focus{color:#ad1639}main .panasonic-container{background-color:#000;height:430px;width:100%}main .panasonic-container .panasonic-img-container{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:15px}main .panasonic-container .panasonic-img-container .panasonic-image{width:100%;max-width:300px}main .panasonic-container .panasonic-img-container h3{color:#fff}main .panasonic-container .panasonic-img-container h3 .pana-heating{color:#fa233b}main .panasonic-container .panasonic-img-container h3 .pana-cooling{color:#17a9de}main .panasonic-container .panasonic-menu-container{display:flex;flex-direction:column;justify-content:center;align-items:center}main .panasonic-container .panasonic-menu-container .pana-products-container{display:flex;flex-direction:column;justify-content:center;align-items:center}main .panasonic-container .panasonic-menu-container .pana-products-container h2{color:#fff}main .panasonic-container .panasonic-menu-container .pana-products-container .products-line{background-color:#fff;height:3px;width:320px}main .panasonic-container .panasonic-menu-container #menu-panasonic-meny{list-style:none}main .panasonic-container .panasonic-menu-container #menu-panasonic-meny li>a{color:#fff;text-decoration:none}main .panasonic-container .panasonic-menu-container #menu-panasonic-meny li>a:hover,main .panasonic-container .panasonic-menu-container #menu-panasonic-meny li>a:focus{color:#17a9de}.main-panasonic-air .panasonic-container{height:490px}.main-panasonic-air .panasonic-container .page-title-container-air{color:#fff;text-align:center;width:100%}.main-panasonic-air .panasonic-support-container{background-color:#bababa;display:flex;height:365px;width:100%}.main-panasonic-air .panasonic-support-container .panasonic-support-text-container{line-height:25px;padding:15px}.main-panasonic-air .panasonic-support-container .panasonic-support-text-container .support-title,.main-panasonic-air .panasonic-support-container .panasonic-support-text-container p{color:#000}.main-panasonic-air .panasonic-support-container .panasonic-support-text-container .support-title{font-family:Josefin Sans,sans-serif}.main-panasonic-air .panasonic-support-container .panasonic-support-text-container p{font-family:Josefin Sans,sans-serif;font-size:18px}.main-panasonic-air .panasonic-support-container .panasonic-support-text-container a{color:#17a9de}.main-panasonic-air .panasonic-support-container .panasonic-support-text-container a:hover,.main-panasonic-air .panasonic-support-container .panasonic-support-text-container a:focus{color:#17a9de;text-decoration:none;text-transform:uppercase}.main-panasonic-air .panasonic-support-container .panasonic-propartners-container{display:none}.main-panasonic-air .panasonic-products-container{height:auto;width:100%}.main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products{margin-top:10px}.main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .airpump-image{width:100%;max-width:470px}.main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text{line-height:23px;padding:15px}.main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text h3{font-size:20px}.main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text p>a{color:#17a9de}.main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container{display:flex;flex-direction:column;align-items:center}.main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container .products-line{background-color:#000;height:3px;width:320px}.main-panasonic-air .panasonic-products-container .accessories-container .accesories-products{display:flex;flex-direction:column;justify-content:center;align-items:center}.main-panasonic-air .panasonic-products-container .accessories-container .accesories-products .accessories-image{width:100%;max-width:300px}.main-panasonic-air .panasonic-products-container .accessories-container .accesories-products .accessories-products-text{padding:10px}.main-panasonic-water{margin-top:210px}.main-panasonic-water .panasonic-container{height:490px}.main-panasonic-water .panasonic-container .page-title-container-water{color:#fff;text-align:center;width:100%}.main-panasonic-water .panasonic-support-container{background-color:#bababa;display:flex;height:390px;width:100%}.main-panasonic-water .panasonic-support-container .panasonic-support-text-container{line-height:25px;padding:15px}.main-panasonic-water .panasonic-support-container .panasonic-support-text-container .support-title,.main-panasonic-water .panasonic-support-container .panasonic-support-text-container p{color:#000}.main-panasonic-water .panasonic-support-container .panasonic-support-text-container .support-title{font-family:Josefin Sans,sans-serif}.main-panasonic-water .panasonic-support-container .panasonic-support-text-container p{font-family:Josefin Sans,sans-serif;font-size:18px}.main-panasonic-water .panasonic-support-container .panasonic-support-text-container a{color:#17a9de}.main-panasonic-water .panasonic-support-container .panasonic-support-text-container a:hover{color:#17a9de;text-decoration:none;text-transform:uppercase}.main-panasonic-water .panasonic-support-container .panasonic-propartners-container{display:none}.main-panasonic-water .panasonic-waterpump-products-container{height:auto;width:100%}.main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products{margin-top:10px}.main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .waterpump-image,.main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .waterpump-image2{padding:15px;width:100%;max-width:200px}.main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .pana-products-text{line-height:23px;padding:15px}.main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .pana-products-text h3{font-size:20px}.main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .pana-products-text p>a{color:#17a9de}.main-panasonic-water .panasonic-waterpump-products-container .accessories-container .pana-products-container{display:flex;flex-direction:column;align-items:center}.main-panasonic-water .panasonic-waterpump-products-container .accessories-container .pana-products-container .products-line{background-color:#000;height:3px;width:320px}.main-panasonic-water .panasonic-waterpump-products-container .accessories-container .accesories-products .accessories-products-text{padding:10px}.main-lg-split-pumps .lg-container{height:350px;width:100%}.main-lg-split-pumps .lg-container .lg-image-container{display:flex;flex-direction:column;justify-content:center;align-items:center}.main-lg-split-pumps .lg-container .lg-image-container .lg-image{width:100%;max-width:200px}.main-lg-split-pumps .lg-container .lg-image-container h3{color:#6d6d6d;margin:2px;padding:0}.main-lg-split-pumps .lg-container .lg-menu-container{display:flex;flex-direction:column;justify-content:center;align-items:center}.main-lg-split-pumps .lg-container .lg-menu-container .lg-products-container{display:flex;flex-direction:column;justify-content:center;align-items:center}.main-lg-split-pumps .lg-container .lg-menu-container .lg-products-container h2{color:#6d6d6d}.main-lg-split-pumps .lg-container .lg-menu-container .lg-products-container .products-line{background-color:#6d6d6d;height:3px;width:320px}.main-lg-split-pumps .lg-container .lg-menu-container h3{color:#6d6d6d}.main-lg-split-pumps .lg-container .lg-menu-container #menu-lg-menu{list-style:none}.main-lg-split-pumps .lg-container .lg-menu-container #menu-lg-menu li>a{color:#6d6d6d}.main-lg-split-pumps .lg-container .lg-menu-container #menu-lg-menu li>a:hover{color:#ad1639}.main-lg-split-pumps .lg-container .lg-menu-container .products-line{background-color:#6d6d6d;height:3px;width:320px}.main-lg-split-pumps .lg-support-container{background-color:#f4f4f4;display:flex;height:500px;width:100%}.main-lg-split-pumps .lg-support-container .lg-support-text-container{line-height:25px;padding:15px}.main-lg-split-pumps .lg-support-container .lg-support-text-container .lg-support-title{font-family:Josefin Sans,sans-serif}.main-lg-split-pumps .lg-support-container .lg-support-text-container p>a{font-family:Josefin Sans,sans-serif;font-weight:bold;color:#000}.main-lg-split-pumps .lg-support-container .lg-support-text-container p>a:hover{color:#ad1639}.main-lg-split-pumps .lg-support-container .lg-businesspartners-container{display:none}.main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container{display:flex;flex-direction:column;justify-content:center;align-items:center}.main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .splitpump-image{width:100%;max-width:350px}.main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text{line-height:23px;padding:15px}.main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text h3{font-size:20px}.main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text p>a{font-weight:bold;color:#ad1639}.main-lg-split-pumps .accessories-container .lg-products-container{display:flex;flex-direction:column;align-items:center}.main-lg-split-pumps .accessories-container .lg-products-container .products-line{background-color:#6d6d6d;height:3px;width:320px}.main-lg-split-pumps .accessories-container .accesories-products{display:flex;flex-direction:column;justify-content:center;align-items:center}.main-lg-split-pumps .accessories-container .accesories-products .accessories-image{width:100%;max-width:300px}.main-lg-split-pumps .accessories-container .accesories-products .accessories-products-text{padding:10px}.main-contactus-container{background-image:url("contactusbackground1.jpg");background-size:cover;background-repeat:no-repeat;background-position:center}.main-contactus-container .contactus-container{width:100%}.main-contactus-container .contactus-container .contactus-header-container{display:flex;flex-direction:column;align-items:center}.main-contactus-container .contactus-container .contactus-header-container h3,.main-contactus-container .contactus-container .contactus-header-container p{font-family:Josefin Sans,sans-serif;color:#000}.main-contactus-container .contactus-container .contactus-header-container p,.main-contactus-container .contactus-container .contactus-header-container a{font-family:Josefin Sans,sans-serif;font-size:18px}.main-contactus-container .contactus-container .contactus-header-container a{color:#17a9de}.main-contactus-container .contactus-container .contactus-header-container a:hover,.main-contactus-container .contactus-container .contactus-header-container a:focus{color:#fa233b;text-decoration:none}.main-contactus-container .contactus-container .contactus-line{background-color:#000;height:3px;width:380px}.main-contactus-container .visitor-container{width:100%}.main-contactus-container .visitor-container .visitor-header-container{display:flex;flex-direction:column;justify-content:center;align-items:center}.main-contactus-container .visitor-container .visitor-header-container .visitor-title{color:#000;font-family:Josefin Sans,sans-serif}.main-contactus-container .visitor-container .visitor-header-container .visitor-line{background-color:#000;height:3px;width:380px}.main-contactus-container .visitor-container .streetadress-container{margin-top:20px}.main-contactus-container .visitor-container .streetadress-container .visitor-image{width:100%;max-widht:400px}.main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container{display:flex;flex-direction:column;justify-content:center;align-items:center}.main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container p,.main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container a{font-family:Josefin Sans,sans-serif;font-size:18px}.main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container p:hover,.main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container p:focus,.main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container a:hover,.main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container a:focus{color:#fa233b;text-decoration:none}.main-contactus-container #wpforms-377-field_1,.main-contactus-container #wpforms-377-field_2,.main-contactus-container #wpforms-377-field_3,.main-contactus-container #wpforms-377-field_4{padding:0}.main-contactus-container #wpforms-377-field_8{padding:0}.box{width:100%;text-align:center;margin-bottom:15px;flex:1 1 auto}.installation-img{width:265px;height:300px}div.main-installation{font-family:'Oswald', sans-serif;display:flex;flex-wrap:wrap;flex-direction:row;justify-content:center}div.main-installation div.box1{margin-bottom:35px;margin-left:35px;margin-right:35px;background-color:#ced9d3;border-radius:10px;flex:1 auto}div.main-installation div.box-installation-pictures{display:flex;justify-content:space-around}div.main-installation div.box-installation-pictures div.container-gridinstallation{display:flex;width:50%;justify-content:space-around}div.main-installation div.box-installation-pictures div.container-gridinstallation img.installation-img-one{width:265px;height:300px}div.main-installation div.box2{margin-bottom:35px;margin-left:35px;margin-right:35px;background-color:#ced9d3;border-radius:10px;flex:1 auto}div.main-installation div.box3{margin-bottom:35px;margin-left:35px;margin-right:35px;background-color:#ced9d3;border-radius:10px;flex:1 auto}@media only screen and (max-width: 1741px){.installation-img{width:275px;height:300px}}@media only screen and (max-width: 1300px){.box-installation-pictures{flex-wrap:wrap}.container-gridinstallation{width:100%;justify-content:space-around;display:flex;flex-wrap:wrap}.installation-img{width:280px;height:285px;margin-bottom:15px}.box1,.box2,.box3{width:100%;margin-left:0;margin-right:0}}@media only screen and (max-width: 846px){.box4{flex-wrap:wrap}.installation-img{width:280px;height:285px}}@media only screen and (max-width: 546px){div.main-installation div.box-installation-pictures div.container-gridinstallation{display:flex;width:100%;justify-content:space-around}}.main-employees .flexbox-container{display:flex;flex-direction:column;flex-wrap:wrap}.main-employees .flexbox-container .employee-container{display:flex;flex-direction:column;justify-content:center;align-items:center;width:100%}.main-employees .flexbox-container .employee-container .employee-img-container{display:flex;justify-content:center;align-items:center;width:100%}.main-employees .flexbox-container .employee-container .employee-img-container img{width:100%;max-width:300px}.main-employees .flexbox-container .employee-container .employee-info-container{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:20px;width:50%}.main-employees .flexbox-container .employee-container .employee-info-container h2,.main-employees .flexbox-container .employee-container .employee-info-container h3{font-family:Josefin Sans,sans-serif}.main-employees .flexbox-container .employee-container .employee-info-container h2{font-size:20px}.main-employees .flexbox-container .employee-container .employee-info-container h3{font-size:18px}.employees-grid{display:flex;flex-flow:row;flex-wrap:wrap}.grid-cell{flex:1 auto;background-color:#f8faf9;display:flex;justify-content:center}.grid-cell-info{flex-direction:column}.info-box{display:flex;justify-content:center;align-items:center;align-content:center;background-color:#ced9d3;color:#fff;text-align:center;margin-top:60px;margin-bottom:40px;margin-right:60px;margin-left:60px;height:150px}@media only screen and (max-width: 1050px){.profile-pic{width:400px;height:240px}.profile-pic-even{margin-top:50px}.employees-grid{justify-content:space-around;margin-bottom:50px}}@media only screen and (max-width: 806px){.profile-pic{width:320px}.center{text-align:center}}.main-aboutus-container .main-aboutus .aboutus-box-title{background-image:url("aboutus-mobile.jpg");background-size:cover;background-repeat:no-repeat;background-position:center;display:flex;flex-direction:column;justify-content:center;align-items:center;width:100%}.main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus{width:100%}.main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus h3,.main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus p{color:#000;font-family:Josefin Sans,sans-serif;font-size:16px}.main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus p{line-height:25px;padding:0 10px 0 10px;text-align:left}.main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus-img-container .company-pic{width:100%;max-width:250px}.main-aboutus-container .main-aboutus .aboutus-info-title{border-top:3px solid #000;border-bottom:3px solid #000;display:flex;justify-content:center;align-items:center;width:100%}.main-aboutus-container .main-aboutus .aboutus-info-title h2{color:#000;font-family:Josefin Sans,sans-serif}.main-aboutus-container .main-aboutus .box-company1 .container-box-aboutus-left .aboutus-content .imgbox-aboutus .aboutus-img-incert{width:100%;max-width:200px}.aboutus-box-title{text-align:center;color:#fff}.line-black{border-bottom:3px solid #000}.line-white{border-bottom:3px solid #fff}.box-company1,.box-company2{margin-bottom:50px}.box-company2{display:flex;justify-content:space-around;color:#fff;background-color:#000}.layoutbox{width:5%}.box-company1{display:flex;justify-content:space-around}.aboutus-img-incert{width:100%;max-width:300px}@media only screen and (max-width: 1000px){.main-aboutus-container .box-company1 .container-box-aboutus-left .aboutus-content .imgbox-aboutus .aboutus-img-incert{width:100%;max-width:200px}.layoutbox{display:none}.title-box-aboutus,.imgbox-aboutus{display:flex;justify-content:center}.aboutus-text{text-align:center}}.flex-container{display:flex;flex-wrap:wrap;border:none;border-bottom:5px dotted grey;text-align:center;margin-bottom:15px;margin-left:10px}.flex-container .blog-title{display:flex;justify-content:flex-start;width:100%;flex:1 auto}.flex-container .blog-title .blog-img-container .blog-img{width:300px;margin-right:20px}.flex-container .author-content{height:160px;width:50%}.flex-container .blog-picture{justify-content:flex-end;display:flex;height:265px}.flex-container .blog-button{display:flex;width:50%}.flex-container .blog-button .button-read{height:50px;width:120px;border-radius:20px;margin-bottom:10px;background-color:#fc3a51;font-weight:bold}.main-test .search-completedworks{display:flex;justify-content:center;margin-bottom:40px}.attachment-home-thumb,.size-home-thumb,.wp-post-image{width:272px;height:275px;border-radius:50%}@media only screen and (max-width: 1330px){.flex-container{display:flex;flex-direction:column;width:100%;margin-left:0}.flex-container .blog-title{display:flex;justify-content:center;flex-direction:column;width:100%;flex:1 auto}.flex-container .blog-title .blog-img-container .blog-img{width:300px;margin-right:20px}.flex-container .author-content{height:160px;width:100%;margin-bottom:40px}.flex-container .blog-picture{justify-content:center;display:flex;height:265px;margin-bottom:30px}.flex-container .blog-button{width:100%;justify-content:center}}@media only screen and (max-width: 875px){.flex-container .author-content{width:100%}.flex-container{display:flex;flex-direction:column}.flex-container .blog-title{display:flex;flex-direction:column}.attachment-home-thumb,.size-home-thumb,.wp-post-image{display:flex;justify-content:center;align-self:center;width:265px;height:265px;border-radius:50%;margin-top:10px;margin-bottom:30px}}.main-blog-container{display:flex;justify-content:center;width:100%;flex-direction:column}.main-blog-container .blog-content-singel{display:flex;flex-direction:column;justify-content:center;text-align:center}.main-blog-container .blog-content-singel .blog-info-singel{text-align:center}.main-blog-container .blog-content-singel .blog-picture-singelpage{display:flex;justify-content:center}.main-blog-container .blog-content-singel .button-read{align-self:center;height:50px;width:120px;border-radius:20px;margin-bottom:10px;background-color:#fc3a51;font-weight:bold}@media only screen and (max-width: 875px){.main-blog-container .blog-content-singel{align-items:center}}.notfound-container{display:flex;flex-direction:column;justify-content:center;align-items:center;border-radius:5px;background-color:#fff;padding:20px}input[type=text]{width:100%;padding:12px;border:1px solid #ccc;border-radius:4px;box-sizing:border-box;margin-top:6px;margin-bottom:16px;resize:vertical}input[type=submit]{background-color:#17a9de;color:#fff;border:none;border-radius:4px;cursor:pointer}input[type=submit]:hover{background-color:#333}.active{color:#17a9de;text-decoration:none}footer .footer-container{background-color:#333;display:flex;flex-wrap:wrap-reverse;width:100%}footer .footer-container .adress-container,footer .footer-container .partners-container,footer .footer-container .meny-container{border-bottom:2px solid #fff;display:flex;flex-direction:column;justify-content:center;align-items:center;width:100%}footer .footer-container .adress-container h1{color:#fff;font-family:Josefin Sans,sans-serif;font-size:20px}footer .footer-container .adress-container p{color:#fff;font-family:Josefin Sans,sans-serif;font-size:18px}footer .footer-container .adress-container p>a{color:#fff;font-family:Josefin Sans,sans-serif;text-decoration:none}footer .footer-container .adress-container p>a:hover,footer .footer-container .adress-container p>a:focus{color:#17a9de}footer .footer-container .partners-container{width:100%;padding:10px}footer .footer-container .partners-container .title-partner{color:#fff;font-family:Josefin Sans,sans-serif;font-size:20px;margin:0 0 22px 0}footer .footer-container .partners-container .partner-image-container{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;width:100%}footer .footer-container .partners-container .partner-image-container .footer-img{height:30px;margin:0 10px 10px 0}footer .footer-container .meny-container h1{color:#fff;font-family:Josefin Sans,sans-serif;font-size:20px}footer .footer-container .meny-container ul{padding:5px 0 5px 0;list-style:none}footer .footer-container .meny-container ul li{font-family:Josefin Sans,sans-serif;padding:5px 0 5px 15px}footer .footer-container .meny-container ul li>a{color:#fff;font-size:18px;text-decoration:none}footer .footer-container .meny-container ul li>a:hover,footer .footer-container .meny-container ul li>a:focus{color:#17a9de}@media screen and (min-width: 768px) and (max-width: 1024px){footer .footer-container{flex-wrap:wrap;justify-content:space-around;width:100%}footer .footer-container .adress-container{flex-wrap:wrap;border-bottom:none;width:20%}footer .footer-container .partners-container{border-bottom:none;width:50%}footer .footer-container .partners-container .title-partner{margin:0 0 40px 0}footer .footer-container .meny-container{border-bottom:none;width:20%}footer .footer-container .meny-container h1{margin:0 0 12px 0}}@media screen and (min-width: 1025px) and (max-width: 1480px){footer .footer-container{flex-wrap:wrap;justify-content:space-around;height:300px;width:100%}footer .footer-container .adress-container,footer .footer-container .partners-container,footer .footer-container .meny-container{border-bottom:none;width:20%}footer .footer-container .partners-container{border-bottom:none;width:32%}footer .footer-container .meny-container{border-bottom:none;width:20%}footer .footer-container .meny-container h1{margin:0 0 12px 0}}@media screen and (min-width: 1481px) and (max-width: 3000px){footer .footer-container{flex-wrap:wrap;justify-content:space-around;height:300px;width:100%}footer .footer-container .adress-container,footer .footer-container .partners-container,footer .footer-container .meny-container{border-bottom:none;width:32%}footer .footer-container .partners-container{border-bottom:none;width:32%}footer .footer-container .meny-container{border-bottom:none;width:32%}footer .footer-container .meny-container h1{margin:0 0 12px 0}}@media screen and (min-width: 768px) and (max-width: 1024px){main .rvft-img-outer-container{background-image:url("Panasonic-startsida-tablet.jpg")}main .rvft-img-outer-container .rvft-img-inner-container{width:100%}main .rvft-img-outer-container .rvft-img-inner-container .rvft-img-logo{width:100%;max-width:500px}main .rvft-img-outer-container .placeholder-div{display:none}.main-lg-split-pumps .lg-support-container{height:300px}.main-lg-split-pumps .lg-support-container .lg-businesspartners-container{display:none}.main-lg-split-pumps .lg-splitpumps-products-container{display:flex;justify-content:space-around}.main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .splitpump-image{width:100%;max-width:350px}.main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text{line-height:23px;padding:15px}.main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text h3{font-size:20px}.main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text p>a{font-weight:bold;color:#ad1639}.main-lg-split-pumps .accessories-container .lg-products-container{display:flex;flex-direction:column;align-items:center}.main-lg-split-pumps .accessories-container .lg-products-container .products-line{background-color:#6d6d6d;height:3px;width:380px}.main-contactus-container{background-image:url("contactusbackground-tablet1.jpg")}.main-contactus-container .contactus-flexbox-container{display:flex;flex-direction:column;justify-content:center;align-items:center}.main-contactus-container .contactus-flexbox-container .contactus-container{width:70%}.main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container{display:flex;justify-content:center;align-items:center}.main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container .visitor-image{padding:20px;width:100%;max-width:600px}.main-contactus-container #wpforms-158-field_8{width:415px}.main-contactus-container #wpforms-377-field_5{width:60%}.main-aboutus-container .main-aboutus .aboutus-box-title{background-image:url("aboutus-tablet.jpg");display:flex;flex-direction:row;width:100%}.main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus{width:49%}.main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus-img-container{width:48%}.main-aboutus-container .main-aboutus .box-company1 .container-box-aboutus-left .aboutus-content .imgbox-aboutus .aboutus-img-incert{width:100%;max-width:200px}.main-employees .flexbox-container{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:center;align-items:center}.main-employees .flexbox-container .employee-container{display:flex;justify-content:space-around;align-items:center;width:100%}.main-employees .flexbox-container .employee-container .employee-img-container{widht:50%}.main-employees .flexbox-container .employee-container .employee-img-container img{width:100%;max-width:400px}.main-employees .flexbox-container .employee-container .employee-info-container{justify-content:flex-start;align-items:flex-start;padding:20px;width:48%}}@media screen and (min-width: 1025px) and (max-width: 1480px){main .rvft-img-outer-container{background-image:url("Panasonic-startsida-desktop.jpg");height:550px}main .rvft-img-outer-container .rvft-img-inner-container{width:49%}main .rvft-img-outer-container .placeholder-div{display:block;width:48%}main .small-title-container h4{font-size:20px}main .panasonic-container{display:flex;height:460px}main .panasonic-container .panasonic-img-container{width:49%}main .panasonic-container .panasonic-menu-container{width:48%}main .lg-container{display:flex}main .lg-container .lg-image-container{width:49%}main .lg-container .lg-menu-container{width:49%}.main-panasonic-air .panasonic-container{display:flex;flex-wrap:wrap;margin-top:15px}.main-panasonic-air .panasonic-container .panasonic-img-container{width:49%}.main-panasonic-air .panasonic-container .panasonic-menu-container{width:48%}.main-panasonic-air .panasonic-container .page-title-container-air{height:80px}.main-panasonic-air .panasonic-support-container{display:flex;flex-direction:row;justify-content:space-around}.main-panasonic-air .panasonic-support-container .panasonic-support-text-container{display:flex;flex-wrap:wrap;width:50%}.main-panasonic-air .panasonic-support-container .panasonic-propartners-container{display:flex;flex-direction:column;align-items:center;width:49%}.main-panasonic-air .panasonic-support-container .panasonic-propartners-container .propartners-title{color:#000;font-family:Josefin Sans,sans-serif;margin-top:35px}.main-panasonic-air .panasonic-support-container .panasonic-propartners-container .panasonic-propartners-image{margin-top:30px}.main-panasonic-air .panasonic-products-container{display:flex;justify-content:center;height:auto;width:100%}.main-panasonic-air .panasonic-products-container .panasonic-products-inner-container{display:flex;flex-direction:column;justify-content:center;width:49%}.main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products{margin-top:10px;display:flex;flex-direction:column;justify-content:center;align-items:center}.main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .airpump-image{width:100%;max-width:300px}.main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text{width:40%}.main-panasonic-air .panasonic-products-container .accessories-container{width:49%}.main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container{display:flex;flex-direction:column;align-items:center}.main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container .products-line{background-color:#000;height:3px;width:380px}.main-panasonic-water .panasonic-container{display:flex;flex-wrap:wrap;margin-top:15px;height:460px}.main-panasonic-water .panasonic-container .panasonic-img-container,.main-panasonic-water .panasonic-container .panasonic-menu-container{display:flex;flex-direction:column;justify-content:center;align-items:center}.main-panasonic-water .panasonic-container .panasonic-img-container{width:49%}.main-panasonic-water .panasonic-container .panasonic-menu-container{width:48%}.main-panasonic-water .panasonic-support-container .panasonic-support-text-container{width:49%}.main-panasonic-water .panasonic-support-container .panasonic-propartners-container{display:flex;flex-direction:column;align-items:center;width:49%}.main-panasonic-water .panasonic-support-container .panasonic-propartners-container .propartners-title{color:#000;font-family:Josefin Sans,sans-serif;margin-top:35px}.main-panasonic-water .panasonic-support-container .panasonic-propartners-container .panasonic-propartners-image{margin-top:30px}.main-panasonic-water .panasonic-waterpump-products-container{display:flex;justify-content:center;height:auto;width:100%}.main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container{display:flex;width:100%}.main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products{display:flex;justify-content:center;margin-top:10px;width:49%}.main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .waterpump-image{padding:15px}.main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .waterpump-image2{height:400px}.main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .pana-products-text{width:50%}.main-panasonic-water .panasonic-waterpump-products-container .accessories-container{display:flex;justify-content:center;width:49%}.main-lg-split-pumps .lg-container{height:400px;width:100%}.main-lg-split-pumps .lg-support-container{height:390px}.main-lg-split-pumps .lg-support-container .lg-support-text-container{width:50%}.main-lg-split-pumps .lg-support-container .lg-businesspartners-container{display:flex;flex-direction:column;justify-content:center;align-items:center;width:49%}.main-lg-split-pumps .lg-support-container .lg-businesspartners-container .businesspartners-title{color:#000;font-family:Josefin Sans,sans-serif;margin-top:35px}.main-lg-split-pumps .lg-support-container .lg-businesspartners-container .lg-businesspartners-image{margin-top:30px}.main-lg-split-pumps .lg-splitpumps-products-container{display:flex;justify-content:space-around}.main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container{display:flex;flex-direction:column;justify-content:center;align-items:center;width:49%}.main-lg-split-pumps .accessories-container{width:49%}.main-lg-split-pumps .accessories-container .lg-products-container{display:flex;flex-direction:column;align-items:center}.main-lg-split-pumps .accessories-container .lg-products-container .products-line{background-color:#6d6d6d;height:3px;width:380px}.main-contactus-container{background-image:url("contactusbackground-desktop1.jpg");background-size:cover;background-repeat:no-repeat;background-position:center}.main-contactus-container .contactus-flexbox-container{display:flex;justify-content:space-around;width:100%}.main-contactus-container .contactus-flexbox-container .contactus-container{margin-top:50px;padding:15px;width:40%}.main-contactus-container .contactus-flexbox-container .contactus-container .contactus-header-container{display:flex;flex-direction:column;align-items:center}.main-contactus-container .contactus-flexbox-container .contactus-container h3,.main-contactus-container .contactus-flexbox-container .contactus-container p{color:#000}.main-contactus-container .contactus-flexbox-container .contactus-container p,.main-contactus-container .contactus-flexbox-container .contactus-container a{font-size:18px}.main-contactus-container .contactus-flexbox-container .contactus-container a{color:#17a9de}.main-contactus-container .contactus-flexbox-container .contactus-container a:hover{color:#fa233b}.main-contactus-container .contactus-flexbox-container .contactus-container .contactus-line{background-color:#000;height:3px;width:380px}.main-contactus-container .contactus-flexbox-container .visitor-container{margin-top:50px;padding:15px;width:40%}.main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container{display:flex;flex-direction:column;justify-content:center;align-items:center}.main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container .visitor-title{color:#000}.main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container .visitor-line{background-color:#000;height:3px;width:380px}.main-contactus-container .contactus-flexbox-container .streetadress-container{display:flex;flex-direction:column;justify-content:center;align-items:center;margin-top:50px}.main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container{width:55%}.main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container .visitor-image{width:100%;max-width:300px}.main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container{margin-top:50px;width:39%}.main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container p,.main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a{font-size:18px;margin:0}.main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a{color:#17a9de}.main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a:hover{color:#fa233b}.main-contactus-container #wpforms-377-field_1,.main-contactus-container #wpforms-377-field_2,.main-contactus-container #wpforms-377-field_3,.main-contactus-container #wpforms-377-field_4{max-width:100%}.main-contactus-container #wpforms-377-field_8{width:415px}.main-aboutus-container .main-aboutus .aboutus-box-title{background-image:url("aboutus-desktop.jpg");display:flex;flex-direction:row;height:500px;width:100%}.main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus{width:35%}.main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus p{font-size:18px}.main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus-img-container{width:35%}.main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus-img-container .company-pic{padding:5px;width:100%;max-width:500px}.main-aboutus-container .main-aboutus .aboutus-info-title{border-top:3px solid #000;border-bottom:3px solid #000;display:flex;justify-content:center;align-items:center;width:100%}.main-aboutus-container .main-aboutus .box-company1 .container-box-aboutus-left .aboutus-content .imgbox-aboutus .aboutus-img-incert{width:100%;max-width:200px}.main-employees .flexbox-container{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;width:100%}.main-employees .flexbox-container .employee-container{display:flex;flex-direction:row;justify-content:space-around;align-items:center;width:49%}.main-employees .flexbox-container .employee-container .employee-img-container{display:flex;widht:49%}.main-employees .flexbox-container .employee-container .employee-img-container img{width:100%;max-width:400px}.main-employees .flexbox-container .employee-container .employee-info-container{justify-content:flex-start;align-items:flex-start;padding:20px;width:49%}}@media screen and (min-width: 1481px) and (max-width: 3000px){main .rvft-img-outer-container{background-image:url("Panasonic-startsida-bigscreen.jpg");height:550px;margin-top:250px}main .rvft-img-outer-container .rvft-img-inner-container{width:49%}main .rvft-img-outer-container .placeholder-div{display:block;width:48%}main .small-title-container h4{font-size:24px}main .panasonic-container{display:flex;justify-content:center;height:460px}main .panasonic-container .panasonic-img-container{width:30%}main .panasonic-container .panasonic-menu-container{width:30%}main .lg-container{display:flex;justify-content:center}main .lg-container .lg-image-container{width:30%}main .lg-container .lg-menu-container{width:30%}.main-panasonic-air .panasonic-container{display:flex;flex-wrap:wrap;margin-top:15px}.main-panasonic-air .panasonic-container .panasonic-img-container{width:49%}.main-panasonic-air .panasonic-container .panasonic-menu-container{width:49%}.main-panasonic-air .panasonic-container .page-title-container-air{height:80px}.main-panasonic-air .panasonic-support-container{display:flex;flex-direction:column}.main-panasonic-air .panasonic-support-container .panasonic-support-text-container{display:flex;flex-wrap:wrap;width:50%}.main-panasonic-air .panasonic-support-container{display:flex;flex-direction:row;justify-content:space-around}.main-panasonic-air .panasonic-support-container .panasonic-support-text-container{display:flex;flex-wrap:wrap;width:36%}.main-panasonic-air .panasonic-support-container .panasonic-propartners-container{display:flex;flex-direction:column;justify-content:flex-start;align-items:center;width:40%}.main-panasonic-air .panasonic-support-container .panasonic-propartners-container .propartners-title{color:#000;font-family:Josefin Sans,sans-serif;margin-top:35px}.main-panasonic-air .panasonic-support-container .panasonic-propartners-container .panasonic-propartners-image{margin-top:30px}.main-panasonic-air .panasonic-products-container{display:flex;justify-content:center;height:auto;width:100%}.main-panasonic-air .panasonic-products-container .panasonic-products-inner-container{display:flex;flex-direction:column;justify-content:center;width:49%}.main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products{display:flex;flex-direction:column;justify-content:center;align-items:center;margin-top:10px}.main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .airpump-image{width:100%;max-width:300px}.main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text{width:40%}.main-panasonic-air .panasonic-products-container .accessories-container{width:49%}.main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container{display:flex;flex-direction:column;align-items:center}.main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container .products-line{background-color:#000;height:3px;width:380px}.main-panasonic-water .panasonic-container{display:flex;flex-wrap:wrap;margin-top:15px;height:550px}.main-panasonic-water .panasonic-container .panasonic-img-container{width:49%}.main-panasonic-water .panasonic-container .panasonic-menu-container{width:49%}.main-panasonic-water .panasonic-support-container{display:flex;flex-direction:row;justify-content:space-around}.main-panasonic-water .panasonic-support-container .panasonic-support-text-container{width:36%}.main-panasonic-water .panasonic-support-container .panasonic-propartners-container{display:flex;flex-direction:column;justify-content:flex-start;align-items:center;width:40%}.main-panasonic-water .panasonic-support-container .panasonic-propartners-container .propartners-title{color:#000;font-family:Josefin Sans,sans-serif;margin-top:35px}.main-panasonic-water .panasonic-support-container .panasonic-propartners-container .panasonic-propartners-image{margin-top:30px}.main-panasonic-water .panasonic-waterpump-products-container{display:flex;justify-content:center;height:auto;width:100%}.main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container{display:flex;width:100%}.main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products{display:flex;justify-content:center;margin-top:10px;width:49%}.main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .waterpump-image{padding:15px;width:100%}.main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .waterpump-image2{height:400px}.main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .pana-products-text{width:50%}.main-panasonic-water .panasonic-waterpump-products-container .accessories-container{display:flex;justify-content:center;width:49%}.main-lg-split-pumps .lg-container{justify-content:center;height:400px;width:100%}.main-lg-split-pumps .lg-support-container{display:flex;justify-content:center;height:300px}.main-lg-split-pumps .lg-support-container .lg-support-text-container{width:37%}.main-lg-split-pumps .lg-support-container .lg-businesspartners-container{display:flex;flex-direction:column;justify-content:flex-start;align-items:center;width:40%}.main-lg-split-pumps .lg-support-container .lg-businesspartners-container .businesspartners-title{color:#000;font-family:Josefin Sans,sans-serif;margin-top:35px}.main-lg-split-pumps .lg-support-container .lg-businesspartners-container .lg-businesspartners-image{margin-top:30px}.main-lg-split-pumps .lg-splitpumps-products-container{display:flex;justify-content:center}.main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container{display:flex;flex-direction:column;justify-content:center;align-items:center;width:30%}.main-lg-split-pumps .accessories-container{width:30%}.main-lg-split-pumps .accessories-container .lg-products-container{display:flex;flex-direction:column;align-items:center}.main-lg-split-pumps .accessories-container .lg-products-container .products-line{background-color:#6d6d6d;height:3px;width:380px}.main-contactus-container{background-image:url("contactusbackground-desktop.jpg");background-size:cover;background-repeat:no-repeat;background-position:center}.main-contactus-container .contactus-flexbox-container{display:flex;justify-content:center}.main-contactus-container .contactus-flexbox-container .contactus-container{margin-top:50px;padding:15px;width:30%}.main-contactus-container .contactus-flexbox-container .contactus-container .contactus-header-container{display:flex;flex-direction:column;align-items:center}.main-contactus-container .contactus-flexbox-container .contactus-container h3,.main-contactus-container .contactus-flexbox-container .contactus-container p{color:#000}.main-contactus-container .contactus-flexbox-container .contactus-container p,.main-contactus-container .contactus-flexbox-container .contactus-container a{font-size:18px}.main-contactus-container .contactus-flexbox-container .contactus-container a{color:#17a9de}.main-contactus-container .contactus-flexbox-container .contactus-container a:hover{color:#fa233b}.main-contactus-container .contactus-flexbox-container .contactus-container .contactus-line{background-color:#000;height:3px;width:380px}.main-contactus-container .contactus-flexbox-container .visitor-container{margin-top:50px;padding:15px;width:30%}.main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container{display:flex;flex-direction:column;justify-content:center;align-items:center}.main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container .visitor-title{color:#000}.main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container .visitor-line{background-color:#000;height:3px;width:380px}.main-contactus-container .contactus-flexbox-container .streetadress-container{display:flex;flex-direction:column;justify-content:center;align-items:center;margin-top:50px}.main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container{width:54%}.main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container .visitor-image{width:100%;max-width:293px}.main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container{display:flex;justify-content:flex-start;align-items:flex-start;margin-top:50px;width:39%}.main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container p,.main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a{text-align:left;font-size:18px;margin:0}.main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a{color:#17a9de}.main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a:hover{color:#fa233b}.main-contactus-container #wpforms-377-field_1,.main-contactus-container #wpforms-377-field_2,.main-contactus-container #wpforms-377-field_3,.main-contactus-container #wpforms-377-field_4{max-width:100%}.main-contactus-container #wpforms-377-field_8{width:415px}.main-aboutus-container .main-aboutus .aboutus-box-title{background-image:url("aboutus-desktop.jpg");display:flex;flex-direction:row;width:100%}.main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus{width:30%}.main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus-img-container{width:30%}.main-aboutus-container .main-aboutus .box-company1 .container-box-aboutus-left .aboutus-content .imgbox-aboutus .aboutus-img-incert{width:100%;max-width:200px}.main-employees .flexbox-container{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:center}.main-employees .flexbox-container .employee-container{display:flex;flex-direction:row;justify-content:space-around;align-items:center;width:48%}.main-employees .flexbox-container .employee-container .employee-img-container{widht:50%}.main-employees .flexbox-container .employee-container .employee-img-container img{width:100%;max-width:500px}.main-employees .flexbox-container .employee-container .employee-img-container .pic-two{width:100%;max-width:400px}.main-employees .flexbox-container .employee-container .employee-info-container{justify-content:flex-start;align-items:flex-start;padding:20px;width:49%}}
+@charset "UTF-8";
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0; }
+
+/**
+ * Add the correct display in IE 9-.
+ */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block; }
+
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none; }
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */ }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+details,
+menu {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block; }
+
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none; }
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none; }
+
+/***************************
+	FONTS AND FONT-SIZES
+***************************/
+/** Font-size Panasonic/LG **/
+/****************************
+		COLORS
+****************************/
+/** LG COLORS **/
+/*********************************************************
+	Note: @mixin is for using webkits etc but havent found
+	another way to re-use flexbox so we are using this
+	mixin partial scss. We're saving about 100 lines
+	of css code.
+*********************************************************/
+/*Flex positioning center elements width and height for column layout*/
+/*Flex positioning align-center elements for height in column layout*/
+/*Flex positioning elements width center row layout */
+/*Flex positioning elements width start row layout */
+/*Mixin for hover and focus effect on atags*/
+/************************************************
+			CSS FOR HEADER SECTION ONLY
+************************************************/
+header {
+  position: fixed;
+  top: 0px;
+  transition: top 0.4s ease-in-out;
+  width: 100%; }
+  header .top-header-container {
+    background-color: #333333;
+    height: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; }
+    header .top-header-container .top-header-logotype, header .top-header-container .top-header-logotype1, header .top-header-container .top-header-logotype2 {
+      display: none; }
+  header .header-container {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 100%; }
+    header .header-container .inner-header-container {
+      background-color: #333333;
+      border: 1px solid #333333;
+      border-radius: 50px;
+      display: flex;
+      flex-direction: column;
+      /*flex-wrap: wrap;*/
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 20px;
+      height: 100px;
+      width: 98%; }
+      header .header-container .inner-header-container .logotype {
+        margin-left: 10px;
+        width: 100%;
+        max-width: 265px; }
+      header .header-container .inner-header-container .navigation-menu {
+        display: flex; }
+        header .header-container .inner-header-container .navigation-menu .menu {
+          width: 600px; }
+
+/*This class is for making header meny dissapear when scrolling down and return when
+changing scroll direction*/
+.nav-up {
+  top: -200px; }
+
+/*************************************************************
+	Media query for company logos in topheader - Tablets
+*************************************************************/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header .top-header-container {
+    height: 50px; }
+    header .top-header-container .top-header-logotype, header .top-header-container .top-header-logotype1, header .top-header-container .top-header-logotype2 {
+      display: flex;
+      height: 40px;
+      margin-right: 15px;
+      padding: 5px;
+      width: 170px; }
+  header .header-container .inner-header-container {
+    /*flex-direction: row;*/ }
+    header .header-container .inner-header-container .logotype {
+      margin-left: 10px;
+      width: 100%;
+      max-width: 275px; } }
+
+/*************************************************************
+	Media query for company logos in topheader - Desktop
+*************************************************************/
+@media screen and (min-width: 1025px) and (max-width: 3000px) {
+  header .top-header-container {
+    height: 50px;
+    /*.top-header-logotype {
+				display: flex;
+				margin-right: 15px;
+				padding: 5px;
+				width: 170px;
+				
+			}*/ }
+    header .top-header-container .top-header-logotype, header .top-header-container .top-header-logotype1, header .top-header-container .top-header-logotype2 {
+      display: flex;
+      height: 40px;
+      margin-right: 15px;
+      padding: 5px;
+      width: 170px; }
+  header .header-container .inner-header-container {
+    flex-direction: row; }
+    header .header-container .inner-header-container .logotype {
+      margin-left: 10px;
+      width: 100%;
+      max-width: 330px; } }
+
+/**************************************
+	Main.scss is for mobile 
+	first.
+
+	Every section is named after
+	every php file. Use ctrl/cmd + f
+	to find  each css section 
+	for each page.php file.
+***************************************/
+/*****************************************
+	page-start.php: HOME PAGE
+******************************************/
+main {
+  /** First section on page-start.php **/
+  margin-top: 210px;
+  /** Middle section before panasonic section **/
+  /** Second section LG, on page-start.php **/
+  /** Third section Panasonic, on page-start.php **/ }
+  main .rvft-img-outer-container {
+    background-image: url("Panasonic-startsida-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    height: 400px;
+    width: 100%; }
+    main .rvft-img-outer-container .rvft-img-inner-container {
+      /*_mixin.scss*/
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 15px; }
+      main .rvft-img-outer-container .rvft-img-inner-container .rvft-img-logo {
+        width: 100%;
+        max-width: 500px; }
+      main .rvft-img-outer-container .rvft-img-inner-container h2 {
+        font-family: Josefin Sans, sans-serif; }
+    main .rvft-img-outer-container .placeholder-div {
+      display: none; }
+  main .small-title-container {
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    display: flex;
+    justify-content: center;
+    /*padding: 10px;*/
+    width: 100%; }
+    main .small-title-container h4 {
+      font-family: Josefin Sans, sans-serif; }
+  main .lg-container {
+    /*padding: 15px;*/
+    height: 430px;
+    width: 100%; }
+    main .lg-container .lg-image-container {
+      /*_mixin.scss*/
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .lg-container .lg-image-container .lg-image {
+        width: 100%;
+        max-width: 360px; }
+      main .lg-container .lg-image-container h3 {
+        color: #6d6d6d; }
+    main .lg-container .lg-menu-container {
+      /*_mixin.scss*/
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .lg-container .lg-menu-container .lg-products-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        main .lg-container .lg-menu-container .lg-products-container h2 {
+          color: #6d6d6d; }
+        main .lg-container .lg-menu-container .lg-products-container .products-line {
+          background-color: #6d6d6d;
+          height: 3px;
+          width: 320px; }
+      main .lg-container .lg-menu-container h3 {
+        color: #6d6d6d; }
+      main .lg-container .lg-menu-container #menu-lg-menu {
+        list-style: none; }
+        main .lg-container .lg-menu-container #menu-lg-menu li > a {
+          color: #6d6d6d;
+          /*&:hover {
+						color: $lg-secondary-color;
+					}*/
+          /*Hover and focus mixin*/ }
+          main .lg-container .lg-menu-container #menu-lg-menu li > a:hover, main .lg-container .lg-menu-container #menu-lg-menu li > a:focus {
+            color: #ad1639; }
+  main .panasonic-container {
+    background-color: #000000;
+    height: 430px;
+    width: 100%; }
+    main .panasonic-container .panasonic-img-container {
+      /*_mixin.scss*/
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 15px; }
+      main .panasonic-container .panasonic-img-container .panasonic-image {
+        width: 100%;
+        max-width: 300px; }
+      main .panasonic-container .panasonic-img-container h3 {
+        color: #fff; }
+        main .panasonic-container .panasonic-img-container h3 .pana-heating {
+          color: #fa233b; }
+        main .panasonic-container .panasonic-img-container h3 .pana-cooling {
+          color: #17a9de; }
+    main .panasonic-container .panasonic-menu-container {
+      /*_mixin.scss*/
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .panasonic-container .panasonic-menu-container .pana-products-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        main .panasonic-container .panasonic-menu-container .pana-products-container h2 {
+          color: #fff; }
+        main .panasonic-container .panasonic-menu-container .pana-products-container .products-line {
+          background-color: #fff;
+          height: 3px;
+          width: 320px; }
+      main .panasonic-container .panasonic-menu-container #menu-panasonic-meny {
+        list-style: none; }
+        main .panasonic-container .panasonic-menu-container #menu-panasonic-meny li > a {
+          color: #fff;
+          text-decoration: none;
+          /*Hover and focus mixin*/ }
+          main .panasonic-container .panasonic-menu-container #menu-panasonic-meny li > a:hover, main .panasonic-container .panasonic-menu-container #menu-panasonic-meny li > a:focus {
+            color: #17a9de; }
+
+/**********************************************************
+	page-panasonicpumpsair.php: PANASONIC AIR PUMPS PAGE
+***********************************************************/
+.main-panasonic-air {
+  /** Panasonic support section on page-panasonicairpumps.php **/
+  /*Support section*/
+  /** Panasonic products section **/ }
+  .main-panasonic-air .panasonic-container {
+    height: 490px; }
+    .main-panasonic-air .panasonic-container .page-title-container-air {
+      color: #fff;
+      text-align: center;
+      width: 100%; }
+  .main-panasonic-air .panasonic-support-container {
+    background-color: #bababa;
+    display: flex;
+    height: 365px;
+    width: 100%;
+    /*Certificate in support section, isn't shown in mobile view*/ }
+    .main-panasonic-air .panasonic-support-container .panasonic-support-text-container {
+      line-height: 25px;
+      padding: 15px; }
+      .main-panasonic-air .panasonic-support-container .panasonic-support-text-container .support-title, .main-panasonic-air .panasonic-support-container .panasonic-support-text-container p {
+        color: #000000; }
+      .main-panasonic-air .panasonic-support-container .panasonic-support-text-container .support-title {
+        font-family: Josefin Sans, sans-serif; }
+      .main-panasonic-air .panasonic-support-container .panasonic-support-text-container p {
+        font-family: Josefin Sans, sans-serif;
+        font-size: 18px;
+        /*font-size: 18px;*/ }
+      .main-panasonic-air .panasonic-support-container .panasonic-support-text-container a {
+        color: #17a9de;
+        /*Hover and focus mixin*/ }
+        .main-panasonic-air .panasonic-support-container .panasonic-support-text-container a:hover, .main-panasonic-air .panasonic-support-container .panasonic-support-text-container a:focus {
+          color: #17a9de;
+          text-decoration: none;
+          text-transform: uppercase; }
+    .main-panasonic-air .panasonic-support-container .panasonic-propartners-container {
+      display: none;
+      /*Dont display certificate container in mobile view*/ }
+  .main-panasonic-air .panasonic-products-container {
+    height: auto;
+    width: 100%;
+    /** Panasonic accessories section **/ }
+    .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products {
+      margin-top: 10px; }
+      .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .airpump-image {
+        width: 100%;
+        max-width: 470px; }
+      .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text {
+        line-height: 23px;
+        padding: 15px; }
+        .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text h3 {
+          font-size: 20px; }
+        .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text p > a {
+          color: #17a9de; }
+    .main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container {
+      /*_mixin.scss*/
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container .products-line {
+        background-color: #000000;
+        height: 3px;
+        width: 320px; }
+    .main-panasonic-air .panasonic-products-container .accessories-container .accesories-products {
+      /*_mixin.scss*/
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .main-panasonic-air .panasonic-products-container .accessories-container .accesories-products .accessories-image {
+        width: 100%;
+        max-width: 300px; }
+      .main-panasonic-air .panasonic-products-container .accessories-container .accesories-products .accessories-products-text {
+        padding: 10px; }
+
+/*****************************************************************
+	page-panasonicpumpswater.php: PANASONIC AIR-WATER PUMPS PAGE
+*****************************************************************/
+/* Start section */
+.main-panasonic-water {
+  margin-top: 210px;
+  /*Support section*/
+  /** Panasonic products section **/ }
+  .main-panasonic-water .panasonic-container {
+    height: 490px; }
+    .main-panasonic-water .panasonic-container .page-title-container-water {
+      color: #fff;
+      text-align: center;
+      width: 100%; }
+  .main-panasonic-water .panasonic-support-container {
+    background-color: #bababa;
+    display: flex;
+    height: 390px;
+    width: 100%;
+    /*Certificate in support section, isn't shown in mobile view*/ }
+    .main-panasonic-water .panasonic-support-container .panasonic-support-text-container {
+      line-height: 25px;
+      padding: 15px; }
+      .main-panasonic-water .panasonic-support-container .panasonic-support-text-container .support-title, .main-panasonic-water .panasonic-support-container .panasonic-support-text-container p {
+        color: #000000; }
+      .main-panasonic-water .panasonic-support-container .panasonic-support-text-container .support-title {
+        font-family: Josefin Sans, sans-serif; }
+      .main-panasonic-water .panasonic-support-container .panasonic-support-text-container p {
+        font-family: Josefin Sans, sans-serif;
+        font-size: 18px; }
+      .main-panasonic-water .panasonic-support-container .panasonic-support-text-container a {
+        color: #17a9de; }
+        .main-panasonic-water .panasonic-support-container .panasonic-support-text-container a:hover {
+          color: #17a9de;
+          text-decoration: none;
+          text-transform: uppercase; }
+    .main-panasonic-water .panasonic-support-container .panasonic-propartners-container {
+      display: none;
+      /*Dont display certificate container in mobile view*/ }
+  .main-panasonic-water .panasonic-waterpump-products-container {
+    height: auto;
+    width: 100%;
+    /** Panasonic accessories section **/ }
+    .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products {
+      margin-top: 10px; }
+      .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .waterpump-image, .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .waterpump-image2 {
+        padding: 15px;
+        width: 100%;
+        max-width: 200px; }
+      .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .pana-products-text {
+        line-height: 23px;
+        padding: 15px; }
+        .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .pana-products-text h3 {
+          font-size: 20px; }
+        .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .pana-products-text p > a {
+          color: #17a9de; }
+    .main-panasonic-water .panasonic-waterpump-products-container .accessories-container .pana-products-container {
+      /*_mixin.scss*/
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .main-panasonic-water .panasonic-waterpump-products-container .accessories-container .pana-products-container .products-line {
+        background-color: #000000;
+        height: 3px;
+        width: 320px; }
+    .main-panasonic-water .panasonic-waterpump-products-container .accessories-container .accesories-products .accessories-products-text {
+      padding: 10px; }
+
+/*****************************************************************
+	page-lgsplitpumps.php: LG SPLIT PUMPS PAGE
+*****************************************************************/
+.main-lg-split-pumps {
+  /*Start section on LG Split pumps page*/
+  /** LG Support section container **/
+  /** LG Splitpumps section **/
+  /** LG accessories section **/ }
+  .main-lg-split-pumps .lg-container {
+    height: 350px;
+    width: 100%; }
+    .main-lg-split-pumps .lg-container .lg-image-container {
+      /*_mixin.scss*/
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .main-lg-split-pumps .lg-container .lg-image-container .lg-image {
+        width: 100%;
+        max-width: 200px; }
+      .main-lg-split-pumps .lg-container .lg-image-container h3 {
+        color: #6d6d6d;
+        margin: 2px;
+        padding: 0; }
+    .main-lg-split-pumps .lg-container .lg-menu-container {
+      /*_mixin.scss*/
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .main-lg-split-pumps .lg-container .lg-menu-container .lg-products-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .main-lg-split-pumps .lg-container .lg-menu-container .lg-products-container h2 {
+          color: #6d6d6d; }
+        .main-lg-split-pumps .lg-container .lg-menu-container .lg-products-container .products-line {
+          background-color: #6d6d6d;
+          height: 3px;
+          width: 320px; }
+      .main-lg-split-pumps .lg-container .lg-menu-container h3 {
+        color: #6d6d6d; }
+      .main-lg-split-pumps .lg-container .lg-menu-container #menu-lg-menu {
+        list-style: none; }
+        .main-lg-split-pumps .lg-container .lg-menu-container #menu-lg-menu li > a {
+          color: #6d6d6d; }
+          .main-lg-split-pumps .lg-container .lg-menu-container #menu-lg-menu li > a:hover {
+            color: #ad1639; }
+      .main-lg-split-pumps .lg-container .lg-menu-container .products-line {
+        background-color: #6d6d6d;
+        height: 3px;
+        width: 320px; }
+  .main-lg-split-pumps .lg-support-container {
+    background-color: #f4f4f4;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    /*Certificate in support section, isn't shown in mobile view*/ }
+    .main-lg-split-pumps .lg-support-container .lg-support-text-container {
+      line-height: 25px;
+      padding: 15px; }
+      .main-lg-split-pumps .lg-support-container .lg-support-text-container .lg-support-title {
+        font-family: Josefin Sans, sans-serif; }
+      .main-lg-split-pumps .lg-support-container .lg-support-text-container p > a {
+        font-family: Josefin Sans, sans-serif;
+        font-weight: bold;
+        color: #000000; }
+        .main-lg-split-pumps .lg-support-container .lg-support-text-container p > a:hover {
+          color: #ad1639; }
+    .main-lg-split-pumps .lg-support-container .lg-businesspartners-container {
+      display: none;
+      /*Dont display certificate container in mobile view*/ }
+  .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container {
+    /*_mixin.scss*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .splitpump-image {
+      width: 100%;
+      max-width: 350px; }
+    .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text {
+      line-height: 23px;
+      padding: 15px; }
+      .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text h3 {
+        font-size: 20px; }
+      .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text p > a {
+        font-weight: bold;
+        color: #ad1639; }
+  .main-lg-split-pumps .accessories-container .lg-products-container {
+    /*_mixin.scss*/
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main-lg-split-pumps .accessories-container .lg-products-container .products-line {
+      background-color: #6d6d6d;
+      height: 3px;
+      width: 320px; }
+  .main-lg-split-pumps .accessories-container .accesories-products {
+    /*_mixin.scss*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .main-lg-split-pumps .accessories-container .accesories-products .accessories-image {
+      width: 100%;
+      max-width: 300px; }
+    .main-lg-split-pumps .accessories-container .accesories-products .accessories-products-text {
+      padding: 10px; }
+
+/*****************************************************************
+	page-contactus.php: Contact Us PAGE
+*****************************************************************/
+.main-contactus-container {
+  background-image: url("contactusbackground1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*Contact us section*/
+  /*Visitor section container*/
+  /*Css for wp plugin form, giving fields 100% max-width*/
+  /*#wpforms-158-field_1, #wpforms-158-field_2, #wpforms-158-field_4, #wpforms-158-field_7 {
+		max-width: 77%;
+	}*/ }
+  .main-contactus-container .contactus-container {
+    width: 100%;
+    /*First section with contact information*/ }
+    .main-contactus-container .contactus-container .contactus-header-container {
+      /*_mixin.scss*/
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .main-contactus-container .contactus-container .contactus-header-container h3, .main-contactus-container .contactus-container .contactus-header-container p {
+        font-family: Josefin Sans, sans-serif;
+        color: #000000; }
+      .main-contactus-container .contactus-container .contactus-header-container p, .main-contactus-container .contactus-container .contactus-header-container a {
+        font-family: Josefin Sans, sans-serif;
+        font-size: 18px; }
+      .main-contactus-container .contactus-container .contactus-header-container a {
+        color: #17a9de;
+        /*Hover and focus mixin*/ }
+        .main-contactus-container .contactus-container .contactus-header-container a:hover, .main-contactus-container .contactus-container .contactus-header-container a:focus {
+          color: #fa233b;
+          text-decoration: none; }
+    .main-contactus-container .contactus-container .contactus-line {
+      background-color: #000000;
+      height: 3px;
+      width: 380px; }
+  .main-contactus-container .visitor-container {
+    width: 100%;
+    /*Streetadress section inside visitor section*/ }
+    .main-contactus-container .visitor-container .visitor-header-container {
+      /*_mixin.scss*/
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .main-contactus-container .visitor-container .visitor-header-container .visitor-title {
+        color: #000000;
+        font-family: Josefin Sans, sans-serif; }
+      .main-contactus-container .visitor-container .visitor-header-container .visitor-line {
+        background-color: #000000;
+        height: 3px;
+        width: 380px; }
+    .main-contactus-container .visitor-container .streetadress-container {
+      margin-top: 20px; }
+      .main-contactus-container .visitor-container .streetadress-container .visitor-image {
+        /*padding: 20px;*/
+        width: 100%;
+        max-widht: 400px; }
+      .main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /*a:hover {
+					color: $complmentary-color;
+					text-decoration: none;
+				}*/ }
+        .main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container p, .main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container a {
+          font-family: Josefin Sans, sans-serif;
+          font-size: 18px; }
+          .main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container p:hover, .main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container p:focus, .main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container a:hover, .main-contactus-container .visitor-container .streetadress-container .streetadress-adress-container a:focus {
+            color: #fa233b;
+            text-decoration: none; }
+  .main-contactus-container #wpforms-377-field_1, .main-contactus-container #wpforms-377-field_2, .main-contactus-container #wpforms-377-field_3, .main-contactus-container #wpforms-377-field_4 {
+    padding: 0; }
+  .main-contactus-container #wpforms-377-field_8 {
+    padding: 0; }
+
+/***********************************************************************************************************
+  Inför.php: INFÖR 
+*************************************************************************************************************/
+.box {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+  flex: 1 1 auto; }
+
+.installation-img {
+  width: 265px;
+  height: 300px; }
+
+div.main-installation {
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center; }
+  div.main-installation div.box1 {
+    margin-bottom: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: #ced9d3;
+    border-radius: 10px;
+    flex: 1 auto; }
+  div.main-installation div.box-installation-pictures {
+    display: flex;
+    justify-content: space-around; }
+    div.main-installation div.box-installation-pictures div.container-gridinstallation {
+      display: flex;
+      width: 50%;
+      justify-content: space-around; }
+      div.main-installation div.box-installation-pictures div.container-gridinstallation img.installation-img-one {
+        width: 265px;
+        height: 300px; }
+  div.main-installation div.box2 {
+    margin-bottom: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: #ced9d3;
+    border-radius: 10px;
+    flex: 1 auto; }
+  div.main-installation div.box3 {
+    margin-bottom: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: #ced9d3;
+    border-radius: 10px;
+    flex: 1 auto; }
+
+@media only screen and (max-width: 1741px) {
+  .installation-img {
+    width: 275px;
+    height: 300px; } }
+
+@media only screen and (max-width: 1300px) {
+  .box-installation-pictures {
+    flex-wrap: wrap; }
+  .container-gridinstallation {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap; }
+  .installation-img {
+    width: 280px;
+    height: 285px;
+    margin-bottom: 15px; }
+  .box1, .box2, .box3 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0; } }
+
+@media only screen and (max-width: 846px) {
+  .box4 {
+    flex-wrap: wrap; }
+  .installation-img {
+    width: 280px;
+    height: 285px; } }
+
+@media only screen and (max-width: 546px) {
+  div.main-installation div.box-installation-pictures div.container-gridinstallation {
+    display: flex;
+    width: 100%;
+    justify-content: space-around; } }
+
+/***********************************************************************************************************
+  anställda.php: ANSTÄLLDA STYLE
+*************************************************************************************************************/
+.main-employees .flexbox-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  .main-employees .flexbox-container .employee-container {
+    /*_mixin.scss*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+    .main-employees .flexbox-container .employee-container .employee-img-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%; }
+      .main-employees .flexbox-container .employee-container .employee-img-container img {
+        width: 100%;
+        max-width: 300px; }
+    .main-employees .flexbox-container .employee-container .employee-info-container {
+      /*_mixin.scss*/
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      width: 50%; }
+      .main-employees .flexbox-container .employee-container .employee-info-container h2, .main-employees .flexbox-container .employee-container .employee-info-container h3 {
+        font-family: Josefin Sans, sans-serif; }
+      .main-employees .flexbox-container .employee-container .employee-info-container h2 {
+        font-size: 20px; }
+      .main-employees .flexbox-container .employee-container .employee-info-container h3 {
+        font-size: 18px; }
+
+/*GRID FOR ANSTÄLLDA*/
+.employees-grid {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap; }
+
+.grid-cell {
+  flex: 1 auto;
+  background-color: #f8faf9;
+  display: flex;
+  justify-content: center; }
+
+.grid-cell-info {
+  flex-direction: column; }
+
+.info-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #ced9d3;
+  color: #fff;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-right: 60px;
+  margin-left: 60px;
+  height: 150px; }
+
+/***********************************************************************************************************
+  Inför.php: OM FÖRETAGET
+*************************************************************************************************************/
+.main-aboutus-container .main-aboutus .aboutus-box-title {
+  background-image: url("aboutus-mobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+  .main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus {
+    width: 100%; }
+    .main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus h3, .main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus p {
+      color: #000000;
+      font-family: Josefin Sans, sans-serif;
+      font-size: 16px; }
+    .main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus p {
+      line-height: 25px;
+      padding: 0 10px 0 10px;
+      text-align: left; }
+  .main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus-img-container .company-pic {
+    width: 100%;
+    max-width: 250px; }
+
+.main-aboutus-container .main-aboutus .aboutus-info-title {
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+  .main-aboutus-container .main-aboutus .aboutus-info-title h2 {
+    color: #000000;
+    font-family: Josefin Sans, sans-serif; }
+
+.main-aboutus-container .main-aboutus .box-company1 .container-box-aboutus-left .aboutus-content .imgbox-aboutus .aboutus-img-incert {
+  width: 100%;
+  max-width: 200px; }
+
+.aboutus-box-title {
+  text-align: center;
+  color: #fff; }
+
+.line-black {
+  border-bottom: 3px solid #000000; }
+
+.line-white {
+  border-bottom: 3px solid #fff; }
+
+.box-company1, .box-company2 {
+  margin-bottom: 50px; }
+
+.box-company2 {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  background-color: #000000; }
+
+.layoutbox {
+  width: 5%; }
+
+.box-company1 {
+  display: flex;
+  justify-content: space-around; }
+
+.aboutus-img-incert {
+  width: 100%;
+  max-width: 300px; }
+
+/***********************************************************************************************************
+  Completedworks.php:BLOGGPOST
+*************************************************************************************************************/
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: none;
+  border-bottom: 5px dotted grey;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-left: 10px; }
+  .flex-container .blog-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    flex: 1 auto; }
+    .flex-container .blog-title .blog-img-container .blog-img {
+      width: 300px;
+      margin-right: 20px; }
+  .flex-container .author-content {
+    height: 160px;
+    align-self: center;
+    width: 70%;
+    margin-bottom: 40px; }
+  .flex-container .blog-picture {
+    justify-content: center;
+    display: flex;
+    height: 265px; }
+  .flex-container .blog-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; }
+    .flex-container .blog-button .button-read {
+      height: 50px;
+      width: 120px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      background-color: #fc3a51;
+      font-weight: bold; }
+
+.main-test .search-completedworks {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px; }
+
+.attachment-home-thumb, .size-home-thumb, .wp-post-image {
+  width: 272px;
+  height: 275px;
+  border-radius: 50%; }
+
+/***********************************************************************************************************
+  SINGEL/INDEX.php: SINGEL BLOGGPOST
+*************************************************************************************************************/
+.main-blog-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column; }
+  .main-blog-container .blog-content-singel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+    .main-blog-container .blog-content-singel .blog-info-singel {
+      text-align: center; }
+    .main-blog-container .blog-content-singel .blog-picture-singelpage {
+      display: flex;
+      justify-content: center; }
+    .main-blog-container .blog-content-singel .button-read {
+      align-self: center;
+      height: 50px;
+      width: 120px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      background-color: #fc3a51;
+      font-weight: bold; }
+
+/************************************************
+		404 NOT FOUNDPAGE
+*************************************************/
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px; }
+
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; }
+
+input[type=submit] {
+  background-color: #17a9de;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+input[type=submit]:hover {
+  background-color: #333333; }
+
+/************************************************
+		Active class for js script on hover
+*************************************************/
+.active {
+  color: #17a9de;
+  text-decoration: none; }
+
+/**********************************************
+      FOOTER SCSS
+**********************************************/
+footer .footer-container {
+  background-color: #333333;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: 100%; }
+  footer .footer-container .adress-container, footer .footer-container .partners-container, footer .footer-container .meny-container {
+    border-bottom: 2px solid #fff;
+    /*Flexbox positioning mixin*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  footer .footer-container .adress-container h1 {
+    color: #fff;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 20px; }
+  footer .footer-container .adress-container p {
+    color: #fff;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 18px; }
+  footer .footer-container .adress-container p > a {
+    color: #fff;
+    font-family: Josefin Sans, sans-serif;
+    text-decoration: none;
+    /*Hover and focus mixin*/ }
+    footer .footer-container .adress-container p > a:hover, footer .footer-container .adress-container p > a:focus {
+      color: #17a9de; }
+  footer .footer-container .partners-container {
+    width: 100%;
+    padding: 10px; }
+    footer .footer-container .partners-container .title-partner {
+      color: #fff;
+      font-family: Josefin Sans, sans-serif;
+      font-size: 20px;
+      margin: 0 0 22px 0; }
+    footer .footer-container .partners-container .partner-image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%; }
+      footer .footer-container .partners-container .partner-image-container .footer-img {
+        height: 30px;
+        margin: 0 10px 10px 0; }
+  footer .footer-container .meny-container h1 {
+    color: #fff;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 20px; }
+  footer .footer-container .meny-container ul {
+    padding: 5px 0 5px 0;
+    list-style: none; }
+    footer .footer-container .meny-container ul li {
+      font-family: Josefin Sans, sans-serif;
+      padding: 5px 0 5px 15px; }
+    footer .footer-container .meny-container ul li > a {
+      color: #fff;
+      font-size: 18px;
+      text-decoration: none;
+      /*Hover and focus mixin*/ }
+      footer .footer-container .meny-container ul li > a:hover, footer .footer-container .meny-container ul li > a:focus {
+        color: #17a9de; }
+
+/*****************************************
+    footer.php: MEDIQ QUERY FOR Tablets
+******************************************/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  footer .footer-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*height: 400px;*/
+    width: 100%; }
+    footer .footer-container .adress-container {
+      flex-wrap: wrap;
+      border-bottom: none;
+      width: 20%; }
+    footer .footer-container .partners-container {
+      border-bottom: none;
+      width: 50%; }
+      footer .footer-container .partners-container .title-partner {
+        margin: 0 0 40px 0; }
+    footer .footer-container .meny-container {
+      border-bottom: none;
+      width: 20%; }
+      footer .footer-container .meny-container h1 {
+        margin: 0 0 12px 0; } }
+
+/********************************************************
+    footer.php: MEDIQ QUERY FOR DESKTOP
+********************************************************/
+@media screen and (min-width: 1025px) and (max-width: 1480px) {
+  footer .footer-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 300px;
+    width: 100%; }
+    footer .footer-container .adress-container, footer .footer-container .partners-container, footer .footer-container .meny-container {
+      border-bottom: none;
+      width: 20%; }
+    footer .footer-container .partners-container {
+      border-bottom: none;
+      width: 32%; }
+    footer .footer-container .meny-container {
+      border-bottom: none;
+      width: 20%; }
+      footer .footer-container .meny-container h1 {
+        margin: 0 0 12px 0; } }
+
+/********************************************************
+    footer.php: MEDIQ QUERY FOR  BIG SCREENS
+********************************************************/
+@media screen and (min-width: 1481px) and (max-width: 3000px) {
+  footer .footer-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 300px;
+    width: 100%; }
+    footer .footer-container .adress-container, footer .footer-container .partners-container, footer .footer-container .meny-container {
+      border-bottom: none;
+      width: 32%; }
+    footer .footer-container .partners-container {
+      border-bottom: none;
+      width: 32%; }
+    footer .footer-container .meny-container {
+      border-bottom: none;
+      width: 32%; }
+      footer .footer-container .meny-container h1 {
+        margin: 0 0 12px 0; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /*****************************************
+	page-start.php: HOME PAGE
+******************************************/
+  main {
+    /** First section on page-start.php */ }
+    main .rvft-img-outer-container {
+      background-image: url("Panasonic-startsida-tablet.jpg"); }
+      main .rvft-img-outer-container .rvft-img-inner-container {
+        width: 100%; }
+        main .rvft-img-outer-container .rvft-img-inner-container .rvft-img-logo {
+          width: 100%;
+          max-width: 500px; }
+      main .rvft-img-outer-container .placeholder-div {
+        display: none; }
+  /*****************************************************************
+	page-lgsplitpumps.php: LG SPLIT PUMPS PAGE
+*****************************************************************/
+  .main-lg-split-pumps {
+    /** LG Support section container **/
+    /** LG Splitpumps section **/
+    /** LG accessories section **/ }
+    .main-lg-split-pumps .lg-support-container {
+      height: 300px;
+      /*Certificate in support section, isn't shown in tablet view*/ }
+      .main-lg-split-pumps .lg-support-container .lg-businesspartners-container {
+        display: none;
+        /*Dont display certificate container in tablet view*/ }
+    .main-lg-split-pumps .lg-splitpumps-products-container {
+      display: flex;
+      justify-content: space-around; }
+      .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .splitpump-image {
+        width: 100%;
+        max-width: 350px; }
+      .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text {
+        line-height: 23px;
+        padding: 15px; }
+        .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text h3 {
+          font-size: 20px; }
+        .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container .lg-products .lg-products-text p > a {
+          font-weight: bold;
+          color: #ad1639; }
+    .main-lg-split-pumps .accessories-container .lg-products-container {
+      /*_mixin.scss*/
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .main-lg-split-pumps .accessories-container .lg-products-container .products-line {
+        background-color: #6d6d6d;
+        height: 3px;
+        width: 380px; }
+  /*****************************************************************
+	page-contactus.php: Contact Us PAGE
+*****************************************************************/
+  .main-contactus-container {
+    background-image: url("contactusbackground-tablet1.jpg"); }
+    .main-contactus-container .contactus-flexbox-container {
+      /*_mixin.scss*/
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .main-contactus-container .contactus-flexbox-container .contactus-container {
+        width: 70%; }
+      .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container .visitor-image {
+          padding: 20px;
+          width: 100%;
+          max-width: 600px; }
+    .main-contactus-container #wpforms-158-field_8 {
+      width: 415px; }
+    .main-contactus-container #wpforms-377-field_5 {
+      width: 60%; }
+  /**************************************************************
+	page-aboutus.php - About Company Tablet
+**************************************************************/
+  .main-aboutus-container .main-aboutus .aboutus-box-title {
+    /*@include flex-justify-center;*/
+    background-image: url("aboutus-tablet.jpg");
+    display: flex;
+    flex-direction: row;
+    width: 100%; }
+    .main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus {
+      width: 49%; }
+    .main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus-img-container {
+      width: 48%; }
+  .main-aboutus-container .main-aboutus .box-company1 .container-box-aboutus-left .aboutus-content .imgbox-aboutus .aboutus-img-incert {
+    width: 100%;
+    max-width: 200px; }
+  /**************************************************************
+	page-employess.php - Employees Tablet
+**************************************************************/
+  .main-employees .flexbox-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    .main-employees .flexbox-container .employee-container {
+      display: flex;
+      /*flex-direction: row;*/
+      justify-content: space-around;
+      align-items: center;
+      width: 100%; }
+      .main-employees .flexbox-container .employee-container .employee-img-container {
+        widht: 50%; }
+        .main-employees .flexbox-container .employee-container .employee-img-container img {
+          width: 100%;
+          max-width: 400px; }
+      .main-employees .flexbox-container .employee-container .employee-info-container {
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px;
+        width: 48%; }
+  /***********************************************************************************************************
+  SINGEL/INDEX.php: SINGEL BLOGGPOST
+*************************************************************************************************************/
+  .main-blog-container .blog-content-singel {
+    align-items: center; }
+  /***********************************************************************************************************
+  Inför.php: OM FÖRETAGET
+*************************************************************************************************************/
+  .main-aboutus-container .box-company1 .container-box-aboutus-left .aboutus-content .imgbox-aboutus .aboutus-img-incert {
+    width: 100%;
+    max-width: 200px; }
+  .layoutbox {
+    display: none; }
+  .title-box-aboutus, .imgbox-aboutus {
+    display: flex;
+    justify-content: center; }
+  .aboutus-text {
+    text-align: center; }
+  /***********************************************************************************************************
+  anställda.php: ANSTÄLLDA STYLE
+*************************************************************************************************************/
+  .main-employees .flexbox-container .employee-container {
+    /*_mixin.scss*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+    .main-employees .flexbox-container .employee-container .employee-info-container {
+      /*_mixin.scss*/
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      width: 50%; } }
+
+@media screen and (min-width: 1025px) and (max-width: 1480px) {
+  /*****************************************
+	page-start.php: HOME PAGE
+******************************************/
+  main {
+    /** First section on page-start.php **/
+    /** Middle section before panasonic section **/
+    /** Second section Panasonic, on page-start.php **/
+    /** Third section LG, on page-start.php **/ }
+    main .rvft-img-outer-container {
+      background-image: url("Panasonic-startsida-desktop.jpg");
+      height: 550px;
+      /*Flexbox positioning*/ }
+      main .rvft-img-outer-container .rvft-img-inner-container {
+        width: 49%; }
+      main .rvft-img-outer-container .placeholder-div {
+        display: block;
+        width: 48%; }
+    main .small-title-container h4 {
+      font-size: 20px; }
+    main .panasonic-container {
+      display: flex;
+      height: 460px; }
+      main .panasonic-container .panasonic-img-container {
+        width: 49%; }
+      main .panasonic-container .panasonic-menu-container {
+        width: 48%; }
+    main .lg-container {
+      display: flex; }
+      main .lg-container .lg-image-container {
+        width: 49%; }
+      main .lg-container .lg-menu-container {
+        width: 49%; }
+  /**********************************************************
+	page-panasonicpumpsair.php: PANASONIC AIR PUMPS PAGE
+***********************************************************/
+  .main-panasonic-air {
+    /** Panasonic support section on page-panasonicairpumps.php **/
+    /*Support section container*/
+    /** Panasonic products section **/ }
+    .main-panasonic-air .panasonic-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 15px; }
+      .main-panasonic-air .panasonic-container .panasonic-img-container {
+        width: 49%; }
+      .main-panasonic-air .panasonic-container .panasonic-menu-container {
+        width: 48%; }
+      .main-panasonic-air .panasonic-container .page-title-container-air {
+        height: 80px; }
+    .main-panasonic-air .panasonic-support-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      .main-panasonic-air .panasonic-support-container .panasonic-support-text-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%; }
+      .main-panasonic-air .panasonic-support-container .panasonic-propartners-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 49%; }
+        .main-panasonic-air .panasonic-support-container .panasonic-propartners-container .propartners-title {
+          color: #000000;
+          font-family: Josefin Sans, sans-serif;
+          margin-top: 35px; }
+        .main-panasonic-air .panasonic-support-container .panasonic-propartners-container .panasonic-propartners-image {
+          margin-top: 30px; }
+    .main-panasonic-air .panasonic-products-container {
+      /*_mixin.scss*/
+      display: flex;
+      justify-content: center;
+      height: auto;
+      width: 100%;
+      /** Panasonic accessories section **/ }
+      .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 49%; }
+        .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products {
+          margin-top: 10px;
+          /*_mixin.scss*/
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .airpump-image {
+            width: 100%;
+            max-width: 300px; }
+          .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text {
+            width: 40%; }
+      .main-panasonic-air .panasonic-products-container .accessories-container {
+        width: 49%; }
+        .main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container {
+          /*_mixin.scss*/
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container .products-line {
+            background-color: #000000;
+            height: 3px;
+            width: 380px; }
+  /*****************************************************************
+	page-panasonicpumpswater.php: PANASONIC AIR-WATER PUMPS PAGE
+*****************************************************************/
+  .main-panasonic-water {
+    /*Support section container*/
+    /** Panasonic products section **/ }
+    .main-panasonic-water .panasonic-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 15px;
+      height: 460px; }
+      .main-panasonic-water .panasonic-container .panasonic-img-container, .main-panasonic-water .panasonic-container .panasonic-menu-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+      .main-panasonic-water .panasonic-container .panasonic-img-container {
+        width: 49%; }
+      .main-panasonic-water .panasonic-container .panasonic-menu-container {
+        width: 48%; }
+    .main-panasonic-water .panasonic-support-container {
+      /*Certificate section inside support section container*/ }
+      .main-panasonic-water .panasonic-support-container .panasonic-support-text-container {
+        width: 49%; }
+      .main-panasonic-water .panasonic-support-container .panasonic-propartners-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 49%; }
+        .main-panasonic-water .panasonic-support-container .panasonic-propartners-container .propartners-title {
+          color: #000000;
+          font-family: Josefin Sans, sans-serif;
+          margin-top: 35px; }
+        .main-panasonic-water .panasonic-support-container .panasonic-propartners-container .panasonic-propartners-image {
+          margin-top: 30px; }
+    .main-panasonic-water .panasonic-waterpump-products-container {
+      /*_mixin.scss*/
+      display: flex;
+      justify-content: center;
+      height: auto;
+      width: 100%;
+      /** Panasonic accessories section **/ }
+      .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container {
+        display: flex;
+        width: 100%; }
+        .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products {
+          /*_mixin.scss*/
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          width: 49%; }
+          .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .waterpump-image {
+            padding: 15px;
+            /*width: 100%;*/
+            /*max-width: 140px;*/ }
+          .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .waterpump-image2 {
+            height: 400px; }
+          .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .pana-products-text {
+            width: 50%; }
+      .main-panasonic-water .panasonic-waterpump-products-container .accessories-container {
+        /*_mixin.scss*/
+        display: flex;
+        justify-content: center;
+        width: 49%; }
+  /*****************************************************************
+	page-lgsplitpumps.php: LG SPLIT PUMPS PAGE
+*****************************************************************/
+  .main-lg-split-pumps {
+    /** LG Support container **/
+    /** LG Splitpumps products section **/
+    /** LG accessories section **/ }
+    .main-lg-split-pumps .lg-container {
+      height: 400px;
+      width: 100%; }
+    .main-lg-split-pumps .lg-support-container {
+      height: 390px;
+      /*Certificate section inside support section container*/ }
+      .main-lg-split-pumps .lg-support-container .lg-support-text-container {
+        width: 50%; }
+      .main-lg-split-pumps .lg-support-container .lg-businesspartners-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 49%; }
+        .main-lg-split-pumps .lg-support-container .lg-businesspartners-container .businesspartners-title {
+          color: #000000;
+          font-family: Josefin Sans, sans-serif;
+          margin-top: 35px; }
+        .main-lg-split-pumps .lg-support-container .lg-businesspartners-container .lg-businesspartners-image {
+          margin-top: 30px; }
+    .main-lg-split-pumps .lg-splitpumps-products-container {
+      display: flex;
+      justify-content: space-around; }
+      .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 49%; }
+    .main-lg-split-pumps .accessories-container {
+      width: 49%; }
+      .main-lg-split-pumps .accessories-container .lg-products-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .main-lg-split-pumps .accessories-container .lg-products-container .products-line {
+          background-color: #6d6d6d;
+          height: 3px;
+          width: 380px; }
+  /*****************************************************************
+	page-contactus.php: Contact Us PAGE
+*****************************************************************/
+  .main-contactus-container {
+    background-image: url("contactusbackground-desktop1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*Css for wp plugin form, giving fields 100% max-width*/
+    /*#wpforms-158-field_1, #wpforms-158-field_2, #wpforms-158-field_4, #wpforms-158-field_7 {
+		max-width: 77%;
+	}*/ }
+    .main-contactus-container .contactus-flexbox-container {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      /*Section containing visitor title*/
+      /* Section containg adress picture and adress information*/ }
+      .main-contactus-container .contactus-flexbox-container .contactus-container {
+        margin-top: 50px;
+        padding: 15px;
+        width: 40%;
+        /*Section containing contact us text and WP-Form plugin*/ }
+        .main-contactus-container .contactus-flexbox-container .contactus-container .contactus-header-container {
+          /*_mixin.scss*/
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+        .main-contactus-container .contactus-flexbox-container .contactus-container h3, .main-contactus-container .contactus-flexbox-container .contactus-container p {
+          color: #000000; }
+        .main-contactus-container .contactus-flexbox-container .contactus-container p, .main-contactus-container .contactus-flexbox-container .contactus-container a {
+          font-size: 18px; }
+        .main-contactus-container .contactus-flexbox-container .contactus-container a {
+          color: #17a9de; }
+          .main-contactus-container .contactus-flexbox-container .contactus-container a:hover {
+            color: #fa233b; }
+        .main-contactus-container .contactus-flexbox-container .contactus-container .contactus-line {
+          background-color: #000000;
+          height: 3px;
+          width: 380px; }
+      .main-contactus-container .contactus-flexbox-container .visitor-container {
+        margin-top: 50px;
+        padding: 15px;
+        width: 40%; }
+        .main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container {
+          /*_mixin.scss*/
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container .visitor-title {
+            color: #000000; }
+          .main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container .visitor-line {
+            background-color: #000000;
+            height: 3px;
+            width: 380px; }
+      .main-contactus-container .contactus-flexbox-container .streetadress-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px; }
+        .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container {
+          width: 55%; }
+          .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container .visitor-image {
+            width: 100%;
+            max-width: 300px; }
+        .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container {
+          margin-top: 50px;
+          width: 39%; }
+          .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container p, .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a {
+            font-size: 18px;
+            margin: 0; }
+          .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a {
+            color: #17a9de; }
+            .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a:hover {
+              color: #fa233b; }
+    .main-contactus-container #wpforms-377-field_1, .main-contactus-container #wpforms-377-field_2, .main-contactus-container #wpforms-377-field_3, .main-contactus-container #wpforms-377-field_4 {
+      max-width: 100%; }
+    .main-contactus-container #wpforms-377-field_8 {
+      width: 415px; }
+  /**************************************************************
+	page-aboutus.php - About Company Desktop
+**************************************************************/
+  .main-aboutus-container .main-aboutus .aboutus-box-title {
+    background-image: url("aboutus-desktop.jpg");
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%; }
+    .main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus {
+      /*text-align: left;*/
+      width: 35%; }
+      .main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus p {
+        font-size: 18px; }
+    .main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus-img-container {
+      width: 35%; }
+      .main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus-img-container .company-pic {
+        padding: 5px;
+        width: 100%;
+        max-width: 500px; }
+  .main-aboutus-container .main-aboutus .aboutus-info-title {
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  .main-aboutus-container .main-aboutus .box-company1 .container-box-aboutus-left .aboutus-content .imgbox-aboutus .aboutus-img-incert {
+    width: 100%;
+    max-width: 200px; }
+  /**************************************************************
+	page-employess.php - Employees Desktop
+**************************************************************/
+  .main-employees .flexbox-container {
+    display: flex;
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+    .main-employees .flexbox-container .employee-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 49%; }
+      .main-employees .flexbox-container .employee-container .employee-img-container {
+        display: flex;
+        widht: 49%; }
+        .main-employees .flexbox-container .employee-container .employee-img-container img {
+          width: 100%;
+          max-width: 400px; }
+      .main-employees .flexbox-container .employee-container .employee-info-container {
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px;
+        width: 49%; }
+  /***********************************************************************************************************
+  Completedworks.php:BLOGGPOST
+*************************************************************************************************************/
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0; }
+    .flex-container .blog-title {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      flex: 1 auto; }
+      .flex-container .blog-title .blog-img-container .blog-img {
+        width: 300px;
+        margin-right: 20px; }
+    .flex-container .author-content {
+      height: 160px;
+      width: 100%;
+      margin-bottom: 40px; }
+    .flex-container .blog-picture {
+      justify-content: center;
+      display: flex;
+      height: 265px;
+      margin-bottom: 30px; }
+    .flex-container .blog-button {
+      width: 100%;
+      justify-content: center; } }
+
+@media screen and (min-width: 1481px) and (max-width: 3000px) {
+  /*****************************************
+	page-start.php: HOME PAGE
+******************************************/
+  main {
+    /** First section on page-start.php **/
+    /** Middle section before panasonic section **/
+    /** Second section Panasonic, on page-start.php **/
+    /** Third section LG, on page-start.php **/ }
+    main .rvft-img-outer-container {
+      background-image: url("Panasonic-startsida-bigscreen.jpg");
+      height: 550px;
+      margin-top: 250px; }
+      main .rvft-img-outer-container .rvft-img-inner-container {
+        width: 49%; }
+      main .rvft-img-outer-container .placeholder-div {
+        display: block;
+        width: 48%; }
+    main .small-title-container h4 {
+      font-size: 24px; }
+    main .panasonic-container {
+      display: flex;
+      justify-content: center;
+      height: 460px; }
+      main .panasonic-container .panasonic-img-container {
+        width: 30%; }
+      main .panasonic-container .panasonic-menu-container {
+        width: 30%; }
+    main .lg-container {
+      /*_mixin.scss*/
+      display: flex;
+      justify-content: center; }
+      main .lg-container .lg-image-container {
+        width: 30%; }
+      main .lg-container .lg-menu-container {
+        width: 30%; }
+  /**********************************************************
+	page-panasonicpumpsair.php: PANASONIC AIR PUMPS PAGE
+***********************************************************/
+  .main-panasonic-air {
+    /** Panasonic support section on page-panasonicairpumps.php **/
+    /** Panasonic products section **/ }
+    .main-panasonic-air .panasonic-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 15px; }
+      .main-panasonic-air .panasonic-container .panasonic-img-container {
+        width: 49%; }
+      .main-panasonic-air .panasonic-container .panasonic-menu-container {
+        width: 49%; }
+      .main-panasonic-air .panasonic-container .page-title-container-air {
+        height: 80px; }
+    .main-panasonic-air .panasonic-support-container {
+      display: flex;
+      flex-direction: column; }
+      .main-panasonic-air .panasonic-support-container .panasonic-support-text-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%; }
+    .main-panasonic-air .panasonic-support-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      .main-panasonic-air .panasonic-support-container .panasonic-support-text-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 36%; }
+      .main-panasonic-air .panasonic-support-container .panasonic-propartners-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 40%; }
+        .main-panasonic-air .panasonic-support-container .panasonic-propartners-container .propartners-title {
+          color: #000000;
+          font-family: Josefin Sans, sans-serif;
+          margin-top: 35px; }
+        .main-panasonic-air .panasonic-support-container .panasonic-propartners-container .panasonic-propartners-image {
+          margin-top: 30px; }
+    .main-panasonic-air .panasonic-products-container {
+      display: flex;
+      justify-content: center;
+      height: auto;
+      width: 100%;
+      /** Panasonic accessories section **/ }
+      .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 49%; }
+        .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products {
+          /*_mixin.scss*/
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-top: 10px; }
+          .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .airpump-image {
+            width: 100%;
+            max-width: 300px; }
+          .main-panasonic-air .panasonic-products-container .panasonic-products-inner-container .pana-products .pana-products-text {
+            width: 40%; }
+      .main-panasonic-air .panasonic-products-container .accessories-container {
+        width: 49%; }
+        .main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container {
+          /*_mixin.scss*/
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .main-panasonic-air .panasonic-products-container .accessories-container .pana-products-container .products-line {
+            background-color: #000000;
+            height: 3px;
+            width: 380px; }
+  /*****************************************************************
+	page-panasonicpumpswater.php: PANASONIC AIR-WATER PUMPS PAGE
+*****************************************************************/
+  .main-panasonic-water {
+    /*Support section container with pro partners container */
+    /** Panasonic products section **/ }
+    .main-panasonic-water .panasonic-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 15px;
+      height: 550px; }
+      .main-panasonic-water .panasonic-container .panasonic-img-container {
+        width: 49%; }
+      .main-panasonic-water .panasonic-container .panasonic-menu-container {
+        width: 49%; }
+    .main-panasonic-water .panasonic-support-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      /*Panasonic Pro partners container*/ }
+      .main-panasonic-water .panasonic-support-container .panasonic-support-text-container {
+        width: 36%; }
+      .main-panasonic-water .panasonic-support-container .panasonic-propartners-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 40%; }
+        .main-panasonic-water .panasonic-support-container .panasonic-propartners-container .propartners-title {
+          color: #000000;
+          font-family: Josefin Sans, sans-serif;
+          margin-top: 35px; }
+        .main-panasonic-water .panasonic-support-container .panasonic-propartners-container .panasonic-propartners-image {
+          margin-top: 30px; }
+    .main-panasonic-water .panasonic-waterpump-products-container {
+      /*_mixin.scss*/
+      display: flex;
+      justify-content: center;
+      height: auto;
+      width: 100%;
+      /** Panasonic accessories section **/ }
+      .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container {
+        display: flex;
+        width: 100%; }
+        .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products {
+          /*_mixin.scss*/
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          width: 49%; }
+          .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .waterpump-image {
+            padding: 15px;
+            width: 100%;
+            /*max-width: 140px;*/ }
+          .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .waterpump-image2 {
+            height: 400px; }
+          .main-panasonic-water .panasonic-waterpump-products-container .panasonic-waterpump-products-inner-container .pana-products .pana-products-text {
+            width: 50%; }
+      .main-panasonic-water .panasonic-waterpump-products-container .accessories-container {
+        /*_mixin.scss*/
+        display: flex;
+        justify-content: center;
+        width: 49%; }
+  /*****************************************************************
+	page-lgsplitpumps.php: LG SPLIT PUMPS PAGE
+*****************************************************************/
+  .main-lg-split-pumps {
+    /*LG main container*/
+    /** LG Support container **/
+    /** LG Splitpumps section **/
+    /** LG accessories section **/ }
+    .main-lg-split-pumps .lg-container {
+      justify-content: center;
+      height: 400px;
+      width: 100%; }
+    .main-lg-split-pumps .lg-support-container {
+      /*_mixin.scss*/
+      display: flex;
+      justify-content: center;
+      height: 300px; }
+      .main-lg-split-pumps .lg-support-container .lg-support-text-container {
+        width: 37%; }
+      .main-lg-split-pumps .lg-support-container .lg-businesspartners-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 40%; }
+        .main-lg-split-pumps .lg-support-container .lg-businesspartners-container .businesspartners-title {
+          color: #000000;
+          font-family: Josefin Sans, sans-serif;
+          margin-top: 35px; }
+        .main-lg-split-pumps .lg-support-container .lg-businesspartners-container .lg-businesspartners-image {
+          margin-top: 30px; }
+    .main-lg-split-pumps .lg-splitpumps-products-container {
+      /*_mixin.scss*/
+      display: flex;
+      justify-content: center; }
+      .main-lg-split-pumps .lg-splitpumps-products-container .lg-splitpumps-products-inner-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%; }
+    .main-lg-split-pumps .accessories-container {
+      width: 30%; }
+      .main-lg-split-pumps .accessories-container .lg-products-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .main-lg-split-pumps .accessories-container .lg-products-container .products-line {
+          background-color: #6d6d6d;
+          height: 3px;
+          width: 380px; }
+  /*****************************************************************
+	page-contactus.php: CONTACT US PAGE
+*****************************************************************/
+  .main-contactus-container {
+    background-image: url("contactusbackground-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*Css for wp plugin form, giving text-fields 100% max-width*/ }
+    .main-contactus-container .contactus-flexbox-container {
+      display: flex;
+      justify-content: center; }
+      .main-contactus-container .contactus-flexbox-container .contactus-container {
+        margin-top: 50px;
+        padding: 15px;
+        width: 30%; }
+        .main-contactus-container .contactus-flexbox-container .contactus-container .contactus-header-container {
+          /*_mixin.scss*/
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+        .main-contactus-container .contactus-flexbox-container .contactus-container h3, .main-contactus-container .contactus-flexbox-container .contactus-container p {
+          color: #000000; }
+        .main-contactus-container .contactus-flexbox-container .contactus-container p, .main-contactus-container .contactus-flexbox-container .contactus-container a {
+          font-size: 18px; }
+        .main-contactus-container .contactus-flexbox-container .contactus-container a {
+          color: #17a9de; }
+          .main-contactus-container .contactus-flexbox-container .contactus-container a:hover {
+            color: #fa233b; }
+        .main-contactus-container .contactus-flexbox-container .contactus-container .contactus-line {
+          background-color: #000000;
+          height: 3px;
+          width: 380px; }
+      .main-contactus-container .contactus-flexbox-container .visitor-container {
+        margin-top: 50px;
+        padding: 15px;
+        width: 30%; }
+        .main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container {
+          /*_mixin.scss*/
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container .visitor-title {
+            color: #000000; }
+          .main-contactus-container .contactus-flexbox-container .visitor-container .visitor-header-container .visitor-line {
+            background-color: #000000;
+            height: 3px;
+            width: 380px; }
+      .main-contactus-container .contactus-flexbox-container .streetadress-container {
+        /*_mixin.scss*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px; }
+        .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container {
+          width: 54%; }
+          .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-image-container .visitor-image {
+            width: 100%;
+            max-width: 293px; }
+        .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container {
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+          margin-top: 50px;
+          width: 39%; }
+          .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container p, .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a {
+            text-align: left;
+            font-size: 18px;
+            margin: 0; }
+          .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a {
+            color: #17a9de; }
+          .main-contactus-container .contactus-flexbox-container .streetadress-container .streetadress-adress-container a:hover {
+            color: #fa233b; }
+    .main-contactus-container #wpforms-377-field_1, .main-contactus-container #wpforms-377-field_2, .main-contactus-container #wpforms-377-field_3, .main-contactus-container #wpforms-377-field_4 {
+      max-width: 100%; }
+    .main-contactus-container #wpforms-377-field_8 {
+      width: 415px; }
+  /**************************************************************
+	page-aboutus.php - About Company Desktop
+**************************************************************/
+  .main-aboutus-container .main-aboutus .aboutus-box-title {
+    background-image: url("aboutus-desktop.jpg");
+    display: flex;
+    flex-direction: row;
+    width: 100%; }
+    .main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus {
+      /*text-align: left;*/
+      width: 30%; }
+    .main-aboutus-container .main-aboutus .aboutus-box-title .info-aboutus-img-container {
+      width: 30%; }
+  .main-aboutus-container .main-aboutus .box-company1 .container-box-aboutus-left .aboutus-content .imgbox-aboutus .aboutus-img-incert {
+    width: 100%;
+    max-width: 200px; }
+  /**************************************************************
+	page-employess.php - Employees Desktop
+**************************************************************/
+  .main-employees .flexbox-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    .main-employees .flexbox-container .employee-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 48%; }
+      .main-employees .flexbox-container .employee-container .employee-img-container {
+        widht: 50%; }
+        .main-employees .flexbox-container .employee-container .employee-img-container img {
+          width: 100%;
+          max-width: 500px; }
+        .main-employees .flexbox-container .employee-container .employee-img-container .pic-two {
+          width: 100%;
+          max-width: 400px; }
+      .main-employees .flexbox-container .employee-container .employee-info-container {
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px;
+        width: 49%; }
+  /***********************************************************************************************************
+  Completedworks.php:BLOGGPOST
+*************************************************************************************************************/
+  .flex-container {
+    flex-direction: row; }
+    .flex-container .blog-title {
+      justify-content: flex-start;
+      flex-direction: row; }
+    .flex-container .author-content {
+      width: 50%; }
+    .flex-container .blog-picture {
+      margin-bottom: 30px; }
+    .flex-container .blog-button {
+      justify-content: flex-start;
+      width: 100%; } }

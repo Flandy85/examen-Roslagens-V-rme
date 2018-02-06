@@ -481,3 +481,24 @@ main {
 		}
 	}
 }
+
+/***********************************************************************************************************
+  Completedworks.php:BLOGGPOST
+*************************************************************************************************************/
+.flex-container { 
+	flex-direction: row;
+		.blog-title { 
+			justify-content: flex-start;
+			flex-direction: row;
+		}
+			.author-content { 
+				width: 50%;
+			}
+				.blog-picture { 
+					margin-bottom: 30px;
+						}
+				.blog-button { 
+					justify-content: flex-start;
+					width: 100%;	
+			}
+		}
