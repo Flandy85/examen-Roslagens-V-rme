@@ -23,7 +23,7 @@ Template Name: Blog Posts
 			</div>
 		</div>
 		<div class="author-content">
-			<h3><?php the_excerpt(); ?></h3>
+			<h3><div><?php the_excerpt(); ?></div></h3>
 		</div>
 		<div class="blog-picture">
 			<?php the_post_thumbnail('home-thumb');?>

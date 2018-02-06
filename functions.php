@@ -22,6 +22,11 @@ function shapeSpace_include_custom_jquery() {
 }
 add_action('wp_enqueue_scripts', 'shapeSpace_include_custom_jquery');
 
+// Set Excerpt length
+function wpdocs_custom_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 /**************************************************************
 				Roslagensvarme Setup
 **************************************************************/
