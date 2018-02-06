@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<!--
+Not in use right now, will be added later.
+-->
+
+<!--<?php get_header(); ?>
 <main>
 <section class="title-section">
     <p class="welcome-text">Välkommen Till</p>
@@ -58,3 +62,4 @@
 </main>
   <?php endwhile; ?>
 <?php get_footer(); ?>
+-->
