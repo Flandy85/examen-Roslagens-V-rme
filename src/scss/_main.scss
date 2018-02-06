@@ -661,11 +661,10 @@ div.main-installation {
 		border-radius: 10px;
 		flex: 1 auto;  
 	  }
-  
-	  div.box-installation-pictures { 
-		display: flex;
-		justify-content: space-around;
-	  
+		div.box-installation-pictures { 
+			display: flex;
+			justify-content: space-around;
+		
 		div.container-gridinstallation { 
 			display: flex;
 			width: 50%;
@@ -673,9 +672,9 @@ div.main-installation {
 			img.installation-img-one { 
 			width: 265px;
 			height: 300px;
-			  }
-		  }
-	  }
+			}
+		}
+	}
 	  div.box2 { 
 		margin-bottom: 35px;
 		margin-left: 35px;
@@ -730,6 +729,14 @@ div.main-installation {
 		height: 285px;
 	}
 }
+
+@media only screen and (max-width: 546px) { 
+	div.main-installation div.box-installation-pictures div.container-gridinstallation {
+		display: flex;
+		width: 100%;
+		justify-content: space-around;
+	}
+}  
 
 /***********************************************************************************************************
   anställda.php: ANSTÄLLDA STYLE
@@ -1051,6 +1058,7 @@ justify-content: space-around;
 			.blog-title { 
 				display: flex;
 				justify-content: center;
+				flex-direction: column;
 				width: 100%;
 				flex: 1 auto;
 				.blog-img-container { 

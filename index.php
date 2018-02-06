@@ -18,7 +18,7 @@ Template Name: singel Posts
 					<img class="" src="<?php the_field('logo-blogg'); ?>">
 				</div> -->
 				<div>
-					<h1><?php the_title(); ?></h1>
+					<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 					<p>Skriven Av : <?php the_author(); ?> <?php the_time('F j, Y g:i '); ?></p>
 				</div>
 			</div>
