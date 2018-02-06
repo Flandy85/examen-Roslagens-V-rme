@@ -6,8 +6,9 @@ Template Name: Blog Posts
 
 <?php get_header(); ?>
 <main class="main-test">
-
-
+	<div class="search-completedworks">
+<?php get_search_form(); ?>
+</div>
 <?php $blog_query = new WP_query(array('category_name' => 'blog')); ?>
 	
 	<?php while($blog_query->have_posts()) : $blog_query->the_post(); ?>
