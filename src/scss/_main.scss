@@ -1139,6 +1139,14 @@ justify-content: space-around;
 		  }
 	  }
   }
+  @media only screen and (max-width: 875px) { 
+	.main-blog-container { 
+
+		.blog-content-singel { 
+			align-items: center;
+		}
+	}
+  }
 
 /************************************************
 		Active class for js script on hover
