@@ -1121,15 +1121,15 @@ justify-content: space-around;
   SINGEL/INDEX.php: SINGEL BLOGGPOST
 *************************************************************************************************************/
 .main-blog-container { 
-	display: flex; 
-	  justify-content: center; 
-	  width: 100%; 
-  
-	  .blog-content-singel { 
 		display: flex; 
-	  flex-direction: column; 
-	  justify-content: center; 
-	  width: 80%;
+		justify-content: center; 
+		width: 100%; 
+		flex-direction: column;
+	  .blog-content-singel { 
+			display: flex; 
+			flex-direction: column; 
+			justify-content: center; 
+			text-align: center;
 		  .blog-info-singel { 
 	  		text-align: center;
 		  }
@@ -1137,7 +1137,8 @@ justify-content: space-around;
 	 	 display: flex; 
 	 	 justify-content: center
 		  }
-		  .button-read { 
+		  .button-read {
+			align-self: center;   
 			height: 50px;
 			width: 120px;
 			border-radius: 20px;
@@ -1155,6 +1156,41 @@ justify-content: space-around;
 		}
 	}
   }
+
+/************************************************
+		404 NOT FOUNDPAGE
+*************************************************/
+
+  .notfound-container {
+	@include flex-center;
+	border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: $secondary-color;
+    color: $complementary-color-two;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: $primary-color;
+}
+
 
 /************************************************
 		Active class for js script on hover
