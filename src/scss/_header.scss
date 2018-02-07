@@ -32,7 +32,6 @@ header {
 			border-radius: 50px;
 			display: flex;
 			flex-direction: column;
-			/*flex-wrap: wrap;*/
 			justify-content: space-around;
 			align-items: center;
 			margin-top: 20px;
@@ -82,8 +81,6 @@ changing scroll direction*/
 		.header-container {
 
 			.inner-header-container {
-				/*flex-direction: row;*/
-
 				.logotype {
 					margin-left: 10px;
 					width: 100%;
@@ -110,13 +107,6 @@ changing scroll direction*/
 				padding: 5px;
 				width: 170px;
 			}
-			/*.top-header-logotype {
-				display: flex;
-				margin-right: 15px;
-				padding: 5px;
-				width: 170px;
-				
-			}*/
 		}
 		.header-container {
 

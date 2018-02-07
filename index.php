@@ -9,8 +9,7 @@ Template Name: singel Posts
 	<?php
 	if(have_posts() ){
 		while(have_posts()) {
-			the_post(); 
-
+			the_post();
 		?>
 		<div class="blog-content-singel">
 			<div class="blog-info-singel">
