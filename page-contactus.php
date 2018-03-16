@@ -24,7 +24,8 @@ if(have_posts()) {
 					</div><!-- .contactus-header-container -->
 					<!-- Contact form container for short code from WP-Form plugin -->
 					<div class="contact-form-container">
-						<?php echo do_shortcode("[wpforms id='377']"); ?>
+						<!-- <?php //echo do_shortcode("[wpforms id='377']"); ?> -->
+						<?php echo do_shortcode("[ninja_form id=2]") ?>
 					</div><!-- .contact-form-container -->
 				</div><!-- .contactus-container -->
 				<div class="visitor-container">
